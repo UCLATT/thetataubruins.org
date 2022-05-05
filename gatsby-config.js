@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/gh-pages",
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "UCLA Theta Tau",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "Theta Tau is a Co-ed Professional Engineering Fraternity seeking to excel in professionalism, brotherhood, and service. Our brothers are passionate and motivated engineers dedicated to their brothers and the fraternity as a whole.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

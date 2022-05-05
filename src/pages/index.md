@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: UCLA Theta Tau
+image: /img/home.jpeg
+heading: UCLA Theta Tau
+subheading: The Premier Co-Ed Professional Engineering Fraternity At UCLA
 mainpitch:
   title: Why Kaldi
   description: >
@@ -18,7 +18,7 @@ description: >-
   anyone.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/home.jpeg
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
