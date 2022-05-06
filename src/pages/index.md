@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: UCLA Theta Tau
-image: /img/home.jpeg
+image: /img/home.png
 heading: UCLA Theta Tau
 subheading: The Premier Co-Ed Professional Engineering Fraternity At UCLA
 mainpitch:
@@ -18,7 +18,7 @@ description: >-
   anyone.
 intro:
   blurbs:
-    - image: /img/home.jpeg
+    - image: /img/home.png
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a

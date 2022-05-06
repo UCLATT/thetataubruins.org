@@ -9,7 +9,17 @@ const Navbar = class extends React.Component {
     this.state = {
       active: false,
       navBarActiveClass: "",
+      currentScrollHeight: 0,
     };
+  }
+
+  componentDidMount () {      
+    window.onscroll =()=>{
+     const newScrollHeight = Math.ceil(window.scrollY / 50) *50;
+     if (this.state.currentScrollHeight != newScrollHeight){
+         this.setState({currentScrollHeight: newScrollHeight})
+      }
+    }
   }
 
   toggleHamburger() {
@@ -33,11 +43,17 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    const navOpacity = this.state.currentScrollHeight/100;
     return (
       <nav
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
+        style={{
+          position: "fixed",
+          width: "100%",
+          backgroundColor: "rgba(255, 255, 255,"+navOpacity+")",
+        }}
       >
         <div className="container">
           <div className="navbar-brand">

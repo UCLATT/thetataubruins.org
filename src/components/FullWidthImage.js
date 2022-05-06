@@ -8,7 +8,7 @@ export default function FullWidthImage(props) {
     img,
     title,
     subheading,
-    imgPosition = "top left",
+    imgPosition = "center",
   } = props;
 
   return (
@@ -18,7 +18,9 @@ export default function FullWidthImage(props) {
         style={{
           display: "grid",
           alignItems: "center",
-          backgroundColor: "black",
+          backgroundColor: "#40140f",
+          zIndex: -1,
+          // backgroundColor: "black",
         }}
       >
         {img?.url ? (
@@ -47,8 +49,8 @@ export default function FullWidthImage(props) {
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
-              background: "black",
-              opacity: 0.7,
+              minHeight: "100vh",
+              opacity: 0.5,
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image
@@ -62,6 +64,8 @@ export default function FullWidthImage(props) {
           <div
             style={{
               // By using the same grid area for both, they are stacked on top of each other
+              paddingTop: "10vmax",
+              // paddingBottom: "10vmax",
               gridArea: "1/1",
               position: "relative",
               // This centers the other elements inside the hero component
@@ -74,10 +78,11 @@ export default function FullWidthImage(props) {
               <h1
                 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
+                  // boxShadow:
+                    // "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
+                  // backgroundColor: "rgb(255, 68, 0)",
                   color: "white",
+                  borderColor: "white",
                   lineHeight: "1",
                   padding: "0.25em",
                 }}
@@ -89,20 +94,40 @@ export default function FullWidthImage(props) {
               <h3
                 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
                 style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
+                  // boxShadow:
+                  //   "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
+                  // backgroundColor: "rgb(255, 68, 0)",
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25rem",
                   marginTop: "0.5rem",
+                  textAlign: "center",
                 }}
               >
                 {subheading}
               </h3>
             )}
-          </div>
+            {(<button
+               style= {{
+                  backgroundColor: "#fff",
+                  borderColor: "#fff",
+                  marginTop: "1rem",
+               }}
+              >
+                <h4 
+                  className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen"
+                  style={{
+                    // color: "white",
+                  lineHeight: "1",
+                  padding: "1.5rem",
+                  // marginTop: "0.5rem",  
+                }}>
+                  Spring Rush 2022
+                </h4>
+            </button>)}
+          </div>          
         )}
+        
       </div>
     </React.Fragment>
   );
