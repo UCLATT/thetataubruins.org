@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
 import "./styles.css";
 
-export default function FullWidthImage(props) {
+export default function FullWidthImageSmall(props) {
   const {
     height = "100vh",
     img,
@@ -135,7 +135,7 @@ export default function FullWidthImage(props) {
   );
 }
 
-FullWidthImage.propTypes = {
+FullWidthImageSmall.propTypes = {
   img: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   height: PropTypes.number,

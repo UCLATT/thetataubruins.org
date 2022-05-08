@@ -1,0 +1,12 @@
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+  .homefont {
+    font-size: 3rem;
+  }
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+  .homefont {
+    font-size: 4rem;
+  }
+
+}
