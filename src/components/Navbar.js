@@ -100,7 +100,7 @@ const Navbar = class extends React.Component {
               </Link>
               <Link 
                 className="navbar-item"
-                to="/about"
+                to="/family-tree"
                 style = {{ color: "white" }}>
                 Brothers
               </Link>

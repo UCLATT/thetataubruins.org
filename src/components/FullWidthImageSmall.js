@@ -49,8 +49,8 @@ export default function FullWidthImageSmall(props) {
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              maxHeight: height,
-              minHeight: "100vh",
+              maxHeight: "400px",
+              // minHeight: "100vh",
               opacity: 0.5,
             }}
             layout="fullWidth"
@@ -109,24 +109,6 @@ export default function FullWidthImageSmall(props) {
                 {subheading}
               </h3>
             )}
-            {(<button
-               style= {{
-                  backgroundColor: "#fff",
-                  borderColor: "#fff",
-                  marginTop: "1rem",
-               }}
-              >
-                <h4 
-                  className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen"
-                  style={{
-                    // color: "white",
-                  lineHeight: "1",
-                  padding: "1.5rem",
-                  // marginTop: "0.5rem",  
-                }}>
-                  Spring Rush 2022
-                </h4>
-            </button>)}
           </div>          
         )}
         
