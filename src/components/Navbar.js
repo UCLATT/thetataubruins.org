@@ -82,7 +82,7 @@ const Navbar = class extends React.Component {
               }}>
               <Link /*The style stuff is inefficient af but im lazy*/
                 className="navbar-item"
-                to="/about"
+                to="/"
                 style = {{ color: "white" }}>
                 Home
               </Link>
@@ -100,7 +100,7 @@ const Navbar = class extends React.Component {
               </Link>
               <Link 
                 className="navbar-item"
-                to="/about"
+                to="/actives"
                 style = {{ color: "white" }}>
                 Brothers
               </Link>
