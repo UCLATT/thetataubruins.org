@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import Features from "../components/Features";
 
 
 import { getImage } from "gatsby-plugin-image";
@@ -11,78 +12,116 @@ import FullWidthImageSmall from "../components/FullWidthImageSmall";
 
 // eslint-disable-next-line
 export const ActivesPageTemplate = ({
-  title,
-  content,
   image,
+  title,
   heading,
   subheading,
-  contentComponent
+  mainpitch,
+  description,
+  intro,
 }) => {
-  const PageContent = contentComponent || Content;
-
   const heroImage = getImage(image) || image;
 
   return (
     <div>
       <FullWidthImageSmall img={heroImage} title={title} subheading={subheading} />
       <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <div className="content">
+                  <div className="content">
+                    {/* <div className="tile">
+                      <h1 className="title">{mainpitch.title}</h1>
+                    </div>
+                    <div className="tile">
+                      <h3 className="subtitle">{mainpitch.description}</h3>
+                    </div> */}
+                  </div>
+                  {/* <div className="columns">
+                    <div className="column is-12">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        {heading}
+                      </h3>
+                      <p>{description}</p>
+                    </div>
+                  </div> */}
+                  <Features gridItems={intro.blurbs} />
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </div>
   );
 };
 
 ActivesPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  mainpitch: PropTypes.object,
+  description: PropTypes.string,
+  intro: PropTypes.shape({
+    blurbs: PropTypes.array,
+  }),
 };
 
 const ActivesPage = ({ data }) => {
-  const { markdownRemark: post } = data;
   const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
       <ActivesPageTemplate
-        contentComponent={HTMLContent}
         image={frontmatter.image}
+        title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        title={post.frontmatter.title}
-        content={post.html}
+        mainpitch={frontmatter.mainpitch}
+        description={frontmatter.description}
+        intro={frontmatter.intro}
       />
     </Layout>
   );
 };
 
 ActivesPage.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default ActivesPage;
-
 export const ActivesPageQuery = graphql`
   query ActivesPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
+    markdownRemark(id: { eq: $id} frontmatter: { templateKey: { eq: "actives" } }) {
       frontmatter {
         title
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
+        heading
         subheading
+        
+        intro {
+          blurbs {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+        }
       }
     }
   }
