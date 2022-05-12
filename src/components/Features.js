@@ -1,32 +1,38 @@
 import * as React from "react";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import "./styles.css";
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline" 
+  <div className="columns is-multiline grid-columns" 
   style = {{
-    maxWidth: "100%",
+    width: "100%",
+    maxWidth: "1200px",
     margin: "0 auto",
   }}>
     {gridItems.map((item) => (
-      <div key={item.text} className="column is-3"
-        style={{
+      <div key={item.text} className="column is-3">
+        <section className="section" style={{
           
         }}>
-        <section className="section">
-          <div className="has-text-centered">
+          <div>
             <div
               style={{
-                width: "240px",
-                display: "inline-block",
+                width: "100%",
+                justifyContent: "center",
+                display: "grid",
               }}
             >
-              <PreviewCompatibleImage imageInfo={item} />
+              <PreviewCompatibleImage imageInfo={item}/>
             </div>
           </div>
-          <p>{item.text}</p>
-          <p>{item.major}</p>
-          <p>{item.year}</p>
+          <div style = {{
+            textAlign: "center",
+          }}>
+            <p>{item.text}</p>
+            <p>{item.major}</p>
+            <p>{item.year}</p>
+          </div>
         </section>
       </div>
     ))}
