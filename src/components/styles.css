@@ -10,3 +10,17 @@
   }
 
 }
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+  .grid-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+  .grid-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+}

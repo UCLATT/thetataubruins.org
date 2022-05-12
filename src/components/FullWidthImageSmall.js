@@ -104,6 +104,7 @@ export default function FullWidthImageSmall(props) {
                   padding: "0.25rem",
                   marginTop: "0.5rem",
                   textAlign: "center",
+                  marginBottom: "3.3vmax",
                 }}
               >
                 {subheading}
