@@ -249,6 +249,76 @@ classes:
       Computer Science and Engineering
     year: >
       Class of 2022
-
+  omicron:
+  - image: /img/brothers/omicron/178.jpg
+    text: >
+      Mengan Wang
+    major: > 
+      Computer Science
+    year: >
+      Class of 2024
+  - image: /img/brothers/omicron/179.jpg
+    text: >
+      Anish Dulla
+    major: > 
+      Statistics
+    year: >
+      Class of 2024
+  - image: /img/brothers/omicron/180.jpg
+    text: >
+      Anthony Chung
+    major: > 
+      Mechanical Engineering
+    year: >
+      Class of 2023
+  - image: /img/brothers/omicron/181.jpg
+    text: >
+      Ashley Kuwahara
+    major: > 
+      Civil Engineering
+    year: >
+      Class of 2023
+  - image: /img/brothers/omicron/182.jpg
+    text: >
+      Daniel Zhou
+    major: > 
+      Computer Science
+    year: >
+      Class of 2023
+  - image: /img/brothers/omicron/183.jpg
+    text: >
+      Karl Goeltner
+    major: > 
+      Computer Science and Engineering
+    year: >
+      Class of 2023
+  - image: /img/brothers/omicron/184.jpg
+    text: >
+      Kevin Tang
+    major: > 
+      Computer Science
+    year: >
+      Class of 2023
+  - image: /img/brothers/omicron/185.jpg
+    text: >
+      Michelle Zhuang
+    major: > 
+      Computer Science
+    year: >
+      Class of 2022
+  - image: /img/brothers/omicron/186.jpg
+    text: >
+      Pranav Pata
+    major: > 
+      Computer Science
+    year: >
+      Class of 2024
+  - image: /img/brothers/omicron/187.jpg
+    text: >
+      Shashvat Patel
+    major: > 
+      Statistics
+    year: >
+      Class of 2024
 
 ---

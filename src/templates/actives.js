@@ -42,10 +42,10 @@ export const ActivesPageTemplate = ({
       <p className = "classHeader">Xi Class</p>
       <Features gridItems={classes.xi} />
 
-      {/* <p className = "classHeader">Omicron Class</p>
+      <p className = "classHeader">Omicron Class</p>
       <Features gridItems={classes.omicron} />
 
-      <p className = "classHeader">Pi Class</p>
+      {/* <p className = "classHeader">Pi Class</p>
       <Features gridItems={classes.pi} /> */}
     </div>
   );
@@ -160,6 +160,17 @@ export const ActivesPageQuery = graphql`
             major
             year
           }
+          omicron {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+
         }
       }
     }
