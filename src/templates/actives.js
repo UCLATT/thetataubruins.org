@@ -39,10 +39,10 @@ export const ActivesPageTemplate = ({
       <p className = "classHeader">Nu Class</p>
       <Features gridItems={classes.nu} />
 
-      {/* <p className = "classHeader">Xi Class</p>
+      <p className = "classHeader">Xi Class</p>
       <Features gridItems={classes.xi} />
 
-      <p className = "classHeader">Omicron Class</p>
+      {/* <p className = "classHeader">Omicron Class</p>
       <Features gridItems={classes.omicron} />
 
       <p className = "classHeader">Pi Class</p>
@@ -63,7 +63,9 @@ ActivesPageTemplate.propTypes = {
     lambda: PropTypes.array,
     mu: PropTypes.array,
     nu: PropTypes.array,
-    
+    xi: PropTypes.array,
+    omicron: PropTypes.array,
+    pi: PropTypes.array,
   }),
 };
 
@@ -148,7 +150,16 @@ export const ActivesPageQuery = graphql`
             major
             year
           }
-          
+          xi {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
         }
       }
     }

@@ -171,5 +171,84 @@ classes:
         Computer Science
       year: >
         Class of 2022
+  xi:
+  - image: /img/brothers/xi/167.jpg
+    text: >
+      Adelpha Chan
+    major: > 
+      Linguistics and Computer Science
+    year: >
+      Class of 2023
+  - image: /img/brothers/xi/168.jpg
+    text: >
+      Bianca Villamor
+    major: > 
+      Linguistics and Computer Science
+    year: >
+      Class of 2022
+  - image: /img/brothers/xi/169.jpg
+    text: >
+      Clark Decastro
+    major: > 
+      Civil Engineering
+    year: >
+      Class of 2023
+  - image: /img/brothers/xi/170.jpg
+    text: >
+      Cody Do
+    major: > 
+      Computer Science
+    year: >
+      Class of 2022
+  - image: /img/brothers/xi/171.jpg
+    text: >
+      Dory Veksler
+    major: > 
+      Physics
+    year: >
+      Class of 2022
+  - image: /img/brothers/xi/172.jpg
+    text: >
+      Duncan Di Mauro
+    major: > 
+      Mechanical Engineering
+    year: >
+      Class of 2022
+  - image: /img/brothers/xi/173.jpg
+    text: >
+      June Chang
+    major: > 
+      Chemical Engineering
+    year: >
+      Class of 2022
+  - image: /img/brothers/xi/174.jpg
+    text: >
+      Junho Choi
+    major: > 
+      Mathematics of Computation
+    year: >
+      Class of 2023
+  - image: /img/brothers/xi/175.jpg
+    text: >
+      Kate Hsieh
+    major: > 
+      Mechanical Engineering
+    year: >
+      Class of 2023
+  - image: /img/brothers/xi/176.jpg
+    text: >
+      Megan Pham
+    major: > 
+      Computer Science
+    year: >
+      Class of 2023
+  - image: /img/brothers/xi/177.jpg
+    text: >
+      Ryan Lin
+    major: > 
+      Computer Science and Engineering
+    year: >
+      Class of 2022
+
 
 ---
