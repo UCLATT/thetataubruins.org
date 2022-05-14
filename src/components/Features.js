@@ -29,7 +29,11 @@ const FeatureGrid = ({ gridItems }) => (
           <div style = {{
             textAlign: "center",
           }}>
-            <p>{item.text}</p>
+            <p style={{
+              fontWeight: "bold",
+              marginTop: "5px",
+              fontSize: "1.2rem",
+            }}>{item.text}</p>
             <p>{item.major}</p>
             <p>{item.year}</p>
           </div>

@@ -5,7 +5,6 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Features from "../components/Features";
 
-
 import { getImage } from "gatsby-plugin-image";
 
 import FullWidthImageSmall from "../components/FullWidthImageSmall";
@@ -18,7 +17,7 @@ export const ActivesPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro,
+  classes,
 }) => {
   const heroImage = getImage(image) || image;
 
@@ -26,8 +25,28 @@ export const ActivesPageTemplate = ({
     <div>
       <FullWidthImageSmall img={heroImage} title={title} subheading={subheading} />
 
-      <p>Eta Class</p>
-      <Features gridItems={intro.blurbs} />
+      <p className = "classHeader" style={{
+        marginTop: "40px",
+      }}>Eta Class</p>
+      <Features gridItems={classes.eta} />
+
+      <p className = "classHeader">Lambda Class</p>
+      <Features gridItems={classes.lambda} />
+
+      <p className = "classHeader">Mu Class</p>
+      <Features gridItems={classes.mu} />
+      
+      <p className = "classHeader">Nu Class</p>
+      <Features gridItems={classes.nu} />
+
+      {/* <p className = "classHeader">Xi Class</p>
+      <Features gridItems={classes.xi} />
+
+      <p className = "classHeader">Omicron Class</p>
+      <Features gridItems={classes.omicron} />
+
+      <p className = "classHeader">Pi Class</p>
+      <Features gridItems={classes.pi} /> */}
     </div>
   );
 };
@@ -39,9 +58,12 @@ ActivesPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+  classes: PropTypes.shape({
+    eta: PropTypes.array,
     lambda: PropTypes.array,
+    mu: PropTypes.array,
+    nu: PropTypes.array,
+    
   }),
 };
 
@@ -57,7 +79,7 @@ const ActivesPage = ({ data }) => {
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
-        intro={frontmatter.intro}
+        classes={frontmatter.classes}
       />
     </Layout>
   );
@@ -85,17 +107,48 @@ export const ActivesPageQuery = graphql`
         heading
         subheading
         
-        intro {
-          blurbs {
+        classes {
+          eta {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
               }
             }
             text
             major
             year
           }
+          lambda {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+          mu {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+          nu {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+          
         }
       }
     }
