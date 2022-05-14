@@ -321,4 +321,55 @@ classes:
     year: >
       Class of 2024
 
+  pi:
+  - image: /img/brothers/pi/188.jpeg
+    text: >
+      Amanda Ung
+    major: > 
+      Computational and Systems Biology
+    year: >
+      Class of 2023
+  - image: /img/brothers/pi/189.jpeg
+    text: >
+      Angela Zhang
+    major: > 
+      Computer Science and Engineering
+    year: >
+      Class of 2023
+  - image: /img/brothers/pi/190.jpeg
+    text: >
+      Charlotte Schmitt
+    major: > 
+      Bioengineering
+    year: >
+      Class of 2025
+  - image: /img/brothers/pi/191.jpeg
+    text: >
+      Eric Zhang
+    major: > 
+      Computer Science
+    year: >
+      Class of 2024
+  - image: /img/brothers/pi/192.jpeg
+    text: >
+      Kritin Garg
+    major: > 
+      Mechanical Engineering
+    year: >
+      Class of 2023
+  - image: /img/brothers/pi/193.jpeg
+    text: >
+      Mansi Dutta
+    major: > 
+      Civil Engineering
+    year: >
+      Class of 2023
+  - image: /img/brothers/pi/194.jpeg
+    text: >
+      Wyatt Babcock
+    major: > 
+      Mechancial Engineering
+    year: >
+      Class of 2025
+
 ---
