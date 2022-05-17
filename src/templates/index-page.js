@@ -4,9 +4,11 @@ import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
+import { StaticImage } from "gatsby-plugin-image"
+
+
+import "../css/index-page.css";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -24,49 +26,43 @@ export const IndexPageTemplate = ({
     <div>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <div className="content">
-                  <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
-                  </div>
-                  <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>
-                    </div>
-                  </div>
-                  <Features gridItems={intro.blurbs} />
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div className="columns piller-section">
+          <div className="column">
+            <StaticImage src="../img/home/PisBeach.png" alt="Brotherhood"/>
+          </div>
+          <div className="column is-2">
+            <p>Brotherhood</p>
+            <p>We are UCLA’s only co-ed professional engineering fraternity, composed of leaders who stand 
+              for professionalism, service, and brotherhood. Our vision is to establish lifelong connections 
+              as we work towards gearing each member up for success!
+            </p>
+            <button>Learn More</button>
+          </div>
+        </div>
+        <div className="columns piller-section">
+          <div className="column">
+            <p>Service</p>
+            <p>We are UCLA’s only co-ed professional engineering fraternity, composed of leaders who stand 
+              for professionalism, service, and brotherhood. Our vision is to establish lifelong connections 
+              as we work towards gearing each member up for success!
+            </p>
+            <button>Learn More</button>
+          </div>
+          <div className="column">
+            <StaticImage src="../img/home/TTTahoe.png" alt="Service"/>
+          </div>
+        </div>
+        <div className="columns piller-section">
+          <div className="column">
+            <StaticImage src="../img/home/ttseattle.jpeg" alt="Professionalism" />
+          </div>
+          <div className="column">
+            <p>Professionalism</p>
+            <p>We are UCLA’s only co-ed professional engineering fraternity, composed of leaders who stand 
+              for professionalism, service, and brotherhood. Our vision is to establish lifelong connections 
+              as we work towards gearing each member up for success!
+            </p>
+            <button>Learn More</button>
           </div>
         </div>
       </section>
@@ -126,11 +122,6 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
-        description
         intro {
           blurbs {
             image {
@@ -140,8 +131,6 @@ export const pageQuery = graphql`
             }
             text
           }
-          heading
-          description
         }
       }
     }

@@ -1,0 +1,15 @@
+@media (min-width:320px)  {
+  .piller-section {
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .piller-section {
+    margin: auto;
+    justify-content: center;
+    width: 75%;
+  }
+}
