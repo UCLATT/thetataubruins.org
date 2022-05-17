@@ -3,6 +3,7 @@
     margin: auto;
     justify-content: center;
     width: 100%;
+    padding-top: 30px;
   }
 }
 
@@ -11,5 +12,24 @@
     margin: auto;
     justify-content: center;
     width: 75%;
+    padding-top: 30px;
   }
+
+  .half-section {
+    padding: 50px;
+  }
+}
+
+.home-button {
+  background-color: "#5c0d0a" !important;
+  border-color: "#5c0d0a";
+}
+
+.home-button-text {
+  padding: 1rem;
+}
+
+.home-piller-text {
+  font-size: calc((2.2 - 1) * 1.2vh + 1rem);
+  font-weight: bold;
 }

@@ -27,42 +27,51 @@ export const IndexPageTemplate = ({
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <section className="section section--gradient">
         <div className="columns piller-section">
-          <div className="column">
-            <StaticImage src="../img/home/PisBeach.png" alt="Brotherhood"/>
+          <div className="column half-section">
+            <StaticImage src="../img/home/PiCrossing.png" alt="Brotherhood"/>
           </div>
-          <div className="column is-2">
-            <p>Brotherhood</p>
+          <div className="column half-section">
+            <h1 className = "home-piller-text">Brotherhood</h1>
             <p>We are UCLA’s only co-ed professional engineering fraternity, composed of leaders who stand 
               for professionalism, service, and brotherhood. Our vision is to establish lifelong connections 
               as we work towards gearing each member up for success!
             </p>
-            <button>Learn More</button>
+            <button className="home-button">
+              <p className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen home-button-text">Learn More
+              </p>
+            </button>
           </div>
         </div>
         <div className="columns piller-section">
-          <div className="column">
-            <p>Service</p>
+          <div className="column half-section">
+            <p className = "home-piller-text">Service</p>
             <p>We are UCLA’s only co-ed professional engineering fraternity, composed of leaders who stand 
               for professionalism, service, and brotherhood. Our vision is to establish lifelong connections 
               as we work towards gearing each member up for success!
             </p>
-            <button>Learn More</button>
+            <button className="home-button">
+              <p className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen home-button-text">Learn More
+              </p>
+            </button>
           </div>
-          <div className="column">
-            <StaticImage src="../img/home/TTTahoe.png" alt="Service"/>
+          <div className="column half-section">
+            <StaticImage src="../img/home/TTahoe.png" alt="Service"/>
           </div>
         </div>
         <div className="columns piller-section">
-          <div className="column">
-            <StaticImage src="../img/home/ttseattle.jpeg" alt="Professionalism" />
+          <div className="column half-section">
+            <StaticImage src="../img/home/seaTTle.png" alt="Professionalism"/>
           </div>
-          <div className="column">
-            <p>Professionalism</p>
+          <div className="column half-section">
+            <p className = "home-piller-text">Professionalism</p>
             <p>We are UCLA’s only co-ed professional engineering fraternity, composed of leaders who stand 
               for professionalism, service, and brotherhood. Our vision is to establish lifelong connections 
               as we work towards gearing each member up for success!
             </p>
-            <button>Learn More</button>
+            <button className="home-button">
+              <p className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen home-button-text">Learn More
+              </p>
+            </button>
           </div>
         </div>
       </section>
