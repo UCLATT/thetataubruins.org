@@ -113,7 +113,7 @@ const Navbar = class extends React.Component {
 
               <a
                 className="navbar-item"
-                href=""
+                href="https://www.instagram.com/uclathetatau/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -123,7 +123,7 @@ const Navbar = class extends React.Component {
               </a>
               <a
                 className="navbar-item"
-                href=""
+                href="https://www.facebook.com/ThetaTauUCLA/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
