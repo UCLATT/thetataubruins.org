@@ -98,20 +98,20 @@ const Navbar = class extends React.Component {
                 menuVariant="light"
                 style={{padding: "8px 12px"}}
               >
-                <NavDropdown.Item href="#action/3.1">Values</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">History</NavDropdown.Item>
+                <NavDropdown.Item href="/values">Values</NavDropdown.Item>
+                <NavDropdown.Item href="http://www.thetataubruins.org/history.html">History</NavDropdown.Item>
                 <NavDropdown.Item href="/actives">Brothers</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Alumni</NavDropdown.Item>
+                <NavDropdown.Item href="http://www.thetataubruins.org/alumni.html">Alumni</NavDropdown.Item>
               </NavDropdown>
               <Link 
                 className="navbar-item"
-                to="/recruitment"
+                to="http://www.thetataubruins.org/rush.html"
                 style = {{ color: "white", textDecoration: "none" }}>
                 Recruitment
               </Link>
               <Link 
                 className="navbar-item"
-                to="/service"
+                to="http://www.thetataubruins.org/service.html"
                 style = {{ color: "white", textDecoration: "none" }}>
                 Service
               </Link>
@@ -120,17 +120,17 @@ const Navbar = class extends React.Component {
                 menuVariant="light"
                 style={{padding: "8px 12px"}}
               >
-                <NavDropdown.Item href="#action/3.1">Network</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Partnership</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Events</NavDropdown.Item>
+                <NavDropdown.Item href="http://www.thetataubruins.org/network.html">Network</NavDropdown.Item>
+                <NavDropdown.Item href="http://www.thetataubruins.org/partnership.html">Partnership</NavDropdown.Item>
+                <NavDropdown.Item href="http://www.thetataubruins.org/prodev.html">Events</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown
                 title="Brotherhood"
                 menuVariant="light"
                 style={{padding: "8px 12px"}}
               >
-                <NavDropdown.Item href="#action/3.1">Brotherhood</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Family Tree</NavDropdown.Item>
+                <NavDropdown.Item href="http://www.thetataubruins.org/brotherhood.html">Brotherhood</NavDropdown.Item>
+                <NavDropdown.Item href="http://www.thetataubruins.org/familytree.html">Family Tree</NavDropdown.Item>
                 {/*<NavDropdown.Divider />*/}
               </NavDropdown>
 
