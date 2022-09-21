@@ -10,6 +10,9 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import "../css/index-page.css";
 
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   image,

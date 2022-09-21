@@ -4,6 +4,13 @@ import instagram from "../img/instagram-icon.svg";
 import facebook from "../img/facebook-icon.svg";
 import logo from "../img/logo.png";
 
+import Dropdown from 'react-bootstrap/Dropdown';
+
+import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
@@ -83,33 +90,49 @@ const Navbar = class extends React.Component {
               <Link /*The style stuff is inefficient af but im lazy*/
                 className="navbar-item"
                 to="/"
-                style = {{ color: "white" }}>
+                style = {{ color: "white", textDecoration: "none" }}>
                 Home
               </Link>
+              <NavDropdown
+                title="About"
+                menuVariant="light"
+                style={{padding: "8px 12px"}}
+              >
+                <NavDropdown.Item href="#action/3.1">Values</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">History</NavDropdown.Item>
+                <NavDropdown.Item href="/actives">Brothers</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Alumni</NavDropdown.Item>
+              </NavDropdown>
               <Link 
                 className="navbar-item"
-                to="/about"
-                style = {{ color: "white" }}>
-                About
-              </Link>
-              <Link 
-                className="navbar-item"
-                to="/about"
-                style = {{ color: "white" }}>
+                to="/recruitment"
+                style = {{ color: "white", textDecoration: "none" }}>
                 Recruitment
               </Link>
               <Link 
                 className="navbar-item"
-                to="/actives"
-                style = {{ color: "white" }}>
-                Brothers
+                to="/service"
+                style = {{ color: "white", textDecoration: "none" }}>
+                Service
               </Link>
-              <Link 
-                className="navbar-item"
-                to="/about"
-                style = {{ color: "white" }}>
-                Careers
-              </Link>
+              <NavDropdown
+                title="Professional"
+                menuVariant="light"
+                style={{padding: "8px 12px"}}
+              >
+                <NavDropdown.Item href="#action/3.1">Network</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Partnership</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Events</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown
+                title="Brotherhood"
+                menuVariant="light"
+                style={{padding: "8px 12px"}}
+              >
+                <NavDropdown.Item href="#action/3.1">Brotherhood</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Family Tree</NavDropdown.Item>
+                {/*<NavDropdown.Divider />*/}
+              </NavDropdown>
 
               <a
                 className="navbar-item"
