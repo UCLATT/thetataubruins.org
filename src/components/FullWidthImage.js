@@ -109,24 +109,29 @@ export default function FullWidthImage(props) {
                 {subheading}
               </h3>
             )}
-            {(<button
-               style= {{
-                  backgroundColor: "#fff",
-                  borderColor: "#fff",
-                  marginTop: "1rem",
-               }}
-              >
-                <h4 
-                  className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen"
-                  style={{
-                    // color: "white",
-                  lineHeight: "1",
-                  padding: "1.5rem",
-                  // marginTop: "0.5rem",  
-                }}>
-                  Spring Rush 2022
-                </h4>
-            </button>)}
+            {(<a href='/rush'>
+                <button
+                style= {{
+                    backgroundColor: "#fff",
+                    borderColor: "#fff",
+                    marginTop: "1rem",
+                    borderRadius: '15px',
+                }}
+                >
+                  
+                    <h4 
+                      className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen"
+                      style={{
+                        // color: "white",
+                      lineHeight: "1",
+                      padding: "1.5rem",
+                      // marginTop: "0.5rem",  
+                    }}>
+                      Fall Rush 2022
+                    </h4>
+                  
+              </button>
+            </a>)}
           </div>          
         )}
         

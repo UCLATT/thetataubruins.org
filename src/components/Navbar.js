@@ -99,13 +99,13 @@ const Navbar = class extends React.Component {
                 style={{padding: "8px 12px"}}
               >
                 <NavDropdown.Item href="/values">Values</NavDropdown.Item>
-                <NavDropdown.Item href="http://www.thetataubruins.org/history.html">History</NavDropdown.Item>
+                <NavDropdown.Item href="/history">History</NavDropdown.Item>
                 <NavDropdown.Item href="/actives">Brothers</NavDropdown.Item>
                 <NavDropdown.Item href="http://www.thetataubruins.org/alumni.html">Alumni</NavDropdown.Item>
               </NavDropdown>
               <Link 
                 className="navbar-item"
-                to="http://www.thetataubruins.org/rush.html"
+                to="/rush"
                 style = {{ color: "white", textDecoration: "none" }}>
                 Recruitment
               </Link>

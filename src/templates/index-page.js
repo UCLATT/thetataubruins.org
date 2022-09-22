@@ -71,10 +71,10 @@ export const IndexPageTemplate = ({
               for professionalism, service, and brotherhood. Our vision is to establish lifelong connections 
               as we work towards gearing each member up for success!
             </p>
-            <button className="home-button">
-              <p className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen home-button-text">Learn More
-              </p>
-            </button>
+              <button className="home-button">
+                <p className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen home-button-text">Learn More
+                </p>
+              </button>
           </div>
         </div>
       </section>
