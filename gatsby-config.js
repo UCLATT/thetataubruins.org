@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/gh-pages",
+  pathPrefix: "/thetataubruins.org",
   siteMetadata: {
     title: "UCLA Theta Tau",
     description:
