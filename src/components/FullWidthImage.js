@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'gatsby';
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
 import "./styles.css";
@@ -109,7 +110,7 @@ export default function FullWidthImage(props) {
                 {subheading}
               </h3>
             )}
-            {(<a href='/rush'>
+            {(<Link to='/rush'>
                 <button
                 style= {{
                     backgroundColor: "#fff",
@@ -131,7 +132,7 @@ export default function FullWidthImage(props) {
                     </h4>
                   
               </button>
-            </a>)}
+            </Link>)}
           </div>          
         )}
         

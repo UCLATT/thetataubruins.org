@@ -98,10 +98,38 @@ const Navbar = class extends React.Component {
                 menuVariant="light"
                 style={{padding: "8px 12px"}}
               >
-                <NavDropdown.Item href="/values">Values</NavDropdown.Item>
-                <NavDropdown.Item href="/history">History</NavDropdown.Item>
-                <NavDropdown.Item href="/actives">Brothers</NavDropdown.Item>
-                <NavDropdown.Item href="http://www.thetataubruins.org/alumni.html">Alumni</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link 
+                    className="navbar-item"
+                    to="/values"
+                    style = {{ textDecoration: "none" }}>
+                    Values
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link 
+                    className="navbar-item"
+                    to="/history"
+                    style = {{ textDecoration: "none" }}>
+                    History
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link 
+                    className="navbar-item"
+                    to="/actives"
+                    style = {{ textDecoration: "none" }}>
+                    Brothers
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item href="https://www.thetataubruins.org/alumni.html">
+                  <Link 
+                    className="navbar-item"
+                    to="http://www.thetataubruins.org/alumni.html"
+                    style = {{ textDecoration: "none" }}>
+                    Alumni
+                  </Link>
+                </NavDropdown.Item>
               </NavDropdown>
               <Link 
                 className="navbar-item"
@@ -111,7 +139,7 @@ const Navbar = class extends React.Component {
               </Link>
               <Link 
                 className="navbar-item"
-                to="http://www.thetataubruins.org/service.html"
+                to="https://www.thetataubruins.org/service.html"
                 style = {{ color: "white", textDecoration: "none" }}>
                 Service
               </Link>
