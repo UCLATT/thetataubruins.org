@@ -158,7 +158,13 @@ const Navbar = class extends React.Component {
                 style={{padding: "8px 12px"}}
               >
                 <NavDropdown.Item href="http://www.thetataubruins.org/brotherhood.html">Brotherhood</NavDropdown.Item>
-                <NavDropdown.Item href="http://www.thetataubruins.org/familytree.html">Family Tree</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link 
+                    className="navbar-item"
+                    to="/family-tree"
+                    style = {{ textDecoration: "none" }}>
+                    Family Tree
+                  </Link></NavDropdown.Item>
                 {/*<NavDropdown.Divider />*/}
               </NavDropdown>
 
