@@ -13,6 +13,8 @@ export default function FullWidthImage(props) {
     imgPosition = "center",
   } = props;
 
+  console.log(img);
+
   return (
     <React.Fragment>
       <div
@@ -25,7 +27,7 @@ export default function FullWidthImage(props) {
           // backgroundColor: "black",
         }}
       >
-        {img?.url ? (
+        {!img?.url ? (
           <img
             src={img}
             objectFit={"cover"}
@@ -33,8 +35,8 @@ export default function FullWidthImage(props) {
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              height: height,
-              width: "100%",
+              width: '100%',
+              opacity: 0.5,
             }}
             // You can optionally force an aspect ratio for the generated image
             aspectratio={3 / 1}

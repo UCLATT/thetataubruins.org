@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
 import FullWidthImage from "../components/FullWidthImage";
@@ -23,11 +23,11 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-  const heroImage = getImage(image) || image;
-
+  const heroImage = getImage('../img/home.png');
+  console.log(typeof heroImage);
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
+      <FullWidthImage img={'/img/home.png'} title={title} subheading={subheading} />
       <section className="section section--gradient">
         <div className="columns piller-section">
           <div className="column half-section">
