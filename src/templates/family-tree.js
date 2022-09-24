@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Features from "../components/Features";
-import "/Users/Anan/thetataubruins.org/src/css/family-tree.css";
+import "../css/family-tree.css";
 
 import { getImage } from "gatsby-plugin-image";
 
