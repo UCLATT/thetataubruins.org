@@ -139,7 +139,7 @@ const Navbar = class extends React.Component {
               </Link>
               <Link 
                 className="navbar-item"
-                to="https://www.thetataubruins.org/service.html"
+                to="/service"
                 style = {{ color: "white", textDecoration: "none" }}>
                 Service
               </Link>
