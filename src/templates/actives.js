@@ -101,14 +101,8 @@ export const ActivesPageQuery = graphql`
     markdownRemark(id: { eq: $id} frontmatter: { templateKey: { eq: "actives" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
         heading
         subheading
-        
         classes {
           eta {
             image {
