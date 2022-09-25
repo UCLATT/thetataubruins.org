@@ -1,115 +1,47 @@
-# Gatsby + Netlify CMS Starter
+# UCLA Theta Tau Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-starter-netlify-cms-ci/deploys)
+<p float="left">
+    <a href="https://github.com/Anan1218/thetataubruins.org/actions/workflows/pages/pages-build-deployment">
+    <img src="https://github.com/Anan1218/thetataubruins.org/actions/workflows/pages/pages-build-deployment/badge.svg" /></a>
+    <a href="https://www.javascript.com/">
+    <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" /></a>
+    <a href="https://reactjs.org/">
+    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" /></a>
+    <a href="https://www.gatsbyjs.com/">
+    <img src="https://img.shields.io/badge/Gatsby-%23663399.svg?style=flat&logo=gatsby&logoColor=white" /></a>
+    <a href="">
+    <img src="https://img.shields.io/badge/npm-%23000000.svg?style=flat&logo=npm&logoColor=white" /></a>
+</p>
 
-**Note:** This starter uses [Gatsby v4](https://www.gatsbyjs.com/gatsby-4/).
-
-This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.
-
-It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
-
-## Features
-
-- A simple landing page with blog functionality built with Netlify CMS
-- Editable Pages: Landing, About, Product, Blog-Collection and Contact page with Netlify Form support
-- Create Blog posts from Netlify CMS
-- Tags: Separate page for posts under each tag
-- Basic directory organization
-- Uses Bulma for styling, but size is reduced by `gatsy-plugin-purgecss`
-- Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
-- Uses `gatsby-plugin-image` with Netlify-CMS preview support
-- Separate components for everything
-- Netlify deploy configuration
-- Netlify function support, see `netlify/functions` folder
-- Perfect score on Lighthouse for SEO, Accessibility and Performance (wip:PWA)
-- ..and more
+This repo contains the frontend for the new https://thetataubruins.org that is built with [Gatsby](https://www.gatsbyjs.org/) and deployed on [Github Pages](https://pages.github.com/).
 
 ## Prerequisites
 
-- Minimal Node.js version 14.15.0
+- [Node.js](https://nodejs.org/en/)
 - [Gatsby CLI](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
-- [Netlify CLI](https://github.com/netlify/cli)
 
-## Getting Started (Recommended)
+## Getting Started Locally
 
-Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. The example here is the Kaldi coffee company template (adapted from [One Click Hugo CMS](https://github.com/netlify-templates/one-click-hugo-cms)). Use the button below to build and deploy your own copy of the repository:
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/gatsby-starter-netlify-cms&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
-After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
-
-### Access Locally
-
-Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
-
-```
-$ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
-$ cd [REPO_NAME]
-$ yarn
-$ netlify dev # or ntl dev
-```
-
-This uses [Netlify Dev](https://www.netlify.com/products/dev/?utm_source=blog&utm_medium=netlifycms&utm_campaign=devex) CLI feature to serve any functions you have in the `netlify/functions` folder.
-
-To test the CMS locally, you'll need to run a production build of the site:
-
-```
-$ npm run build
-$ netlify dev # or ntl dev
-```
-
-### Media Libraries (installed, but optional)
-
-Media Libraries have been included in this starter as a default. If you are not planning to use `Uploadcare` or `Cloudinary` in your project, you **can** remove them from module import and registration in `src/cms/cms.js`. Here is an example of the lines to comment or remove them your project.
-
-```javascript
-import CMS from "netlify-cms-app";
-// import uploadcare from 'netlify-cms-media-library-uploadcare'
-// import cloudinary from 'netlify-cms-media-library-cloudinary'
-
-import AboutPagePreview from "./preview-templates/AboutPagePreview";
-import BlogPostPreview from "./preview-templates/BlogPostPreview";
-import ProductPagePreview from "./preview-templates/ProductPagePreview";
-import IndexPagePreview from "./preview-templates/IndexPagePreview";
-
-// CMS.registerMediaLibrary(uploadcare);
-// CMS.registerMediaLibrary(cloudinary);
-
-CMS.registerPreviewTemplate("index", IndexPagePreview);
-CMS.registerPreviewTemplate("about", AboutPagePreview);
-CMS.registerPreviewTemplate("products", ProductPagePreview);
-CMS.registerPreviewTemplate("blog", BlogPostPreview);
-```
-
-Note: Don't forget to also remove them from `package.json` and `yarn.lock` / `package-lock.json` using `yarn` or `npm`. During the build netlify-cms-app will bundle the media libraries as well, having them removed will save you build time.
-Example:
-
-```
-yarn remove netlify-cms-media-library-uploadcare
-```
-
-OR
-
-```
-yarn remove netlify-cms-media-library-cloudinary
-```
-
-## Getting Started (Without Netlify)
-
-```
-$ gatsby new [SITE_DIRECTORY_NAME] https://github.com/netlify-templates/gatsby-starter-netlify-cms/
-$ cd [SITE_DIRECTORY_NAME]
-$ npm run build
+To run the site locally, you'll need to install the dependencies to get started:
+```bash
+# Download repo
+$ git clone https://github.com/Anan1218/thetataubruins.org.git
+$ cd thetataubruins.org
+# Install dependencies
+$ npm install
+# Local development in browser
 $ npm run start
 ```
+Note: if `npm install` fails due to dependency conflicts, run it will the `--legacy-peer-deps` flag.
 
-### Setting up the CMS
+## Deployment
 
-Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting for production.
-
-If you want use Netlify CMS locally, run the site in one terminal with `npm run start` and in another
-Terminal you can use `npx netlify-cms-proxy-server` which proxy requests so you'll be automatically logged
-in as a user on [http:localhost:3000/admin](http:localhost:3000/admin).
+To deploy your changes to the live site:
+```bash
+# Custom script that cleans the cache, builds a production version of the site and deploys it to Github Pages
+$ npm run deploy
+```
+Note: this will push whatever local changes you have, so make sure you have pulled the most recent version of the repo and pushed your changes.
 
 ## Debugging
 
