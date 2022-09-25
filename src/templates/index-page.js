@@ -7,7 +7,7 @@ import Layout from "../components/Layout";
 import FullWidthImage from "../components/FullWidthImage";
 import { StaticImage } from "gatsby-plugin-image"
 
-import homeImage from '../img/home.png';
+import homeImage from '../../static/img/home.png';
 
 
 import "../css/index-page.css";
