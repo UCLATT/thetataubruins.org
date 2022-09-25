@@ -7,6 +7,8 @@ import Layout from "../components/Layout";
 import FullWidthImage from "../components/FullWidthImage";
 import { StaticImage } from "gatsby-plugin-image"
 
+import homeImage from '../img/home.png';
+
 
 import "../css/index-page.css";
 
@@ -23,11 +25,9 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-  const heroImage = getImage('../img/home.png');
-  console.log(typeof heroImage);
   return (
     <div>
-      <FullWidthImage img={'/img/home.png'} title={title} subheading={subheading} />
+      <FullWidthImage img={homeImage} title={title} subheading={subheading} />
       <section className="section section--gradient">
         <div className="columns piller-section">
           <div className="column half-section">
@@ -128,6 +128,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         heading
+        image
         subheading
         intro {
           blurbs {
