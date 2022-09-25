@@ -23,7 +23,7 @@ const ServicePage = ({
   },
 }) => {
     const heroImage = getImage('/img/home.png');
-
+    // const prefix = ''
     return (
         <Layout>
             <FullWidthImageSmall image={heroImage} title={'Service'} subheading={''} />
@@ -32,6 +32,7 @@ const ServicePage = ({
                 <h1>Campus</h1>
                 <h4>IDEA Hacks - January 15-17 2016</h4>
                 An annual hardware-focused hackathon, put together by our brothers and UCLA's IEEE. This year's theme is: The Internet of Things!
+                <StaticImage src='../../../static/img/service/ideahacks_2016/ideahacks_2016_1.jpeg' />
                 <h4>IDEA Hacks - January 23-25 2015</h4>
                 (IDE)A Hacks is UCLA's first, full hardware-focused hackathon, put together by our brothers and UCLA's IEEE. The theme: Wearable Technology. "Imagine. Develop. Execute. Achieve."
             </section>
