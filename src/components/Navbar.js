@@ -144,14 +144,14 @@ const Navbar = class extends React.Component {
                     Alumni
                   </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="https://www.thetataubruins.org/alumni.html">
+                {/*<NavDropdown.Item href="https://www.thetataubruins.org/alumni.html">
                   <Link 
                     className="navbar-item"
                     to="/"
                     style = {{ textDecoration: "none" }}>
                     Chairs
                   </Link>
-                </NavDropdown.Item>
+                </NavDropdown.Item>*/}
                 <NavDropdown.Item>
                   <Link 
                     className="navbar-item"
@@ -161,12 +161,29 @@ const Navbar = class extends React.Component {
                   </Link>
                 </NavDropdown.Item>
               </NavDropdown>
-              <Link 
-                className="navbar-item"
-                to="/rush"
-                style = {{ color: "white", textDecoration: "none" }}>
-                Rush
-              </Link>
+              <NavDropdown
+                title="Rush"
+                menuVariant="light"
+                style={{padding: "8px 12px"}}
+              >
+                <NavDropdown.Item>
+                  <Link 
+                    className="navbar-item"
+                    to="/rush"
+                    style = {{ textDecoration: "none" }}>
+                    Information
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSd38J8pHiHZtMR4eufrqfy9C5khLJmmr5UzMgY2j6aj_S1-3Q/viewform">
+                  <a
+                    className="navbar-item"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSd38J8pHiHZtMR4eufrqfy9C5khLJmmr5UzMgY2j6aj_S1-3Q/viewform" 
+                    style = {{ textDecoration: "none" }}
+                  >
+                    Apply
+                  </a>
+                </NavDropdown.Item>
+              </NavDropdown>
 
               <a
                 className="navbar-item"

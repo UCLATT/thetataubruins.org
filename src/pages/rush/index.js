@@ -29,18 +29,18 @@ const RushPage = ({
             <FullWidthImageSmall image={heroImage} title={'Fall Recruitment 2022'} subheading={''} />
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Letter from the Recruitment Chairs</h1>
-                <be />
-                Welcome to Theta Tau's Spring Rush 2022!
+                <br />
+                Welcome to Theta Tau's Fall Rush 2022!
                 <br /><br />
-                As this quarter’s recruitment chairs, we are thrilled to welcome you to our exciting Spring Recruitment season! With the slow of Covid, we hope you are now able to fully take advantage of the many opportunities that the Upsilon Delta Chapter has to offer. While we pride ourselves on being a professional organization, we also place a heavy emphasis on the brotherhood and family we have formed over these past few years.
+                As this quarter’s recruitment chairs, we are thrilled to welcome you to our exciting Fall Recruitment season! With the slow of Covid, we hope you are now able to fully take advantage of the many opportunities that the Upsilon Delta Chapter has to offer. While we pride ourselves on being a professional organization, we also place a heavy emphasis on the brotherhood and family we have formed over these past few years.
                 <br /><br />
                 We were both in your exact position, uncertain about our career paths and struggling to find our place within the uncharted territory that is UCLA Engineering. We came to rush with the hope of finding a group of lifelong friends and mentors to guide and support us. The strangers that we met at the beginning of rush week eventually became the people we now call our family. It wasn’t until after we joined that we realized we had found exactly what we were looking for.
                 <br /><br />
                 Whether it be frantically trying to figure out a trivial bug before a midnight deadline or going on a spontaneous snowboarding trip only to be deserted in the mountains, our brothers are always only a call away. While we all come from different walks of life, we were able to find common ground in our path of self-discovery. There is no one specific type of personality that belongs to Theta Tau. We strive to learn from each other and to be proud of all our achievements.
                 <br /><br />
-                This spring, we hope you will look past your fears and hesitations to find your place within this genuine group of individuals who we call home.
+                This Fall, we hope you will look past your fears and hesitations to find your place within this genuine group of individuals who we call home.
                 <br /><br />
-                – Daniel Zhou and Bianca Villamor
+                – Angela Zhang and Victoria Ignacio
             </section>
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Recruitment Schedule</h1>
@@ -49,62 +49,62 @@ const RushPage = ({
                     <Card>
                         {/*<Card.Img variant="top" src="holder.js/100px160" />*/}
                         <Card.Body>
-                        <Card.Subtitle className="mb-2 text-muted">Monday 4/04</Card.Subtitle>
-                        <Card.Title>Meet the Brothers</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">Monday 9/26</Card.Subtitle>
+                        <Card.Title>Meet the Chapter</Card.Title>
                         <Card.Text>
                             Get to know the brothers of Theta Tau
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <small className="text-muted">
-                                5:30-7:30 PM <br />
-                                Sunset Rec Mesa Picnic Area <br />
+                            <small>
+                                6-8 PM <br />
+                                Engineering VI Patio <br />
                                 Casual Attire <br />
                             </small>
                         </Card.Footer>
                     </Card>
                     <Card>
                         <Card.Body>
-                        <Card.Subtitle className="mb-2 text-muted">Tuesday 4/05</Card.Subtitle>
-                        <Card.Title>Information Night</Card.Title>
-                        <Card.Text>
-                            Discover what our organization has to offer as you hear the unique stories of our brothers and alumni
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">
-                                6-8 PM <br />
-                                Bunche Hall 1209B <br />
-                                Business Casual <br />
-                            </small>
-                        </Card.Footer>
-                    </Card>
-                    <Card>
-                        <Card.Body>
-                        <Card.Subtitle className="mb-2 text-muted">Wednesday 4/06</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">Tuesday 9/27</Card.Subtitle>
                         <Card.Title>Engineering Night</Card.Title>
                         <Card.Text>
                             Put your innovation skills to the test in a fun engineering challenge!
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <small className="text-muted">
+                            <small>
                                 6-8 PM <br />
-                                Engineering IV Patio <br />
+                                Engineering VI Patio <br />
                                 Casual Attire <br />
                             </small>
                         </Card.Footer>
                     </Card>
                     <Card>
                         <Card.Body>
-                        <Card.Subtitle className="mb-2 text-muted">Thursday 4/07</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">Wednesday 9/28</Card.Subtitle>
+                        <Card.Title>Information Night</Card.Title>
+                        <Card.Text>
+                            Discover what our organization has to offer as you hear the unique stories of our brothers and alumni
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small>
+                                6-8 PM <br />
+                                Location TBD <br />
+                                Business Casual <br />
+                            </small>
+                        </Card.Footer>
+                    </Card>
+                    <Card>
+                        <Card.Body>
+                        <Card.Subtitle className="mb-2 text-muted">Thursday 9/29</Card.Subtitle>
                         <Card.Title>Beach Night</Card.Title>
                         <Card.Text>
                             Enjoy an evening at the beach and get to know the bros better!
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <small className="text-muted">
+                            <small>
                                 INVITE ONLY <br />
                                 Santa Monica Beach <br />
                                 Warm/Casual Attire <br />
@@ -113,16 +113,16 @@ const RushPage = ({
                     </Card>
                     <Card>
                         <Card.Body>
-                        <Card.Subtitle className="mb-2 text-muted">Friday 4/08</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">Friday 9/30</Card.Subtitle>
                         <Card.Title>Interviews</Card.Title>
                         <Card.Text>
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <small className="text-muted">
+                            <small>
                                 INVITE ONLY <br />
                                 Location TBD <br />
-                                Business Professional <br />
+                                Business Formal <br />
                             </small>
                         </Card.Footer>
                     </Card>
