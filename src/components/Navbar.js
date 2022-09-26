@@ -117,17 +117,47 @@ const Navbar = class extends React.Component {
                 <NavDropdown.Item>
                   <Link 
                     className="navbar-item"
+                    to="/service"
+                    style = {{ textDecoration: "none" }}>
+                    Service
+                  </Link>
+                </NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown
+                title="Brothers"
+                menuVariant="light"
+                style={{padding: "8px 12px"}}
+              >
+                <NavDropdown.Item href="https://www.thetataubruins.org/alumni.html">
+                  <Link 
+                    className="navbar-item"
                     to="/actives"
                     style = {{ textDecoration: "none" }}>
-                    Brothers
+                    Actives
                   </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item href="https://www.thetataubruins.org/alumni.html">
                   <Link 
                     className="navbar-item"
-                    to="http://www.thetataubruins.org/alumni.html"
+                    to="/alumni"
                     style = {{ textDecoration: "none" }}>
                     Alumni
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item href="https://www.thetataubruins.org/alumni.html">
+                  <Link 
+                    className="navbar-item"
+                    to="/"
+                    style = {{ textDecoration: "none" }}>
+                    Chairs
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link 
+                    className="navbar-item"
+                    to="/family-tree"
+                    style = {{ textDecoration: "none" }}>
+                    Family Tree
                   </Link>
                 </NavDropdown.Item>
               </NavDropdown>
@@ -135,38 +165,8 @@ const Navbar = class extends React.Component {
                 className="navbar-item"
                 to="/rush"
                 style = {{ color: "white", textDecoration: "none" }}>
-                Recruitment
+                Rush
               </Link>
-              <Link 
-                className="navbar-item"
-                to="/service"
-                style = {{ color: "white", textDecoration: "none" }}>
-                Service
-              </Link>
-              <NavDropdown
-                title="Professional"
-                menuVariant="light"
-                style={{padding: "8px 12px"}}
-              >
-                <NavDropdown.Item href="http://www.thetataubruins.org/network.html">Network</NavDropdown.Item>
-                <NavDropdown.Item href="http://www.thetataubruins.org/partnership.html">Partnership</NavDropdown.Item>
-                <NavDropdown.Item href="http://www.thetataubruins.org/prodev.html">Events</NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown
-                title="Brotherhood"
-                menuVariant="light"
-                style={{padding: "8px 12px"}}
-              >
-                <NavDropdown.Item href="http://www.thetataubruins.org/brotherhood.html">Brotherhood</NavDropdown.Item>
-                <NavDropdown.Item>
-                  <Link 
-                    className="navbar-item"
-                    to="/family-tree"
-                    style = {{ textDecoration: "none" }}>
-                    Family Tree
-                  </Link></NavDropdown.Item>
-                {/*<NavDropdown.Divider />*/}
-              </NavDropdown>
 
               <a
                 className="navbar-item"
