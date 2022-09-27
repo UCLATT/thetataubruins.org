@@ -285,13 +285,6 @@ classes:
       Computer Science
     year: >
       Class of 2023
-  - image: /img/brothers/omicron/183.jpg
-    text: >
-      Karl Goeltner
-    major: > 
-      Computer Science and Engineering
-    year: >
-      Class of 2023
   - image: /img/brothers/omicron/184.jpg
     text: >
       Kevin Tang
