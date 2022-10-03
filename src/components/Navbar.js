@@ -116,12 +116,24 @@ const Navbar = class extends React.Component {
                     >
                       <Offcanvas.Header closeButton>
                         <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                          Theta Tau
+                        <Link 
+                              className="navbar-item"
+                              to="/"
+                              style = {{ textDecoration: "none" }}>
+                              Theta Tau
+                            </Link>
                         </Offcanvas.Title>
                       </Offcanvas.Header>
                       <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                          <Nav.Link href="/">Home</Nav.Link>
+                          <Nav.Link>
+                            <Link 
+                              className=""
+                              to="/"
+                              style = {{ textDecoration: "none", color: 'black'}}>
+                              Home
+                            </Link>
+                          </Nav.Link>
                           <NavDropdown
                             title="About"
                             id={`offcanvasNavbarDropdown-expand-${expand}`}
