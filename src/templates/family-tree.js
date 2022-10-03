@@ -33,7 +33,7 @@ export const FamilyTreeTemplate = ({
         marginTop: "40px",
       }}>Veritas</p>
     <div className="container family">
-      <div className="tree">
+      <div className="tree" style={{width:'1700px'}}>
         <ul>
           <li>
             <a className="alumni">Alan Bui</a>
@@ -264,7 +264,7 @@ export const FamilyTreeTemplate = ({
         marginTop: "40px",
       }}>Vulcan</p>
     <div className="container family text-center">
-      <div className="tree family-top">
+      <div className="tree family-top" style={{width:"1200px"}}>
         <ul>
           <li>
             <a className="alumni">Christopher Lim</a>
@@ -451,7 +451,7 @@ export const FamilyTreeTemplate = ({
         marginTop: "40px",
       }}>Atlas</p>
     <div className="container family text-center">
-      <div className="tree family-top">
+      <div className="tree family-top" style={{width:'1700px'}}>
         <ul>
           <li>
             <a className="alumni">David Yang</a>
