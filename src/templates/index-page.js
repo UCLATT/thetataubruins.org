@@ -63,7 +63,7 @@ export const IndexPageTemplate = ({
           textAlign: 'center',
           color: 'white'
         }}>
-          <StaticImage src='../img/home/home2.jpeg' />
+          <StaticImage src='../img/home/home2.jpeg' style={{minHeight: '200px', maxHeight: '500px'}} />
           <div style={{
             position: 'absolute',
             top: '50%',

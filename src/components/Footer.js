@@ -43,21 +43,21 @@ const Footer = () => {
           </div>
           <div class="col-xs-6 col-sm-2 mt3" style={{paddingTop: '15px', textDecoration: 'none'}}>
             <h3 class="mb3 gray">General</h3>
-            <p class="pale-gray"><a href="http://thetatau.org/">National Theta Tau</a></p>
-            <p class="pale-gray"><a href="/values">About</a></p>
+            <p class="pale-gray"><a style={{color:'white'}} href="http://thetatau.org/">National Theta Tau</a></p>
+            <p class="pale-gray"><a style={{color:'white'}} href="/values">About</a></p>
             {/*<p class="pale-gray"><a href="/chairs">Chairs</a></p>*/}
           </div>
           <div class="col-xs-6 col-sm-2 mt3" style={{paddingTop: '15px'}}>
-            <h3 class="mb3 gray">Recruitment</h3>
-            <p><a href="/rush">Information</a></p>
+            <h3 class="mb3 gray">Rush</h3>
+            <p><a style={{color:'white'}} href="/rush">Information</a></p>
             {/*<p><a href="/rush_faq">FAQ</a></p>*/}
-            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd38J8pHiHZtMR4eufrqfy9C5khLJmmr5UzMgY2j6aj_S1-3Q/viewform">Apply</a></p>
+            <p><a style={{color:'white'}} href="https://docs.google.com/forms/d/e/1FAIpQLSd38J8pHiHZtMR4eufrqfy9C5khLJmmr5UzMgY2j6aj_S1-3Q/viewform">Apply</a></p>
           </div>
           <div class="col-xs-6 col-sm-3 mt3" style={{paddingTop: '15px'}}>
             <h3 class="mb3 gray">Contact</h3>
             {/*<p class="pale-gray reverse"></p>*/}
-            <p className=""><a href="https://www.facebook.com/ThetaTauUCLA/">Facebook</a></p>
-            <p><a href="https://www.instagram.com/uclathetatau/">Instagram</a></p>
+            <p className=""><a style={{color:'white'}} href="https://www.facebook.com/ThetaTauUCLA/">Facebook</a></p>
+            <p><a style={{color:'white'}} href="https://www.instagram.com/uclathetatau/">Instagram</a></p>
           </div>
         </div>
       </div>
