@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Media from 'react-media';
 import { Link } from "gatsby";
 import instagram from "../img/instagram-icon.svg";
 import facebook from "../img/facebook-icon.svg";
@@ -6,10 +7,18 @@ import logo from "../img/logo.png";
 
 import Dropdown from 'react-bootstrap/Dropdown';
 
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 // import Nav from 'react-bootstrap/Nav';
 // import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import {
+  Button,
+  NavDropdown,
+  Container,
+  Form,
+  Nav,
+  Navbar as NavBar,
+  Offcanvas,
+}  from 'react-bootstrap';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -41,15 +50,20 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    const expand = false;
+    var color = (this.state.navBarActiveClass === 'is-active') ? 'black' : 'white';
+    console.log(this.state.navBarActiveClass);
     return (
       <nav
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
         style={{
-          position: "absolute",
+          position: "sticky",
+          top: '0',
           width: "100%",
-          backgroundColor: "transparent",
+          backgroundColor: 'black',
+          backgroundColor: "#40140f",
         }}
       >
         <div className="container"
@@ -65,19 +79,146 @@ const Navbar = class extends React.Component {
               <img src={logo} alt="UCLA Theta Tau" style={{ maxHeight: "100px", height: "85px" }} />
             </Link>
             {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              role="menuitem"
-              tabIndex={0}
-              onKeyPress={() => this.toggleHamburger()}
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
+            {/*
+            <div style={{position: 'absolute', right: '0'}}>
+              <div
+                className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+                data-target="navMenu"
+                role="menuitem"
+                tabIndex={0}
+                onKeyPress={() => this.toggleHamburger()}
+                onClick={() => this.toggleHamburger()}
+              >
+                <span />
+                <span />
+                <span />
+              </div>
+          </div>*/}
+            
+            <div style={{position: 'absolute', right: '0', marginTop: '20px'}}>
+              {this.state.navBarActiveClass}
           </div>
+          </div>
+          <Media queries={{
+            mobile: "(max-width: 1023px)",
+            desktop: "(min-width: 1024px)"
+          }}>
+            {matches => (
+              <Fragment>
+                {matches.mobile &&
+                  <NavBar key={expand} bg="transparent" expand={expand} className="mb-3" variant="dark">
+                    <Container fluid style={{ backgroundColor: 'transparent'}}>
+                    <NavBar.Toggle style={{ backgroundColor: 'transparent', borderColor: 'white', color: 'white'}} aria-controls={`offcanvasNavbar-expand-${expand}`} />
+                    <NavBar.Offcanvas
+                      id={`offcanvasNavbar-expand-${expand}`}
+                      aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+                      placement="end"
+                    >
+                      <Offcanvas.Header closeButton>
+                        <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                          Theta Tau
+                        </Offcanvas.Title>
+                      </Offcanvas.Header>
+                      <Offcanvas.Body>
+                        <Nav className="justify-content-end flex-grow-1 pe-3">
+                          <Nav.Link href="/">Home</Nav.Link>
+                          <NavDropdown
+                            title="About"
+                            id={`offcanvasNavbarDropdown-expand-${expand}`}
+                          >
+                            <NavDropdown.Item>
+                              <Link 
+                                className="navbar-item"
+                                to="/values"
+                                style = {{ textDecoration: "none" }}>
+                                Values
+                              </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item>
+                              <Link 
+                                className="navbar-item"
+                                to="/history"
+                                style = {{ textDecoration: "none" }}>
+                                History
+                              </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item>
+                              <Link 
+                                className="navbar-item"
+                                to="/service"
+                                style = {{ textDecoration: "none" }}>
+                                Service
+                              </Link>
+                            </NavDropdown.Item>
+                          </NavDropdown>
+                          <NavDropdown
+                            title="Brothers"
+                            id={`offcanvasNavbarDropdown-expand-${expand}`}
+                          >
+                            <NavDropdown.Item>
+                              <Link 
+                                className="navbar-item"
+                                to="/actives"
+                                style = {{ textDecoration: "none" }}>
+                                Actives
+                              </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item>
+                              <Link 
+                                className="navbar-item"
+                                to="/alumni"
+                                style = {{ textDecoration: "none" }}>
+                                Alumni
+                              </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item>
+                              <Link 
+                                className="navbar-item"
+                                to="/family-tree"
+                                style = {{ textDecoration: "none" }}>
+                                Family Tree
+                              </Link>
+                            </NavDropdown.Item>
+                          </NavDropdown>
+                          <NavDropdown
+                            title="Rush"
+                            id={`offcanvasNavbarDropdown-expand-${expand}`}
+                          >
+                            <NavDropdown.Item>
+                              <Link 
+                                className="navbar-item"
+                                to="/rush"
+                                style = {{ textDecoration: "none" }}>
+                                Information
+                              </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSd38J8pHiHZtMR4eufrqfy9C5khLJmmr5UzMgY2j6aj_S1-3Q/viewform">
+                            <Link 
+                                className="navbar-item"
+                                style = {{ textDecoration: "none" }}>
+                                Apply
+                              </Link>
+                            </NavDropdown.Item>
+                          </NavDropdown>
+                        </Nav>
+                      </Offcanvas.Body>
+                    </NavBar.Offcanvas>
+                  </Container>
+                </NavBar>
+              }
+                {matches.desktop}
+              </Fragment>
+            )
+
+            }
+          </Media>
+          
+
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
@@ -85,12 +226,12 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered"
               style = {{
                 textAlign: "right",
-                color: "white",
+                color: 'white',
               }}>
               <Link /*The style stuff is inefficient af but im lazy*/
                 className="navbar-item"
                 to="/"
-                style = {{ color: "white", textDecoration: "none" }}>
+                style = {{ color: 'white', textDecoration: "none" }}>
                 Home
               </Link>
               <NavDropdown
@@ -170,7 +311,7 @@ const Navbar = class extends React.Component {
                   <Link 
                     className="navbar-item"
                     to="/rush"
-                    style = {{ textDecoration: "none" }}>
+                    style = {{ color: 'black', textDecoration: "none" }}>
                     Information
                   </Link>
                 </NavDropdown.Item>

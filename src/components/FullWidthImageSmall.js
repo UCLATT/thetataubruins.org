@@ -19,9 +19,10 @@ export default function FullWidthImageSmall(props) {
         style={{
           display: "grid",
           alignItems: "center",
+          backgroundColor: "black",
           backgroundColor: "#40140f",
           zIndex: -1,
-          // backgroundColor: "black",
+          paddingTop: '0px',
         }}
       >
         {img?.url ? (
@@ -65,7 +66,7 @@ export default function FullWidthImageSmall(props) {
           <div
             style={{
               // By using the same grid area for both, they are stacked on top of each other
-              paddingTop: "10vmax",
+              paddingTop: "1vmax",
               // paddingBottom: "10vmax",
               gridArea: "1/1",
               position: "relative",

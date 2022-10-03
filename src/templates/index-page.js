@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import Layout from "../components/Layout";
+import LayoutHome from "../components/LayoutHome";
 import FullWidthImage from "../components/FullWidthImage";
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -13,6 +13,10 @@ import homeImage from '../../static/img/home.png';
 import "../css/index-page.css";
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+import { Row, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import FullWidthImageSmall from "../components/FullWidthImageSmall";
 
 
 // eslint-disable-next-line
@@ -28,53 +32,51 @@ export const IndexPageTemplate = ({
   return (
     <div>
       <FullWidthImage img={homeImage} title={title} subheading={subheading} />
-      <section className="section section--gradient">
-        <div className="columns piller-section">
-          <div className="column half-section">
-            <StaticImage src="../img/home/PiCrossing.png" alt="Brotherhood"/>
-          </div>
-          <div className="column half-section">
-            <h1 className = "home-piller-text">Brotherhood</h1>
-            <p>We are UCLA’s only co-ed professional engineering fraternity, composed of leaders who stand 
-              for professionalism, service, and brotherhood. Our vision is to establish lifelong connections 
-              as we work towards gearing each member up for success!
+      {/*<FullWidthImageSmall title={title} subheading={subheading} />*/}
+      <section className="section section--gradient" style={{ marginLeft: "10%", marginRight: "10%" }}>
+        <Row style={{textAlign: 'center'}}>
+          <Col>
+            <FontAwesomeIcon icon="fa-solid fa-user-group" />
+            <div><h1 className = "home-piller-text">Brotherhood</h1></div>
+            <FontAwesomeIcon icon="fa-solid fa-user-group" />
+            <p>
+              We forge lifelong bonds of fraternal friendship, a journey that develops and delivers a network of lasting personal and professional relationships. We foster an inviting, safe, and social environment in which our members become lifelong friends.
             </p>
-            <button className="home-button">
-              <p className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen home-button-text">Learn More
-              </p>
-            </button>
-          </div>
-        </div>
-        <div className="columns piller-section">
-          <div className="column half-section">
-            <p className = "home-piller-text">Service</p>
-            <p>We are UCLA’s only co-ed professional engineering fraternity, composed of leaders who stand 
-              for professionalism, service, and brotherhood. Our vision is to establish lifelong connections 
-              as we work towards gearing each member up for success!
+          </Col>
+          <Col>
+            <h1 className = "home-piller-text">Service</h1>
+            <p>
+              We develop and nurture engineers with strong communication, problem-solving, collaboration, and leadership skills that we demonstrate in our profession, our community, and in our lives.
             </p>
-            <button className="home-button">
-              <p className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen home-button-text">Learn More
-              </p>
-            </button>
-          </div>
-          <div className="column half-section">
-            <StaticImage src="../img/home/TTahoe.png" alt="Service"/>
-          </div>
-        </div>
-        <div className="columns piller-section">
-          <div className="column half-section">
-            <StaticImage src="../img/home/seaTTle.png" alt="Professionalism"/>
-          </div>
-          <div className="column half-section">
-            <p className = "home-piller-text">Professionalism</p>
-            <p>We are UCLA’s only co-ed professional engineering fraternity, composed of leaders who stand 
-              for professionalism, service, and brotherhood. Our vision is to establish lifelong connections 
-              as we work towards gearing each member up for success!
+          </Col>
+          <Col>
+            <h1 className = "home-piller-text">Professionalism</h1>
+            <p>
+              We are known for our service to our college, university and the larger community. Our service projects create a unifying environment for learning and personal growth for our members.
             </p>
-              <button className="home-button">
-                <p className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen home-button-text">Learn More
-                </p>
-              </button>
+          </Col>
+        </Row>
+      </section>
+      <section>
+        <div style={{
+          position: 'relative',
+          textAlign: 'center',
+          color: 'white'
+        }}>
+          <StaticImage src='../img/home/home2.jpeg' />
+          <div style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            textAlign: 'left',
+            fontSize: '10vw',
+            marginLeft: '-50px',
+            marginRight: '-50px'
+          }}>
+              <h5>
+              Committed to fostering leadership accross multiple engineering disciplines, Theta Tau is built upon core values that aim to strengthen both professional and fraternal bonds between members.
+              </h5>
           </div>
         </div>
       </section>
@@ -98,7 +100,7 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <LayoutHome>
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
@@ -108,7 +110,7 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
-    </Layout>
+    </LayoutHome>
   );
 };
 

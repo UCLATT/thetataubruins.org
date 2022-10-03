@@ -284,7 +284,7 @@ classes:
     major: > 
       Computer Science
     year: >
-      Class of 2023
+      Class of 2023xw
   - image: /img/brothers/omicron/184.jpg
     text: >
       Kevin Tang

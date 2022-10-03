@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
@@ -8,6 +8,8 @@ import Features from "../components/Features";
 import { getImage } from "gatsby-plugin-image";
 
 import FullWidthImageSmall from "../components/FullWidthImageSmall";
+
+import { Toast, ToastContainer, Row, Col } from 'react-bootstrap';
 
 // eslint-disable-next-line
 export const AlumniPageTemplate = ({
@@ -19,66 +21,90 @@ export const AlumniPageTemplate = ({
   description,
   classes,
 }) => {
-  const heroImage = getImage(image) || image;
+    const [showToast, setShowToast] = useState(true);
+    const heroImage = getImage(image) || image;
 
-  return (
-    <div>
-      <FullWidthImageSmall img={heroImage} title={title} subheading={subheading} />
+    return (
+        <div>
+            <ToastContainer
+                className="p-3"
+                position={'middle-center'}
+                style={{marginBottom:'60px'}}
+            >
+                <Toast show={showToast} onClose={() => setShowToast(false)} bg='warning'>
+                    <Toast.Header>
+                    <img
+                        src="holder.js/20x20?text=%20"
+                        className="rounded me-2"
+                        alt=""
+                    />
+                    <strong className="me-auto">Warning</strong>
+                    <small></small>
+                    </Toast.Header>
+                    <Toast.Body>Sorry, this page is undergoing maintenance.</Toast.Body>
+                </Toast>
+            </ToastContainer>
+                    
 
-      <p className = "classHeader" style={{
-        marginTop: "40px",
-      }}>Founding Class</p>
-      <Features gridItems={classes.founding} />
 
-      <p className = "classHeader">Alpha Class</p>
-      <Features gridItems={classes.alpha} />
+            <FullWidthImageSmall img={heroImage} title={title} subheading={subheading} />
 
-      <p className = "classHeader">Beta Class</p>
-      <Features gridItems={classes.beta} />
 
-      <p className = "classHeader">Gamma Class</p>
-      <Features gridItems={classes.gamma} />
 
-      <p className = "classHeader">Delta Class</p>
-      <Features gridItems={classes.delta} />
+        <p className = "classHeader" style={{
+            marginTop: "40px",
+        }}>Founding Class</p>
+        <Features gridItems={classes.founding} />
 
-      <p className = "classHeader">Epsilon Class</p>
-      <Features gridItems={classes.epsilon} />
+        <p className = "classHeader">Alpha Class</p>
+        <Features gridItems={classes.alpha} />
 
-      <p className = "classHeader">Zeta Class</p>
-      <Features gridItems={classes.zeta} />
+        <p className = "classHeader">Beta Class</p>
+        <Features gridItems={classes.beta} />
 
-      <p className = "classHeader">Eta Class</p>
-      <Features gridItems={classes.eta} />
+        <p className = "classHeader">Gamma Class</p>
+        <Features gridItems={classes.gamma} />
 
-      <p className = "classHeader">Theta Class</p>
-      <Features gridItems={classes.theta} />
+        <p className = "classHeader">Delta Class</p>
+        <Features gridItems={classes.delta} />
 
-      <p className = "classHeader">Iota Class</p>
-      <Features gridItems={classes.iota} />
+        <p className = "classHeader">Epsilon Class</p>
+        <Features gridItems={classes.epsilon} />
 
-      <p className = "classHeader">Kappa Class</p>
-      <Features gridItems={classes.kappa} />
+        <p className = "classHeader">Zeta Class</p>
+        <Features gridItems={classes.zeta} />
 
-      <p className = "classHeader">Lambda Class</p>
-      <Features gridItems={classes.lambda} />
+        <p className = "classHeader">Eta Class</p>
+        <Features gridItems={classes.eta} />
 
-      <p className = "classHeader">Mu Class</p>
-      <Features gridItems={classes.mu} />
-      
-      <p className = "classHeader">Nu Class</p>
-      <Features gridItems={classes.nu} />
+        <p className = "classHeader">Theta Class</p>
+        <Features gridItems={classes.theta} />
 
-      <p className = "classHeader">Xi Class</p>
-      <Features gridItems={classes.xi} />
+        <p className = "classHeader">Iota Class</p>
+        <Features gridItems={classes.iota} />
 
-      <p className = "classHeader">Omicron Class</p>
-      <Features gridItems={classes.omicron} />
+        <p className = "classHeader">Kappa Class</p>
+        <Features gridItems={classes.kappa} />
 
-      <p className = "classHeader">Pi Class</p>
-      <Features gridItems={classes.pi} />
-    </div>
-  );
+        <p className = "classHeader">Lambda Class</p>
+        <Features gridItems={classes.lambda} />
+
+        <p className = "classHeader">Mu Class</p>
+        <Features gridItems={classes.mu} />
+        
+        <p className = "classHeader">Nu Class</p>
+        <Features gridItems={classes.nu} />
+
+        <p className = "classHeader">Xi Class</p>
+        <Features gridItems={classes.xi} />
+
+        <p className = "classHeader">Omicron Class</p>
+        <Features gridItems={classes.omicron} />
+
+        <p className = "classHeader">Pi Class</p>
+        <Features gridItems={classes.pi} />
+        </div>
+    );
 };
 
 AlumniPageTemplate.propTypes = {

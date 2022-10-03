@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
 import "./styles.css";
+import "./buttonStyle.css";
 
 export default function FullWidthImage(props) {
   const {
@@ -24,6 +25,9 @@ export default function FullWidthImage(props) {
           alignItems: "center",
           backgroundColor: "#40140f",
           zIndex: -1,
+          flexShrink: 0,
+          minWidth: '100%',
+          minHeight: '100%'
           // backgroundColor: "black",
         }}
       >
@@ -35,7 +39,8 @@ export default function FullWidthImage(props) {
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              width: '100%',
+              // minHeight: '100%',
+              minHeight: '25vh',
               opacity: 0.5,
             }}
             // You can optionally force an aspect ratio for the generated image
@@ -52,7 +57,6 @@ export default function FullWidthImage(props) {
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              maxHeight: height,
               minHeight: "100vh",
               opacity: 0.5,
             }}
@@ -68,7 +72,7 @@ export default function FullWidthImage(props) {
           <div
             style={{
               // By using the same grid area for both, they are stacked on top of each other
-              paddingTop: "10vmax",
+              paddingTop: "5vmax",
               // paddingBottom: "10vmax",
               gridArea: "1/1",
               position: "relative",
@@ -114,24 +118,30 @@ export default function FullWidthImage(props) {
             )}
             {(<Link to='/rush'>
                 <button
+                class="button-27"
+                role="button"
                 style= {{
-                    backgroundColor: "#fff",
+                    backgroundColor: "#A3A3A3",
+                    color: "#000",
                     borderColor: "#fff",
-                    marginTop: "1rem",
-                    borderRadius: '15px',
+                    marginTop: "-0.5rem",
+                    borderRadius: '10px',
+                    marginBottom: '-1.5rem',
+                    borderColor: '#A3A3A3',
+                    
                 }}
                 >
                   
-                    <h4 
+                    <h5
                       className="is-size-5-mobile is-size-5-tablet is-size-5-widescreen"
                       style={{
-                        // color: "white",
+                        color: 'white',
                       lineHeight: "1",
-                      padding: "1.5rem",
+                      padding: "1rem",
                       // marginTop: "0.5rem",  
                     }}>
                       Fall Rush 2022
-                    </h4>
+                    </h5>
                   
               </button>
             </Link>)}

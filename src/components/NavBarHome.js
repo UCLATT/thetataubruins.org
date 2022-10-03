@@ -7,18 +7,18 @@ import logo from "../img/logo.png";
 
 import Dropdown from 'react-bootstrap/Dropdown';
 
+// import Container from 'react-bootstrap/Container';
 // import Nav from 'react-bootstrap/Nav';
 // import Navbar from 'react-bootstrap/Navbar';
-
 import {
-    Button,
-    NavDropdown,
-    Container,
-    Form,
-    Nav,
-    Navbar as NavBar,
-    Offcanvas,
-  }  from 'react-bootstrap';
+  Button,
+  NavDropdown,
+  Container,
+  Form,
+  Nav,
+  Navbar as NavBar,
+  Offcanvas,
+}  from 'react-bootstrap';
 
 const NavbarHome = class extends React.Component {
   constructor(props) {
@@ -60,6 +60,7 @@ const NavbarHome = class extends React.Component {
         aria-label="main-navigation"
         style={{
           position: "absolute",
+          top: '0',
           width: "100%",
           backgroundColor: 'transparent',
         }}
@@ -91,9 +92,12 @@ const NavbarHome = class extends React.Component {
                 <span />
                 <span />
               </div>
-            </div>*/}
-        </div>
-
+          </div>*/}
+            
+            <div style={{position: 'absolute', right: '0', marginTop: '20px'}}>
+              {this.state.navBarActiveClass}
+          </div>
+          </div>
           <Media queries={{
             mobile: "(max-width: 1023px)",
             desktop: "(min-width: 1024px)"
@@ -212,6 +216,7 @@ const NavbarHome = class extends React.Component {
 
             }
           </Media>
+          
 
           <div
             id="navMenu"
@@ -292,7 +297,7 @@ const NavbarHome = class extends React.Component {
                     className="navbar-item"
                     to="/family-tree"
                     style = {{ textDecoration: "none" }}>
-                    Family Trees
+                    Family Tree
                   </Link>
                 </NavDropdown.Item>
               </NavDropdown>

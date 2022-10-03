@@ -14,6 +14,18 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import '../../components/buttonStyle.css';
+
+import {
+    Timeline,
+    Container as Container2,
+    YearContent,
+    BodyContent,
+    Section,
+    Description,
+    Content,
+} from 'vertical-timeline-component-react';
+
 const RushPage = ({
   data: {
     allMarkdownRemark: { group },
@@ -23,6 +35,15 @@ const RushPage = ({
   },
 }) => {
     const heroImage = getImage('/img/home.png');
+    const customTheme = {
+        yearColor: '#405b73',
+        lineColor: '#d0cdc4',
+        dotColor: '#262626',
+        borderDotColor: '#d0cdc4',
+        titleColor: '#405b73',
+        subtitleColor: '#bf9765',
+        textColor: '#262626',
+    };
 
     return (
         <Layout>
@@ -45,9 +66,77 @@ const RushPage = ({
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Recruitment Schedule</h1>
                 <br />
+                
+                <Timeline lang="en" theme={customTheme} dateFormat="with-weekday" collapse>
+                    <Container2 title="Meet the Chapter" startDate="2022/9/26">
+                    <Content
+                        title="Get to know the brothers of Theta Tau"
+                        description={[
+                            '6-8 PM',
+                            'Engineering VI Patio',
+                            'Casual Attire',
+                        ]}
+                    />
+                    </Container2>
+                    <Container2 title="Engineering Night" startDate="2022/9/27">
+                    <Content
+                        title="Put your innovation skills to the test in a fun engineering challenge!"
+                        description={[
+                            '6-8 PM',
+                            'Engineering VI Patio',
+                            'Casual Attire',
+                        ]}
+                    />
+                    </Container2>
+                    <Container2 title="Information Night" startDate="2022/9/28">
+                    <Content
+                        title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni"
+                        description={[
+                            '6-8 PM',
+                            'Location TBD',
+                            'Business Casual',
+                        ]}
+                    />
+                    </Container2>
+                    <Container2 title="Beach Night" startDate="2022/9/29">
+                    <Content
+                        title="Enjoy an evening at the beach and get to know the bros better!"
+                        description={[
+                            'INVITE ONLY',
+                            'Santa Monica Beach',
+                            'Warm/Casual Attire',
+                        ]}
+                    />
+                    </Container2>
+                    <Container2 title="Interviews" startDate="2022/9/30">
+                    <Content
+                        title="TBD"
+                        description={[
+                            'INVITE ONLY',
+                            'Location TBD',
+                            'Business Formal',
+                        ]}
+                    />
+                    </Container2>
+                </Timeline>
+                <div style={{textAlign: 'center'}}>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd38J8pHiHZtMR4eufrqfy9C5khLJmmr5UzMgY2j6aj_S1-3Q/viewform">
+                        <button
+                            style={{
+                                width: '200px'
+                            }}
+                            class="button-27"
+                            role="button"
+                        >
+                            APPLY
+                        </button>
+                    </a>
+                </div>
+
+                {/*
+                <br />
                 <CardGroup>
                     <Card>
-                        {/*<Card.Img variant="top" src="holder.js/100px160" />*/}
                         <Card.Body>
                         <Card.Subtitle className="mb-2 text-muted">Monday 9/26</Card.Subtitle>
                         <Card.Title>Meet the Chapter</Card.Title>
@@ -127,6 +216,7 @@ const RushPage = ({
                         </Card.Footer>
                     </Card>
                 </CardGroup>
+                */}
             </section>
             <section className="section section--gradient" style={{ marginLeft: "10%", marginRight: "10%" }}>
             <Container>

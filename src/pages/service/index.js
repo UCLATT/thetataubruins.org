@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState } from "react";
 import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
@@ -14,6 +14,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import { Toast, ToastContainer } from 'react-bootstrap';
+
 const ServicePage = ({
   data: {
     allMarkdownRemark: { group },
@@ -22,10 +24,30 @@ const ServicePage = ({
     },
   },
 }) => {
+    const [showToast, setShowToast] = useState(true);
     const heroImage = getImage('/img/home.png');
     // const prefix = ''
     return (
         <Layout>
+            <ToastContainer
+                className="p-3"
+                position={'middle-center'}
+                style={{marginBottom:'60px'}}
+            >
+                <Toast show={showToast} onClose={() => setShowToast(false)} bg='warning'>
+                    <Toast.Header>
+                    <img
+                        src="holder.js/20x20?text=%20"
+                        className="rounded me-2"
+                        alt=""
+                    />
+                    <strong className="me-auto">Warning</strong>
+                    <small></small>
+                    </Toast.Header>
+                    <Toast.Body>Sorry, this page is undergoing maintenance.</Toast.Body>
+                </Toast>
+            </ToastContainer>
+
             <FullWidthImageSmall image={heroImage} title={'Service'} subheading={''} />
             
             <section className="section section--gradient" style={{ marginLeft: "10%", marginRight: "10%" }}>
