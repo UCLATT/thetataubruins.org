@@ -44,12 +44,38 @@ const ServicePage = ({
                     <strong className="me-auto">Warning</strong>
                     <small></small>
                     </Toast.Header>
-                    <Toast.Body>Sorry, this page is undergoing maintenance.</Toast.Body>
+                    <Toast.Body>This page is under construction.</Toast.Body>
                 </Toast>
             </ToastContainer>
 
             <FullWidthImageSmall image={heroImage} title={'Service'} subheading={''} />
-            
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </Layout>
+    );
+    (
+            <Layout>
             <section className="section section--gradient" style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Campus</h1>
                 <h4>IDEA Hacks - January 15-17 2016</h4>

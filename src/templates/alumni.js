@@ -41,7 +41,7 @@ export const AlumniPageTemplate = ({
                     <strong className="me-auto">Warning</strong>
                     <small></small>
                     </Toast.Header>
-                    <Toast.Body>Sorry, this page is undergoing maintenance.</Toast.Body>
+                    <Toast.Body>This page is under construction.</Toast.Body>
                 </Toast>
             </ToastContainer>
                     
@@ -49,8 +49,35 @@ export const AlumniPageTemplate = ({
 
             <FullWidthImageSmall img={heroImage} title={title} subheading={subheading} />
 
-
-
+            <div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+    );
+        (
+        <div>
         <p className = "classHeader" style={{
             marginTop: "40px",
         }}>Founding Class</p>
