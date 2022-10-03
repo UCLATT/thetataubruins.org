@@ -29,7 +29,7 @@ export const AlumniPageTemplate = ({
             <ToastContainer
                 className="p-3"
                 position={'middle-center'}
-                style={{marginBottom:'60px'}}
+                style={{marginBottom:'60px', zIndex: '5'}}
             >
                 <Toast show={showToast} onClose={() => setShowToast(false)} bg='warning'>
                     <Toast.Header>
