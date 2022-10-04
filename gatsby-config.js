@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/thetataubruins.org",
+  pathPrefix: "/",
   siteMetadata: {
     title: "UCLA Theta Tau",
     description: "Theta Tau is a Co-ed Professional Engineering Fraternity seeking to excel in professionalism, brotherhood, and service. Our brothers are passionate and motivated engineers dedicated to their brothers and the fraternity as a whole.",
