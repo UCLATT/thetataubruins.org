@@ -116,7 +116,7 @@ export default function FullWidthImage(props) {
                 {subheading}
               </h3>
             )}
-            {(<Link to='/rush'>
+            {/*(<Link to='/rush'>
                 <button
                 class="button-27"
                 role="button"
@@ -144,7 +144,7 @@ export default function FullWidthImage(props) {
                     </h5>
                   
               </button>
-            </Link>)}
+              </Link>)*/}
           </div>          
         )}
         

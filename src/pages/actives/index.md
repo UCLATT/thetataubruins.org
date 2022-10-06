@@ -6,6 +6,22 @@ title: Our Brothers
 subheading: Meet the brothers of Theta Tau
 
 classes:
+  eta:
+    - image: /img/brothers/eta/101.jpg
+      text: >
+        Tao Lu
+      major: > 
+        Materials Engineering
+      year: >
+        Class of 2022
+  mu:
+    - image: /img/brothers/mu/154.jpg
+      text: >
+        Zach Wong
+      major: >
+        Mechanical Engineering
+      year: >
+        Class of 2022
   nu:
     - image: /img/brothers/nu/155.jpg
       text: >
@@ -20,7 +36,7 @@ classes:
       major: > 
         Mechanical Engineering
       year: >
-        Class of 2022
+        Class of 2023
     - image: /img/brothers/nu/162.jpg
       text: >
         Emily Yu
@@ -34,14 +50,14 @@ classes:
       major: > 
         Aerospace Engineering
       year: >
-        Class of 2022
+        Class of 2023
     - image: /img/brothers/nu/166.jpg
       text: >
         Vivianne Dinh
       major: > 
         Computer Science
       year: >
-        Class of 2022
+        Class of 2023
   xi:
   - image: /img/brothers/xi/167.jpg
     text: >
