@@ -1087,7 +1087,7 @@ export const FamilyTreeTemplate = ({
                                 <a>Kai Alcayde</a>
                                 <ul>
                                   <li>
-                                    Clara Lee
+                                    <a>Clara Lee</a>
                                   </li>
                                 </ul>
                               </li>
