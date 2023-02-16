@@ -49,35 +49,6 @@ export const AlumniPageTemplate = ({
 
             <FullWidthImageSmall img={heroImage} title={title} subheading={subheading} />
 
-            <div>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-            </div>
-        </div>
-    );
-        (
-        <div>
         <p className = "classHeader" style={{
             marginTop: "40px",
         }}>Founding Class</p>
@@ -128,8 +99,8 @@ export const AlumniPageTemplate = ({
         <p className = "classHeader">Omicron Class</p>
         <Features gridItems={classes.omicron} />
 
-        <p className = "classHeader">Pi Class</p>
-        <Features gridItems={classes.pi} />
+        {/* <p className = "classHeader">Pi Class</p>
+        <Features gridItems={classes.pi} /> */}
         </div>
     );
 };
