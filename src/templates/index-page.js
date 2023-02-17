@@ -130,7 +130,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         heading
-        image
         subheading
         intro {
           blurbs {

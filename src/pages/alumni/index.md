@@ -1000,7 +1000,7 @@ classes:
         Computer Science
       year: >
         Class of 2020
-    - image: /img/brothers/lambda/mel2.jpg
+    - image: /img/brothers/lambda/142-1.jpeg
       text: >
         Melody Tang
       major: > 

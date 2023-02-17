@@ -26,7 +26,7 @@ export const AlumniPageTemplate = ({
 
     return (
         <div>
-            <ToastContainer
+            {/* <ToastContainer
                 className="p-3"
                 position={'middle-center'}
                 style={{marginBottom:'60px', zIndex: '5'}}
@@ -43,7 +43,7 @@ export const AlumniPageTemplate = ({
                     </Toast.Header>
                     <Toast.Body>This page is under construction.</Toast.Body>
                 </Toast>
-            </ToastContainer>
+            </ToastContainer> */}
                     
 
 
