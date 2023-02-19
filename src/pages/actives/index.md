@@ -202,98 +202,98 @@ classes:
     year: >
       Class of 2025
   rho:
-  - image: /img/brothers/pi/188.jpeg
+  - image: /img/brothers/rho/195.jpg
     text: >
       Akshay Gupta
     major: > 
       Computer Science
     year: >
       Class of 2025
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/196.jpg
     text: >
       Angela Liu
     major: > 
       Chemical Engineering
     year: >
       Class of 2024
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/197.jpg
     text: >
       Annie Chen
     major: > 
       Mechanical Engineering
     year: >
       Class of 2025
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/198.jpg
     text: >
       Annie Wang
     major: > 
       Computer Science
     year: >
       Class of 2024
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/199.jpg
     text: >
       Christina Pham
     major: > 
       Cognitive Science
     year: >
       Class of 2024
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/200.jpg
     text: >
       Darren Huai
     major: > 
       Aerospace Engineering
     year: >
       Class of 2024
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/201.jpg
     text: >
       Kai Alcayde
     major: > 
       Aerospace Engineering
     year: >
       Class of 2024
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/202.jpg
     text: >
       Kenny Wan
     major: > 
       Civil and Environmental Engineering
     year: >
       Class of 2025
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/203.jpg
     text: >
       Krish Shah
     major: > 
       Computer Engineering
     year: >
       Class of 2024
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/204.jpg
     text: >
       Neil Angsanto
     major: > 
       Civil and Environmental Engineering
     year: >
       Class of 2024
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/205.jpg
     text: >
       Rudy Orre
     major: > 
       Computer Science
     year: >
       Class of 2023
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/206.jpg
     text: >
       Sally Min
     major: > 
       Environmental Science
     year: >
       Class of 2023
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/207.jpg
     text: >
       Sam Chan
     major: > 
       Computer Science and Engineering
     year: >
       Class of 2025
-  - image: /img/brothers/pi/189.jpeg
+  - image: /img/brothers/rho/208.jpg
     text: >
       Victoria Ignacio
     major: > 

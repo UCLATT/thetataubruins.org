@@ -45,8 +45,8 @@ export const ActivesPageTemplate = ({
       <p className = "classHeader">Pi Class</p>
       <Features gridItems={classes.pi} />
 
-      {/*<p className = "classHeader">Rho Class</p>
-      <Features gridItems={classes.rho} />*/}
+      <p className = "classHeader">Rho Class</p>
+      <Features gridItems={classes.rho} />
     </div>
   );
 };
@@ -165,11 +165,7 @@ export const ActivesPageQuery = graphql`
             year
           }
           rho {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
-              }
-            }
+            image
             text
             major
             year
