@@ -165,7 +165,11 @@ export const ActivesPageQuery = graphql`
             year
           }
           rho {
-            image
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
             text
             major
             year
