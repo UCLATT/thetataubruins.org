@@ -27,13 +27,7 @@ export const ActivesPageTemplate = ({
 
       <p className = "classHeader" style={{
         marginTop: "40px",
-      }}>Eta Class</p>
-      <Features gridItems={classes.eta} />
-
-      <p className = "classHeader">Mu Class</p>
-      <Features gridItems={classes.mu} />
-
-      <p className = "classHeader">Nu Class</p>
+      }}>Nu Class</p>
       <Features gridItems={classes.nu} />
 
       <p className = "classHeader">Xi Class</p>
@@ -59,8 +53,6 @@ ActivesPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   classes: PropTypes.shape({
-    eta: PropTypes.array,
-    mu: PropTypes.array,
     nu: PropTypes.array,
     xi: PropTypes.array,
     omicron: PropTypes.array,
@@ -104,26 +96,6 @@ export const ActivesPageQuery = graphql`
         heading
         subheading
         classes {
-          eta {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
-              }
-            }
-            text
-            major
-            year
-          }
-          mu {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
-              }
-            }
-            text
-            major
-            year
-          }
           nu {
             image {
               childImageSharp {
