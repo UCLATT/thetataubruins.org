@@ -47,7 +47,7 @@ const RushPage = ({
 
     return (
         <Layout>
-            <FullWidthImageSmall image={heroImage} title={'Fall Recruitment 2022'} subheading={''} />
+            <FullWidthImageSmall image={heroImage} title={'Spring Recruitment 2023'} subheading={''} />
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Letter from the Recruitment Chairs</h1>
                 <br />

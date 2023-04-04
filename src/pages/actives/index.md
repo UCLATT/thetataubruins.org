@@ -164,13 +164,13 @@ classes:
         Computer Science and Engineering
       year: >
         Class of 2023
-    - image: /img/brothers/pi/190.jpeg
-      text: >
-        Charlotte Schmitt
-      major: > 
-        Bioengineering
-      year: >
-        Class of 2025
+    # - image: /img/brothers/pi/190.jpeg
+    #   text: >
+    #     Charlotte Schmitt
+    #   major: > 
+    #     Bioengineering
+    #   year: >
+    #     Class of 2025
     - image: /img/brothers/pi/191.jpeg
       text: >
         Eric Zhang
@@ -214,13 +214,13 @@ classes:
         Chemical Engineering
       year: >
         Class of 2024
-    - image: /img/brothers/rho/197.jpg
-      text: >
-        Annie Chen
-      major: > 
-        Mechanical Engineering
-      year: >
-        Class of 2025
+    # - image: /img/brothers/rho/197.jpg
+    #   text: >
+    #     Annie Chen
+    #   major: > 
+    #     Mechanical Engineering
+    #   year: >
+    #     Class of 2025
     - image: /img/brothers/rho/198.jpg
       text: >
         Annie Wang

@@ -32,11 +32,11 @@ positions:
         Junho Choi
       major: > 
         Treasurer
-    - image: /img/brothers/pi/190.jpeg
-      text: >
-        Charlotte Schmitt
-      major: > 
-        Scribe
+    # - image: /img/brothers/pi/190.jpeg
+    #   text: >
+    #     Charlotte Schmitt
+    #   major: > 
+    #     Scribe
     - image: /img/brothers/omicron/186.jpg
       text: >
         Pranav Pata
