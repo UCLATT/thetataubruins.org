@@ -41,6 +41,9 @@ export const ActivesPageTemplate = ({
 
       <p className = "classHeader">Rho Class</p>
       <Features gridItems={classes.rho} />
+
+      <p className = "classHeader">Sigma Class</p>
+      <Features gridItems={classes.sigma} />
     </div>
   );
 };
@@ -146,7 +149,16 @@ export const ActivesPageQuery = graphql`
             major
             year
           }
-
+          sigma {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
         }
       }
     }

@@ -15,6 +15,13 @@
 
 This repo contains the frontend for the new https://thetataubruins.org that is built with [Gatsby](https://www.gatsbyjs.org/) and deployed on [Github Pages](https://pages.github.com/).
 
+## MAKING CHANGES
+1. Updating for new classes
+
+2. Updating RUSH info:
+  Change Navbar.js for the google interest form
+  go to rush/index.js to update the rush info dates + the letter
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/)
