@@ -97,7 +97,7 @@ classes:
       text: >
         Anish Dulla
       major: > 
-        Statistics
+        Statistics and Data Science
       year: >
         Class of 2024
     - image: /img/brothers/omicron/180.jpg
@@ -139,7 +139,7 @@ classes:
       text: >
         Shashvat Patel
       major: > 
-        Statistics
+        Statistics and Data Science
       year: >
         Class of 2024
   pi:

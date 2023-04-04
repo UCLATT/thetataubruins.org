@@ -1135,13 +1135,6 @@ classes:
     #     Mechanical Engineering
     #   year: >
     #     Class of 2023
-    - image: /img/brothers/nu/160.jpg
-      text: >
-        Daniel Smith
-      major: > 
-        Computer Science
-      year: >
-        Class of 2022
     - image: /img/brothers/nu/161.jpg
       text: >
         Dorian Humbert
