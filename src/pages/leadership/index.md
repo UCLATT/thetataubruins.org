@@ -53,12 +53,12 @@ positions:
         Adelpha Chan
       major: > 
         External Affairs Chair
-    - image: /img/brothers/nu/155.jpg
+    - image: /img/brothers/sigma/216.jpg
       text: >
         Kelly Tran
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/nu/155.jpg
+    - image: /img/brothers/sigma/210.jpg
       text: >
         Annie Cen
       major: > 
@@ -83,7 +83,7 @@ positions:
         Eric Zhang
       major: > 
         Service Chair
-    - image: /img/brothers/nu/155.jpg
+    - image: /img/brothers/sigma/213.jpg
       text: >
         Clara Lee
       major: > 

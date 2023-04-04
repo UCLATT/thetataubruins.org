@@ -312,7 +312,7 @@ classes:
       major: > 
         Mathematics of Computation
       year: >
-        Class of 2023
+        Class of 2025
     - image: /img/brothers/sigma/211.jpg
       text: >
         Chen Tzen Kok

@@ -168,6 +168,15 @@ const NavbarHome = class extends React.Component {
                             <NavDropdown.Item>
                               <Link 
                                 className="navbar-item"
+                                to="/leadership"
+                                style = {{ textDecoration: "none" }}>
+                                Leadership
+                              </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item>
+                              <Link 
+                                className="navbar-item"
                                 to="/alumni"
                                 style = {{ textDecoration: "none" }}>
                                 Alumni
@@ -274,6 +283,14 @@ const NavbarHome = class extends React.Component {
                     to="/actives"
                     style = {{ textDecoration: "none" }}>
                     Actives
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item href="https://www.thetataubruins.org/leadership.html">
+                  <Link 
+                    className="navbar-item"
+                    to="/leadership"
+                    style = {{ textDecoration: "none" }}>
+                    Leadership
                   </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item href="https://www.thetataubruins.org/alumni.html">
