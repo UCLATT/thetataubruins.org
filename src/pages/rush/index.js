@@ -85,7 +85,7 @@ const RushPage = ({
                             title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni"
                             description={[
                                 '6-8 PM',
-                                'Location TBD',
+                                'Engineering VI Patio',
                                 'Business Casual',
                             ]}
                         />
