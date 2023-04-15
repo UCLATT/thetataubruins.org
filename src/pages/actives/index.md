@@ -128,6 +128,13 @@ classes:
         Computer Science
       year: >
         Class of 2023
+    - image: /img/brothers/omicron/184.jpg
+      text: >
+        Kevin Tang
+      major: >
+        Computer Science
+      year: >
+        Class of 2023
     - image: /img/brothers/omicron/186.jpg
       text: >
         Pranav Pata
