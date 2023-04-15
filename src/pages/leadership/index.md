@@ -37,6 +37,11 @@ positions:
     #     Charlotte Schmitt
     #   major: > 
     #     Scribe
+    - image: /img/brothers/rho/207.jpg
+      text: >
+        Sam Chan
+      major: > 
+        Scribe
     - image: /img/brothers/omicron/186.jpg
       text: >
         Pranav Pata
