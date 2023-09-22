@@ -8,6 +8,8 @@ import Features from "../components/Features";
 import { getImage } from "gatsby-plugin-image";
 
 import FullWidthImageSmall from "../components/FullWidthImageSmall";
+//test
+
 
 // eslint-disable-next-line
 export const ActivesPageTemplate = ({
@@ -29,7 +31,7 @@ export const ActivesPageTemplate = ({
         marginTop: "40px",
       }}>Omicron Class</p>
       <Features gridItems={classes.omicron} />
-
+      
       <p className = "classHeader">Pi Class</p>
       <Features gridItems={classes.pi} />
 
