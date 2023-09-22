@@ -27,13 +27,7 @@ export const ActivesPageTemplate = ({
 
       <p className = "classHeader" style={{
         marginTop: "40px",
-      }}>Nu Class</p>
-      <Features gridItems={classes.nu} />
-
-      <p className = "classHeader">Xi Class</p>
-      <Features gridItems={classes.xi} />
-
-      <p className = "classHeader">Omicron Class</p>
+      }}>Omicron Class</p>
       <Features gridItems={classes.omicron} />
 
       <p className = "classHeader">Pi Class</p>
