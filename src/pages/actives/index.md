@@ -195,7 +195,7 @@ classes:
       text: >
         Sam Chan
       major: > 
-        Computer Science and Engineering
+        Computer Science
       year: >
         Class of 2025
     - image: /img/brothers/rho/208.jpg
