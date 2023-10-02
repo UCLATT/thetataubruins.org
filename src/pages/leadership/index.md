@@ -22,7 +22,7 @@ positions:
         Tracy Nguyen
       major: > 
         Corresponding Secretary
-    - image: /img/brothers/rho/200.jpg
+    - image: /img/brothers/rho/196.jpg
       text: >
         Angela Liu
       major: > 
@@ -90,7 +90,7 @@ positions:
         Service Chair
     - image: /img/brothers/tau/226.jpeg
       text: >
-        Fundraising Chair
+        Emma Buxton
       major: > 
         Fundraising Chair
     - image: /img/brothers/rho/198.jpg
