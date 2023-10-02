@@ -445,7 +445,7 @@ export const FamilyTreeTemplate = ({
                                                     <a className="alumni">Duncan Di Mauro</a>
                                                     <ul>
                                                       <li>
-                                                        <a className="alumni">Shashvat Patel</a>
+                                                        <a>Shashvat Patel</a>
                                                         <ul>
                                                           <li>
                                                             <a>Akshay Gupta</a>
@@ -569,7 +569,7 @@ export const FamilyTreeTemplate = ({
                                     <a className="alumni">Ryan Lin</a>
                                     <ul>
                                       <li>
-                                        <a className="alumni">Mengan Wang</a>
+                                        <a>Mengan Wang</a>
                                         <ul>
                                           <li>
                                             <a>Kok Chen Tzen</a>
