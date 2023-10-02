@@ -1302,7 +1302,7 @@ classes:
     text: >
       Karl Goeltner
     major: > 
-      Computer Science and Engineering
+      Computer Science
     year: >
       Class of 2023
   - image: /img/brothers/omicron/184.jpg
