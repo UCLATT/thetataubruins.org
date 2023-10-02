@@ -7,13 +7,13 @@ subheading: Meet the brothers of Theta Tau
 
 classes:
   omicron:
-    - image: /img/brothers/omicron/178.jpg
-      text: >
-        Mengan Wang
-      major: > 
-        Computer Science
-      year: >
-        Class of 2024
+    # - image: /img/brothers/omicron/178.jpg
+    #   text: >
+    #     Mengan Wang
+    #   major: > 
+    #     Computer Science
+    #   year: >
+    #     Class of 2024
     - image: /img/brothers/omicron/179.jpg
       text: >
         Anish Dulla
@@ -238,7 +238,7 @@ classes:
       text: >
         Clara Lee
       major: > 
-        Chemical Engineering
+        Mechanical Engineering
       year: >
         Class of 2026
     - image: /img/brothers/sigma/214.jpg
@@ -269,13 +269,13 @@ classes:
         Computer Science
       year: >
         Class of 2024
-    - image: /img/brothers/sigma/218.jpg
-      text: >
-        Kevin Yuan
-      major: > 
-        Computer Science
-      year: >
-        Class of 2026
+    # - image: /img/brothers/sigma/218.jpg    // TODO: put back on after Fall 23 pledging ends
+    #   text: >
+    #     Kevin Yuan
+    #   major: > 
+    #     Computer Science
+    #   year: >
+    #     Class of 2026
     - image: /img/brothers/sigma/219.jpg
       text: >
         Rachel Shim
@@ -294,7 +294,7 @@ classes:
       text: >
         Sophia Lee
       major: > 
-        Computer Engineering
+        Computer Science
       year: >
         Class of 2026
     - image: /img/brothers/sigma/222.jpg
@@ -311,5 +311,83 @@ classes:
         Computer Science
       year: >
         Class of 2025
+  tau:
+    # - image: /img/brothers/tau/224.jpeg     // TODO: put back on after Fall 23 pledging ends
+    #   text: >
+    #     Benjamin Xie
+    #   major: > 
+    #     Mechanical Engineering
+    #   year: >
+    #     Class of 226
+    - image: /img/brothers/tau/225.jpeg
+      text: >
+        Danny Dang
+      major: > 
+        Math of Computation
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/226.jpeg
+      text: >
+        Emma Buxton
+      major: > 
+        Bioengineering
+      year: >
+        Class of 2025
+    - image: /img/brothers/tau/227.jpeg
+      text: >
+        Erika Tran
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/228.jpeg
+      text: >
+        Farrel Gormargana
+      major: > 
+        Math of Computation
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/229.jpeg
+      text: >
+        June Park
+      major: > 
+        Data Theory
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/230.jpeg
+      text: >
+        Lana Dang
+      major: > 
+        Civil Engineering
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/231.jpeg
+      text: >
+        Ryan Vu
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    # - image: /img/brothers/tau/232.jpeg
+    #   text: >
+    #     Teresa Bui
+    #   major: > 
+    #     Engineering Geology
+    #   year: >
+    #     Class of 2025
+    - image: /img/brothers/tau/233.jpeg
+      text: >
+        Tom Oh
+      major: > 
+        Linguistics and Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/234.jpeg
+      text: >
+        Yena Lee
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2026
 
 ---

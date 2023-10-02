@@ -51,7 +51,7 @@ const Footer = () => {
             <h3 class="mb3 gray">Rush</h3>
             <p><a style={{color:'white'}} href="/rush">Information</a></p>
             {/*<p><a href="/rush_faq">FAQ</a></p>*/}
-            <p><a style={{color:'white'}} href="https://docs.google.com/forms/d/e/1FAIpQLSfECD-PXQ4Yv6Ykwr6ohV9AhdcIN4kGOzgrV5L8yrUu37UT_A/viewform">Apply</a></p>
+            <p><a style={{color:'white'}} href="https://docs.google.com/forms/d/e/1FAIpQLSeHz02nUNkVZDlWY_YruaA3A16T-bIw2lz5XzbmyVyaNeTNXw/viewform">Apply</a></p>
           </div>
           <div class="col-xs-6 col-sm-3 mt3" style={{paddingTop: '15px'}}>
             <h3 class="mb3 gray">Contact</h3>

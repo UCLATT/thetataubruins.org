@@ -1319,13 +1319,13 @@ classes:
       Computer Science
     year: >
       Class of 2022
-  - image: /img/brothers/omicron/186.jpg
-    text: >
-      Pranav Pata
-    major: > 
-      Computer Science
-    year: >
-      Class of 2024
+  # - image: /img/brothers/omicron/186.jpg
+  #   text: >
+  #     Pranav Pata
+  #   major: > 
+  #     Computer Science
+  #   year: >
+  #     Class of 2024
   # - image: /img/brothers/omicron/187.jpg
   #   text: >
   #     Shashvat Patel

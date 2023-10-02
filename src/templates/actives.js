@@ -40,6 +40,9 @@ export const ActivesPageTemplate = ({
 
       <p className = "classHeader">Sigma Class</p>
       <Features gridItems={classes.sigma} />
+
+      <p className = "classHeader">Tau Class</p>
+      <Features gridItems={classes.tau} />
     </div>
   );
 };
@@ -57,6 +60,8 @@ ActivesPageTemplate.propTypes = {
     omicron: PropTypes.array,
     pi: PropTypes.array,
     rho: PropTypes.array,
+    sigma: PropTypes.array,
+    // tau: PropTypes.array
   }),
 };
 
@@ -146,6 +151,16 @@ export const ActivesPageQuery = graphql`
             year
           }
           sigma {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+          tau {
             image {
               childImageSharp {
                 gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
