@@ -7,13 +7,13 @@ subheading: Meet the brothers of Theta Tau
 
 classes:
   omicron:
-    # - image: /img/brothers/omicron/178.jpg
-    #   text: >
-    #     Mengan Wang
-    #   major: > 
-    #     Computer Science
-    #   year: >
-    #     Class of 2024
+    - image: /img/brothers/omicron/178.jpg
+      text: >
+        Mengan Wang
+      major: > 
+        Computer Science
+      year: >
+        Class of 2024
     - image: /img/brothers/omicron/179.jpg
       text: >
         Anish Dulla
@@ -56,13 +56,13 @@ classes:
     #     Computer Science
     #   year: >
     #     Class of 2023
-    # - image: /img/brothers/omicron/186.jpg
-    #   text: >
-    #     Pranav Pata
-    #   major: > 
-    #     Computer Science
-    #   year: >
-    #     Class of 2024
+    - image: /img/brothers/omicron/186.jpg
+      text: >
+        Pranav Pata
+      major: > 
+        Computer Science
+      year: >
+        Class of 2024
     - image: /img/brothers/omicron/187.jpg
       text: >
         Shashvat Patel
