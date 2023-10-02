@@ -1333,8 +1333,14 @@ classes:
   #     Statistics
   #   year: >
   #     Class of 2024
-
   pi:
+  - image: /img/brothers/pi/187-188.jpg
+    text: >
+      Aaron Park
+    major: >
+      Bioengineering
+    year: >
+      Class of 2023
   - image: /img/brothers/pi/188.jpeg
     text: >
       Amanda Ung
