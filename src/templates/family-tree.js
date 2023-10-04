@@ -876,6 +876,11 @@ export const FamilyTreeTemplate = ({
                                               </li>
                                               <li>
                                                 <a>Tracy Nguyen</a>
+                                                <ul>
+                                                  <li>
+                                                    <a>Benjamin Xie</a>
+                                                  </li>
+                                              </ul>
                                               </li>
                                             </ul>
                                           </li>
@@ -991,9 +996,9 @@ export const FamilyTreeTemplate = ({
                                                   </li>
                                                 </ul>
                                               </li>
-                                              {/* <li>
-                                                <a>Kevin Yuan</a>   // TODO: Add back after Fall 23 pledging ends
-                                              </li> */}
+                                              <li>
+                                                <a>Kevin Yuan</a>
+                                              </li>
                                             </ul>
                                           </li>
                                         </ul>
