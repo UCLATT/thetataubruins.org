@@ -103,7 +103,7 @@ classes:
       text: >
         Wyatt Babcock
       major: > 
-        Mechancial Engineering
+        Mechanical Engineering
       year: >
         Class of 2025
   rho:
@@ -153,14 +153,14 @@ classes:
       text: >
         Kai Alcayde
       major: > 
-        Aerospace Engineering
+        Mechanical Engineering
       year: >
         Class of 2024
     - image: /img/brothers/rho/202.jpg
       text: >
         Kenny Wan
       major: > 
-        Civil and Environmental Engineering
+        Computer Science
       year: >
         Class of 2025
     - image: /img/brothers/rho/203.jpg
