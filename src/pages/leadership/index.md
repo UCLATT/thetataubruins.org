@@ -63,11 +63,11 @@ positions:
         Clara Lee
       major: > 
         Co-Rush Chair
-    # - image: /img/brothers/sigma/210.jpg      // TODO:Fill in with Teresa later
-    #   text: >
-    #     Annie Cen
-    #   major: > 
-    #     Co-Rush Chair
+    - image: /img/brothers/tau/232.jpeg
+      text: >
+        Teresa Bui
+      major: > 
+        Co-Rush Chair
     - image: /img/brothers/sigma/209.jpg
       text: >
         Alan Vuong
