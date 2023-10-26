@@ -368,13 +368,13 @@ classes:
         Computer Science
       year: >
         Class of 2026
-    # - image: /img/brothers/tau/232.jpeg
-    #   text: >
-    #     Teresa Bui
-    #   major: > 
-    #     Engineering Geology
-    #   year: >
-    #     Class of 2025
+    - image: /img/brothers/tau/232.jpeg
+      text: >
+        Teresa Bui
+      major: > 
+        Engineering Geology
+      year: >
+        Class of 2025
     - image: /img/brothers/tau/233.jpeg
       text: >
         Tom Oh
