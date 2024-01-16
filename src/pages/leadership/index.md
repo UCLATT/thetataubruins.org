@@ -7,14 +7,14 @@ subheading: Meet our 2023-2024 Executive Board and Committee Chairs
 
 positions:
   exec:
-    - image: /img/brothers/rho/207.jpg
+    - image: /img/brothers/sigma/210.jpg
       text: > # we use text/major instead of name/position just cuz lazy and re-use code lol
-        Sam Chan
+        Annie Cen
       major: > 
         Co-Regent
-    - image: /img/brothers/rho/201.jpg
+    - image: /img/brothers/sigma/216.jpg
       text: >
-        Kai Alcayde
+        Kelly Tran
       major: > 
         Co-Regent
     - image: /img/brothers/sigma/222.jpg
