@@ -269,13 +269,13 @@ classes:
         Computer Science
       year: >
         Class of 2024
-    # - image: /img/brothers/sigma/218.jpg    // TODO: put back on after Fall 23 pledging ends
-    #   text: >
-    #     Kevin Yuan
-    #   major: > 
-    #     Computer Science
-    #   year: >
-    #     Class of 2026
+    - image: /img/brothers/sigma/218.jpg
+      text: >
+        Kevin Yuan
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
     - image: /img/brothers/sigma/219.jpg
       text: >
         Rachel Shim
@@ -312,13 +312,12 @@ classes:
       year: >
         Class of 2025
   tau:
-    # - image: /img/brothers/tau/224.jpeg     // TODO: put back on after Fall 23 pledging ends
-    #   text: >
-    #     Benjamin Xie
-    #   major: > 
-    #     Mechanical Engineering
-    #   year: >
-    #     Class of 226
+    - image: /img/brothers/tau/224.jpeg
+        Benjamin Xie
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 226
     - image: /img/brothers/tau/225.jpeg
       text: >
         Danny Dang
