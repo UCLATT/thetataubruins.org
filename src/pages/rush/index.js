@@ -51,11 +51,11 @@ const RushPage = ({
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Letter from the Recruitment Chairs</h1>
                 <br />
-                Hey there Fall Rush 2023!
+                Hey there Spring Rush 2024!
                 <br /><br />
-                We are thrilled to welcome you to our upcoming recruitment week for Theta Tau’s Upsilon Delta Chapter. Although we are known as a professional fraternity, our chapter prides ourselves on our heavy emphasis on the brotherhood and family that we’ve formed over past few the years. As the recruitment chairs, we wanted to take a moment to express our excitement for the upcoming recruitment week and the opportunity to meet you!
+                We are thrilled to welcome you to our upcoming recruitment week for Theta Tau's Upsilon Delta Chapter. Although we are known as a professional fraternity, our chapter prides ourselves on our heavy emphasis on the brotherhood and family that we've formed over past few the years. As the recruitment chairs, we wanted to take a moment to express our excitement for the upcoming recruitment week and the opportunity to meet you!
                 <br /><br />
-                We were both in your exact position, uncertain about our career paths and struggling to find our place within the uncharted territory that is UCLA Engineering. We came to recruitment with the hope of finding a group of lifelong friends and mentors to guide and support us. The strangers that we met at the beginning of recruitment week eventually became the people we now call our family. It wasn’t until after we joined that we realized we had found exactly what we were looking for.
+                We were both in your exact position, uncertain about our career paths and struggling to find our place within the uncharted territory that is UCLA Engineering. We came to recruitment with the hope of finding a group of lifelong friends and mentors to guide and support us. The strangers that we met at the beginning of recruitment week eventually became the people we now call our family. It wasn't until after we joined that we realized we had found exactly what we were looking for.
                 <br /><br />
                 Whether it be frantically trying to figure out a trivial bug before a midnight deadline or going on a spontaneous snowboarding trip only to be deserted in the mountains, our brothers are always only a call away. While we all come from different walks of life, we were able to find common ground in our path of self-discovery. There is no one specific type of personality that belongs to Theta Tau. We strive to learn from each other and to be proud of all our achievements.
                 <br /><br />
@@ -63,14 +63,14 @@ const RushPage = ({
                 <br /><br />
                 Your Recruitment Chairs,
                 <br /><br />
-                – Clara Lee and Teresa Bui
+                - Danny Dang and Tom Oh
             </section>
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Recruitment Schedule</h1>
                 <br />
                 
                 <Timeline lang="en" theme={customTheme} dateFormat="with-weekday" collapse>
-                    <Container2 title="Meet the Chapter" startDate="2023/10/02">
+                    <Container2 title="Meet the Brothers" startDate="2024/04/08">
                         <Content
                             title="Get to know the brothers of Theta Tau"
                             description={[
@@ -80,7 +80,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Information Night" startDate="2023/10/03">
+                    <Container2 title="Information Night" startDate="2024/04/09">
                         <Content
                             title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni"
                             description={[
@@ -90,7 +90,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Engineering Night" startDate="2023/10/04">
+                    <Container2 title="Engineering Night" startDate="2024/04/10">
                         <Content
                             title="Put your innovation skills to the test in a fun engineering challenge!"
                             description={[
@@ -100,7 +100,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Beach Night" startDate="2023/10/05">
+                    <Container2 title="Beach Night" startDate="2024/04/11">
                         <Content
                             title="Enjoy an evening at the beach and get to know the bros better!"
                             description={[
@@ -110,7 +110,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Interviews" startDate="2023/10/06">
+                    <Container2 title="Interviews" startDate="2024/04/12">
                         <Content
                             title="TBD"
                             description={[
@@ -122,7 +122,7 @@ const RushPage = ({
                     </Container2>
                 </Timeline>
                 <div style={{textAlign: 'center'}}>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHz02nUNkVZDlWY_YruaA3A16T-bIw2lz5XzbmyVyaNeTNXw/viewform">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc_isxhZS0EoAldXRiV41uPwURME_yMXkgKmHwQR53C4mF7lQ/viewform">
                         <button
                             style={{
                                 width: '200px'
@@ -130,7 +130,7 @@ const RushPage = ({
                             class="button-27"
                             role="button"
                         >
-                            APPLY
+                            INTEREST FORM
                         </button>
                     </a>
                 </div>
@@ -254,7 +254,7 @@ const RushPage = ({
                             <blockquote className="blockquote mb-0">
                             <p>
                                 {' '}
-                                "I came into rush like most people - confused, shy, and alone. I never thought that it would give me some of my most valuable memories, countless laughs and lifelong friends that I can’t, and don’t want to, imagine my life without.."{' '}
+                                "I came into rush like most people - confused, shy, and alone. I never thought that it would give me some of my most valuable memories, countless laughs and lifelong friends that I can't, and don't want to, imagine my life without.."{' '}
                             </p>
                             <footer className="blockquote-footer">
                                 Shushanik Stepanyan, <cite title="Source Title">Epsilon Class</cite>
