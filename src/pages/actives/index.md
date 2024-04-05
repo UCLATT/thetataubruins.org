@@ -457,7 +457,7 @@ classes:
       text: >
         Shirley Xiang
       major: > 
-        Linguistics and Computer Science
+        Mechanical Engineering
       year: >
         Class of 2027
 ---

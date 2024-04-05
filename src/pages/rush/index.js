@@ -223,7 +223,7 @@ const RushPage = ({
             <section className="section section--gradient" style={{ marginLeft: "10%", marginRight: "10%" }}>
             <Container>
                 <Row>
-                    <Col><StaticImage src="../../img/rush/rush1.jpg" alt="" style={{ borderRadius: '30px' }} /></Col>
+                    <Col><StaticImage src="../../img/rush/tauRush2023.jpg" alt="" style={{ borderRadius: '30px' }} /></Col>
                     <Col><StaticImage src="../../img/rush/rush2.jpg" alt="" style={{ borderRadius: '30px' }} /></Col>
                 </Row>
                 <Row style={{ marginTop: "25px"}}>

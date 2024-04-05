@@ -7,7 +7,7 @@ import LayoutHome from "../components/LayoutHome";
 import FullWidthImage from "../components/FullWidthImage";
 import { StaticImage } from "gatsby-plugin-image"
 
-import homeImage from '../../static/img/home.png';
+import homeImage from '../../static/img/TauBanquetHomeImg.jpg';
 
 
 import "../css/index-page.css";
