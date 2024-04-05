@@ -43,6 +43,9 @@ export const ActivesPageTemplate = ({
 
       <p className = "classHeader">Tau Class</p>
       <Features gridItems={classes.tau} />
+
+      <p className = "classHeader">Upsilon Class</p>
+      <Features gridItems={classes.upsilon} />
     </div>
   );
 };
@@ -61,7 +64,8 @@ ActivesPageTemplate.propTypes = {
     pi: PropTypes.array,
     rho: PropTypes.array,
     sigma: PropTypes.array,
-    // tau: PropTypes.array
+    tau: PropTypes.array,
+    upsilon: PropTypes.array,
   }),
 };
 
@@ -161,6 +165,16 @@ export const ActivesPageQuery = graphql`
             year
           }
           tau {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+          upsilon {
             image {
               childImageSharp {
                 gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)

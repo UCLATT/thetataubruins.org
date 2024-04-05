@@ -389,4 +389,75 @@ classes:
         Mechanical Engineering
       year: >
         Class of 2026
+  upsilon:
+    - image: /img/brothers/upsilon/235.jpg
+      text: >
+        Aaron Huynh
+      major: > 
+        Physics
+      year: >
+        Class of 2025
+    - image: /img/brothers/upsilon/236.jpg
+      text: >
+        Alex Yoon
+      major: > 
+        Computer Science and Engineering
+      year: >
+        Class of 2027
+    - image: /img/brothers/upsilon/237.jpg
+      text: >
+        Andy Ren
+      major: > 
+        Math of Computation
+      year: >
+        Class of 2026
+    - image: /img/brothers/upsilon/238.jpg
+      text: >
+        Jordan Yen
+      major: > 
+        Linguistics and Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/upsilon/239.jpg
+      text: >
+        Joseph Lee
+      major: > 
+        Cognitive Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/upsilon/240.jpg
+      text: >
+        Justin Nguyen
+      major: > 
+        Linguistics and Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/upsilon/241.jpg
+      text: >
+        Justin Sheehan
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2027
+    - image: /img/brothers/upsilon/242.jpg
+      text: >
+        Rohan Jadhav
+      major: > 
+        Math of Computation
+      year: >
+        Class of 2027
+    - image: /img/brothers/upsilon/243.jpg
+      text: >
+        Ryan Korb
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2026
+    - image: /img/brothers/upsilon/244.jpg
+      text: >
+        Shirley Xiang
+      major: > 
+        Linguistics and Computer Science
+      year: >
+        Class of 2027
 ---
