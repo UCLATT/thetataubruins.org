@@ -205,7 +205,7 @@ const NavbarHome = class extends React.Component {
                               </Link>
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSeHz02nUNkVZDlWY_YruaA3A16T-bIw2lz5XzbmyVyaNeTNXw/viewform">
+                            <NavDropdown.Item target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc_isxhZS0EoAldXRiV41uPwURME_yMXkgKmHwQR53C4mF7lQ/viewform">
                             <Link 
                                 className="navbar-item"
                                 style = {{ textDecoration: "none" }}>
