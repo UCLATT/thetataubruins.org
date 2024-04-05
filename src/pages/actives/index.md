@@ -313,6 +313,7 @@ classes:
         Class of 2025
   tau:
     - image: /img/brothers/tau/224.jpeg
+      text: >
         Benjamin Xie
       major: > 
         Mechanical Engineering
@@ -388,5 +389,4 @@ classes:
         Mechanical Engineering
       year: >
         Class of 2026
-
 ---
