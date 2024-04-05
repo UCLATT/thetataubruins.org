@@ -316,7 +316,7 @@ classes:
       text: >
         Benjamin Xie
       major: > 
-        Mechanical Engineering
+        Computer Science
       year: >
         Class of 2026
     - image: /img/brothers/tau/225.jpeg
@@ -358,7 +358,7 @@ classes:
       text: >
         Lana Dang
       major: > 
-        Civil Engineering
+        Mechanical Engineering
       year: >
         Class of 2026
     - image: /img/brothers/tau/231.jpeg
