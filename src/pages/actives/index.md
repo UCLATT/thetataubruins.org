@@ -317,7 +317,7 @@ classes:
       major: > 
         Mechanical Engineering
       year: >
-        Class of 226
+        Class of 2026
     - image: /img/brothers/tau/225.jpeg
       text: >
         Danny Dang
