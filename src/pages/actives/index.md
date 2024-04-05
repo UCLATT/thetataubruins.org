@@ -293,7 +293,7 @@ classes:
     - image: /img/brothers/sigma/221.jpg
       text: >
         Sophia Lee
-      major: > 
+      major: >
         Computer Science
       year: >
         Class of 2026
