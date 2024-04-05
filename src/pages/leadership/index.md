@@ -58,14 +58,14 @@ positions:
         Kelly Tran
       major: > 
         Co-External Affairs Chair
-    - image: /img/brothers/sigma/213.jpg
+    - image: /img/brothers/tau/225.jpeg
       text: >
-        Clara Lee
+        Danny Dang
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/tau/232.jpeg
+    - image: /img/brothers/tau/233.jpeg
       text: >
-        Teresa Bui
+        Tom Oh
       major: > 
         Co-Rush Chair
     - image: /img/brothers/sigma/209.jpg
