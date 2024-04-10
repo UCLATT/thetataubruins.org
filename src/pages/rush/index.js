@@ -59,7 +59,7 @@ const RushPage = ({
                 <br /><br />
                 Whether it be frantically trying to figure out a trivial bug before a midnight deadline or going on a spontaneous snowboarding trip only to be deserted in the mountains, our brothers are always only a call away. While we all come from different walks of life, we were able to find common ground in our path of self-discovery. There is no one specific type of personality that belongs to Theta Tau. We strive to learn from each other and to be proud of all our achievements.
                 <br /><br />
-                This Fall, we hope you will look past your fears and hesitations to find your place within this genuine group of individuals who we call home.
+                This Spring, we hope you will look past your fears and hesitations to find your place within this genuine group of individuals who we call home.
                 <br /><br />
                 Your Recruitment Chairs,
                 <br /><br />

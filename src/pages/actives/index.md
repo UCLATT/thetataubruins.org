@@ -283,13 +283,13 @@ classes:
         Electrical Engineering
       year: >
         Class of 2026
-    - image: /img/brothers/sigma/220.jpg
-      text: >
-        Ryan Ung
-      major: > 
-        Computer Science
-      year: >
-        Class of 2025
+    # - image: /img/brothers/sigma/220.jpg    # put back after Spring 2024 pledging
+    #   text: >
+    #     Ryan Ung
+    #   major: > 
+    #     Computer Science
+    #   year: >
+    #     Class of 2025
     - image: /img/brothers/sigma/221.jpg
       text: >
         Sophia Lee
@@ -418,20 +418,20 @@ classes:
         Linguistics and Computer Science
       year: >
         Class of 2027
-    - image: /img/brothers/upsilon/239.jpg
-      text: >
-        Joseph Lee
-      major: > 
-        Cognitive Science
-      year: >
-        Class of 2027
+    # - image: /img/brothers/upsilon/239.jpg    # put back after Spring 2024 pledging
+    #   text: >
+    #     Joseph Lee
+    #   major: > 
+    #     Cognitive Science
+    #   year: >
+    #     Class of 2026
     - image: /img/brothers/upsilon/240.jpg
       text: >
         Justin Nguyen
       major: > 
         Linguistics and Computer Science
       year: >
-        Class of 2027
+        Class of 2025
     - image: /img/brothers/upsilon/241.jpg
       text: >
         Justin Sheehan
@@ -446,13 +446,13 @@ classes:
         Math of Computation
       year: >
         Class of 2027
-    - image: /img/brothers/upsilon/243.jpg
-      text: >
-        Ryan Korb
-      major: > 
-        Electrical Engineering
-      year: >
-        Class of 2026
+    # - image: /img/brothers/upsilon/243.jpg    # put back after Spring 2024 pledging
+    #   text: >
+    #     Ryan Korb
+    #   major: > 
+    #     Electrical Engineering
+    #   year: >
+    #     Class of 2026
     - image: /img/brothers/upsilon/244.jpg
       text: >
         Shirley Xiang

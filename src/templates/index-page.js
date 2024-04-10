@@ -46,13 +46,13 @@ export const IndexPageTemplate = ({
           <Col>
             <h1 className = "home-piller-text">Service</h1>
             <p>
-              We develop and nurture engineers with strong communication, problem-solving, collaboration, and leadership skills that we demonstrate in our profession, our community, and in our lives.
+              We are known for our service to our college, university and the larger community. Our service projects create a unifying environment for learning and personal growth for our members.
             </p>
           </Col>
           <Col>
             <h1 className = "home-piller-text">Professionalism</h1>
+              We develop and nurture engineers with strong communication, problem-solving, collaboration, and leadership skills that we demonstrate in our profession, our community, and in our lives.
             <p>
-              We are known for our service to our college, university and the larger community. Our service projects create a unifying environment for learning and personal growth for our members.
             </p>
           </Col>
         </Row>
