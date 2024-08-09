@@ -4,6 +4,10 @@
   margin-bottom: 50px;
 }
 
+.container {
+  max-width: 80vw !important;
+}
+
 .family {
   /* width: 100%; */
   overflow: scroll;
@@ -11,6 +15,16 @@
   overflow-x: auto;
   width: 95vw;
   height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.family .tree:first-child {
+  margin-left: auto;
+}
+
+.family .tree:last-child {
+  margin-right: auto;
 }
 
 .tree {
