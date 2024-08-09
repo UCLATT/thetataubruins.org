@@ -33,7 +33,7 @@ export const FamilyTreeTemplate = ({
         marginTop: "40px",
       }}>Veritas</p>
     <div className="container family">
-      <div className="tree" style={{width:'1700px'}}>
+      <div className="tree" style={{width:'2000px'}}>
         <ul>
           <li>
             <a className="alumni">Alan Bui</a>
@@ -119,6 +119,11 @@ export const FamilyTreeTemplate = ({
                                   <ul>
                                     <li>
                                       <a>Kelly Yu</a>
+                                      <ul>
+                                        <li>
+                                          <a>Chloe Yoon</a>
+                                        </li>
+                                      </ul>
                                     </li>
                                   </ul>
                                 </ul>
@@ -170,6 +175,11 @@ export const FamilyTreeTemplate = ({
                                       <ul>
                                         <li>
                                           <a>Emma Buxton</a>
+                                          <ul>
+                                            <li>
+                                              <a>Thomas McConnell</a>
+                                            </li>
+                                          </ul>
                                         </li>
                                       </ul>
                                     </li>
@@ -215,6 +225,14 @@ export const FamilyTreeTemplate = ({
                                             <a>Kenny Wan</a>
                                             <ul>
                                               <a>Justin Nguyen</a>
+                                              <ul>
+                                                <li>
+                                                  <a>Arjun Mittha</a>
+                                                </li>
+                                                <li>
+                                                  <a>Ryan Vu</a>
+                                                </li>
+                                              </ul>
                                             </ul>
                                           </li>
                                         </ul>
@@ -331,6 +349,11 @@ export const FamilyTreeTemplate = ({
                                             <ul>
                                               <li>
                                                 <a>Farrel Gormargana</a>
+                                                <ul>
+                                                  <li>
+                                                    <a>Helene Gao</a>
+                                                  </li>
+                                                </ul>
                                               </li>
                                             </ul>
                                           </li>
@@ -509,7 +532,7 @@ export const FamilyTreeTemplate = ({
         marginTop: "40px",
       }}>Atlas</p>
     <div className="container family text-center">
-      <div className="tree family-top" style={{width:'1800px'}}>
+      <div className="tree family-top" style={{width:'2200px'}}>
         <ul>
           <li>
             <a className="alumni">David Yang</a>
@@ -551,6 +574,20 @@ export const FamilyTreeTemplate = ({
                                                 <ul>
                                                   <li>
                                                     <a>Aaron Huynh</a>
+                                                    <ul>
+                                                      <li>
+                                                        <a>Alyssa Halvorsen</a>
+                                                      </li>
+                                                      <li>
+                                                        <a>Charline Chen</a>
+                                                      </li>
+                                                      <li>
+                                                        <a>Lam Luong</a>
+                                                      </li>
+                                                      <li>
+                                                        <a>Song Chen</a>
+                                                      </li>
+                                                    </ul>
                                                   </li>
                                                 </ul>
                                               </li>
@@ -775,7 +812,7 @@ export const FamilyTreeTemplate = ({
     <div className="container family text-center" style={{
       marginBottom: "100px",
     }}>
-      <div className="tree family-top" style={{width:"2700px"}}>
+      <div className="tree family-top" style={{width:"3400px"}}>
         <ul>
           <li>
             <a className="alumni">Trong Nguyen</a>
@@ -856,11 +893,11 @@ export const FamilyTreeTemplate = ({
                                 <ul>
                                   <li>
                                     <a>Anish Dulla</a>
-                                      <ul>
+                                      {/* <ul>
                                         <li>
                                           <a>June Park</a>
                                         </li>
-                                      </ul>
+                                      </ul> */}
                                   </li>
                                 </ul>
                               </li>
@@ -959,6 +996,11 @@ export const FamilyTreeTemplate = ({
                                         <ul>
                                           <li>
                                             <a>Sophia Lee</a>
+                                            <ul>
+                                                <li>
+                                                  <a>Irvin Qi</a>
+                                                </li>
+                                              </ul>
                                           </li>
                                         </ul>
                                       </li>
@@ -993,7 +1035,16 @@ export const FamilyTreeTemplate = ({
                                                 <ul>
                                                   <li>
                                                     <a>Andy Ren</a>
+                                                    <ul>
+                                                      <li>
+                                                        <a>Amber Yeu</a>
+                                                      </li>
+                                                      <li>
+                                                        <a>Michael Syavong</a>
+                                                      </li>
+                                                    </ul>
                                                   </li>
+
                                                   <li>
                                                     <a>Justin Sheehan</a>
                                                   </li>
@@ -1107,6 +1158,11 @@ export const FamilyTreeTemplate = ({
                                         <ul>
                                           <li>
                                             <a>Lana Dang</a>
+                                            <ul>
+                                              <li>
+                                                <a>Ashley Wu</a>
+                                              </li>
+                                            </ul>   
                                           </li>
                                         </ul>
                                       </li>
@@ -1135,6 +1191,14 @@ export const FamilyTreeTemplate = ({
                                         <ul>
                                           <li>
                                             <a>Darren Huai</a>
+                                            <ul>
+                                              <li>
+                                                <a>Chiemeka Kalu</a>
+                                              </li>
+                                              <li>
+                                                <a>Theanh Nguyen</a>
+                                              </li>
+                                            </ul>
                                           </li>
                                         </ul>
                                       </li>
@@ -1154,12 +1218,25 @@ export const FamilyTreeTemplate = ({
                             <ul>
                               <li>
                                 <a>Charlotte Schmitt</a>
+                                <ul>
+                                  <li>
+                                    <a>Athan Seltzer</a>
+                                  </li>
+                                  <li>
+                                    <a>Elizabeth Liberator</a>
+                                  </li>
+                                </ul>
                               </li>
                               <li>
                                 <a>Annie Chen</a>
                                 <ul>
                                   <li>
                                     <a>Jason Co</a>
+                                    <ul>
+                                      <li>
+                                        <a>Ethan Lee</a>
+                                      </li>
+                                    </ul> 
                                   </li>
                                 </ul>
                               </li>
