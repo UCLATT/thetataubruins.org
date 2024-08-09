@@ -6,70 +6,6 @@ title: Our Brothers
 subheading: Meet the brothers of Theta Tau
 
 classes:
-  omicron:
-    - image: /img/brothers/omicron/178.jpg
-      text: >
-        Mengan Wang
-      major: > 
-        Computer Science
-      year: >
-        Class of 2024
-    - image: /img/brothers/omicron/179.jpg
-      text: >
-        Anish Dulla
-      major: > 
-        Statistics and Data Science
-      year: >
-        Class of 2024
-    # - image: /img/brothers/omicron/180.jpg
-    #   text: >
-    #     Anthony Chung
-    #   major: > 
-    #     Mechanical Engineering
-    #   year: >
-    #     Class of 2023
-    # - image: /img/brothers/omicron/181.jpg
-    #   text: >
-    #     Ashley Kuwahara
-    #   major: > 
-    #     Civil Engineering
-    #   year: >
-    #     Class of 2023
-    # - image: /img/brothers/omicron/182.jpg
-    #   text: >
-    #     Daniel Zhou
-    #   major: > 
-    #     Computer Science
-    #   year: >
-    #     Class of 2023
-    # - image: /img/brothers/omicron/183.jpg
-    #   text: >
-    #     Karl Goeltner
-    #   major: >
-    #     Computer Science
-    #   year: >
-    #     Class of 2023
-    # - image: /img/brothers/omicron/184.jpg
-    #   text: >
-    #     Kevin Tang
-    #   major: >
-    #     Computer Science
-    #   year: >
-    #     Class of 2023
-    - image: /img/brothers/omicron/186.jpg
-      text: >
-        Pranav Pata
-      major: > 
-        Computer Science
-      year: >
-        Class of 2024
-    - image: /img/brothers/omicron/187.jpg
-      text: >
-        Shashvat Patel
-      major: > 
-        Statistics and Data Science
-      year: >
-        Class of 2024
   pi:
     - image: /img/brothers/pi/190.jpeg
       text: >
@@ -78,27 +14,6 @@ classes:
         Bioengineering
       year: >
         Class of 2025
-    - image: /img/brothers/pi/191.jpeg
-      text: >
-        Eric Zhang
-      major: > 
-        Computer Science
-      year: >
-        Class of 2024
-    # - image: /img/brothers/pi/192.jpeg
-    #   text: >
-    #     Kritin Garg
-    #   major: > 
-    #     Mechanical Engineering
-    #   year: >
-    #     Class of 2023
-    # - image: /img/brothers/pi/193.jpeg
-    #   text: >
-    #     Mansi Dutta
-    #   major: > 
-    #     Civil Engineering
-    #   year: >
-    #     Class of 2023
     - image: /img/brothers/pi/194.jpeg
       text: >
         Wyatt Babcock
@@ -114,13 +29,6 @@ classes:
         Computer Science
       year: >
         Class of 2025
-    - image: /img/brothers/rho/196.jpg
-      text: >
-        Angela Liu
-      major: > 
-        Chemical Engineering
-      year: >
-        Class of 2024
     - image: /img/brothers/rho/197.jpg
       text: >
         Annie Chen
@@ -128,34 +36,6 @@ classes:
         Mechanical Engineering
       year: >
         Class of 2025
-    - image: /img/brothers/rho/198.jpg
-      text: >
-        Annie Wang
-      major: > 
-        Computer Science
-      year: >
-        Class of 2024
-    - image: /img/brothers/rho/199.jpg
-      text: >
-        Christina Pham
-      major: > 
-        Cognitive Science
-      year: >
-        Class of 2024
-    - image: /img/brothers/rho/200.jpg
-      text: >
-        Darren Huai
-      major: > 
-        Aerospace Engineering
-      year: >
-        Class of 2024
-    - image: /img/brothers/rho/201.jpg
-      text: >
-        Kai Alcayde
-      major: > 
-        Mechanical Engineering
-      year: >
-        Class of 2024
     - image: /img/brothers/rho/202.jpg
       text: >
         Kenny Wan
@@ -163,34 +43,6 @@ classes:
         Computer Science
       year: >
         Class of 2025
-    - image: /img/brothers/rho/203.jpg
-      text: >
-        Krish Shah
-      major: > 
-        Computer Engineering
-      year: >
-        Class of 2024
-    - image: /img/brothers/rho/204.jpg
-      text: >
-        Neil Angsanto
-      major: > 
-        Civil and Environmental Engineering
-      year: >
-        Class of 2024
-    # - image: /img/brothers/rho/205.jpg
-    #   text: >
-    #     Rudy Orre
-    #   major: > 
-    #     Computer Science
-    #   year: >
-    #     Class of 2023
-    # - image: /img/brothers/rho/206.jpg
-    #   text: >
-    #     Sally Min
-    #   major: > 
-    #     Environmental Science
-    #   year: >
-    #     Class of 2023
     - image: /img/brothers/rho/207.jpg
       text: >
         Sam Chan
@@ -198,21 +50,7 @@ classes:
         Computer Science
       year: >
         Class of 2025
-    - image: /img/brothers/rho/208.jpg
-      text: >
-        Victoria Ignacio
-      major: > 
-        Civil and Environmental Engineering
-      year: >
-        Class of 2024
   sigma:
-    - image: /img/brothers/sigma/209.jpg
-      text: >
-        Alan Vuong
-      major: > 
-        Cognitive Science
-      year: >
-        Class of 2024
     - image: /img/brothers/sigma/210.jpg
       text: >
         Annie Cen
@@ -227,13 +65,6 @@ classes:
         Computer Science
       year: >
         Class of 2025
-    - image: /img/brothers/sigma/212.jpg
-      text: >
-        Cheryl Lim
-      major: > 
-        Linguistics and Computer Science
-      year: >
-        Class of 2024
     - image: /img/brothers/sigma/213.jpg
       text: >
         Clara Lee
@@ -241,13 +72,6 @@ classes:
         Mechanical Engineering
       year: >
         Class of 2026
-    - image: /img/brothers/sigma/214.jpg
-      text: >
-        Jack Lin
-      major: > 
-        Computer Science
-      year: >
-        Class of 2024
     - image: /img/brothers/sigma/215.jpg
       text: >
         Jason Co
@@ -262,13 +86,6 @@ classes:
         Mathematics of Computation
       year: >
         Class of 2025
-    - image: /img/brothers/sigma/217.jpg
-      text: >
-        Kelly Yu
-      major: > 
-        Computer Science
-      year: >
-        Class of 2024
     - image: /img/brothers/sigma/218.jpg
       text: >
         Kevin Yuan
@@ -283,13 +100,13 @@ classes:
         Electrical Engineering
       year: >
         Class of 2026
-    # - image: /img/brothers/sigma/220.jpg    # put back after Spring 2024 pledging
-    #   text: >
-    #     Ryan Ung
-    #   major: > 
-    #     Computer Science
-    #   year: >
-    #     Class of 2025
+    - image: /img/brothers/sigma/220.jpg
+      text: >
+        Ryan Ung
+      major: > 
+        Computer Science
+      year: >
+        Class of 2025
     - image: /img/brothers/sigma/221.jpg
       text: >
         Sophia Lee
@@ -297,13 +114,6 @@ classes:
         Computer Science
       year: >
         Class of 2026
-    - image: /img/brothers/sigma/222.jpg
-      text: >
-        Tracy Nguyen
-      major: > 
-        Chemical Engineering
-      year: >
-        Class of 2024
     - image: /img/brothers/sigma/223.jpg
       text: >
         Vikram Puliyadi
@@ -418,13 +228,13 @@ classes:
         Linguistics and Computer Science
       year: >
         Class of 2027
-    # - image: /img/brothers/upsilon/239.jpg    # put back after Spring 2024 pledging
-    #   text: >
-    #     Joseph Lee
-    #   major: > 
-    #     Cognitive Science
-    #   year: >
-    #     Class of 2026
+    - image: /img/brothers/upsilon/239.jpg
+      text: >
+        Joseph Lee
+      major: > 
+        Cognitive Science
+      year: >
+        Class of 2026
     - image: /img/brothers/upsilon/240.jpg
       text: >
         Justin Nguyen
@@ -446,13 +256,13 @@ classes:
         Math of Computation
       year: >
         Class of 2027
-    # - image: /img/brothers/upsilon/243.jpg    # put back after Spring 2024 pledging
-    #   text: >
-    #     Ryan Korb
-    #   major: > 
-    #     Electrical Engineering
-    #   year: >
-    #     Class of 2026
+    - image: /img/brothers/upsilon/243.jpg
+      text: >
+        Ryan Korb
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2026
     - image: /img/brothers/upsilon/244.jpg
       text: >
         Shirley Xiang

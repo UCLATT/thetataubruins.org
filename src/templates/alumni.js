@@ -22,7 +22,7 @@ export const AlumniPageTemplate = ({
   classes,
 }) => {
     const [showToast, setShowToast] = useState(true);
-    const heroImage = getImage(image) || image;
+const heroImage = getImage(image) || image;
 
     return (
         <div>
@@ -104,6 +104,9 @@ export const AlumniPageTemplate = ({
 
         <p className = "classHeader">Rho Class</p>
         <Features gridItems={classes.rho} />
+        
+        <p className = "classHeader">Sigma Class</p>
+        <Features gridItems={classes.sigma} />
         </div>
     );
 };
@@ -134,6 +137,7 @@ AlumniPageTemplate.propTypes = {
     omicron: PropTypes.array,
     pi: PropTypes.array,
     rho: PropTypes.array,
+    sigma: PropTypes.array,
   }),
 };
 
@@ -343,6 +347,16 @@ export const AlumniPageQuery = graphql`
                     year
                 }
                 rho {
+                    image {
+                    childImageSharp {
+                        gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                    }
+                    }
+                    text
+                    major
+                    year
+                }
+                sigma {
                     image {
                     childImageSharp {
                         gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
