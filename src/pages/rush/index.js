@@ -70,37 +70,37 @@ const RushPage = ({
                 <br />
                 
                 <Timeline lang="en" theme={customTheme} dateFormat="with-weekday" collapse>
-                    <Container2 title="Meet the Brothers" startDate="2024/04/08">
+                    <Container2 title="Meet the Brothers" startDate="2024/09/30">
                         <Content
                             title="Get to know the brothers of Theta Tau"
                             description={[
                                 '6-8 PM',
-                                'Engineering IV Patio',
+                                'TBD',
                                 'Casual Attire',
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Information Night" startDate="2024/04/09">
+                    <Container2 title="Information Night" startDate="2024/10/01">
                         <Content
                             title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni"
                             description={[
                                 '6-8 PM',
-                                'Young Hall Plaza',
+                                'TBD',
                                 'Business Casual',
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Engineering Night" startDate="2024/04/10">
+                    <Container2 title="Engineering Night" startDate="2024/10/02">
                         <Content
                             title="Put your innovation skills to the test in a fun engineering challenge!"
                             description={[
                                 '6-8 PM',
-                                'Engineering IV Patio',
+                                'TBD',
                                 'Casual Attire',
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Beach Night" startDate="2024/04/11">
+                    <Container2 title="Beach Night" startDate="2024/10/03">
                         <Content
                             title="Enjoy an evening at the beach and get to know the bros better!"
                             description={[
@@ -110,7 +110,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Interviews" startDate="2024/04/12">
+                    <Container2 title="Interviews" startDate="2024/10/04">
                         <Content
                             title="TBD"
                             description={[
@@ -122,10 +122,11 @@ const RushPage = ({
                     </Container2>
                 </Timeline>
                 <div style={{textAlign: 'center'}}>
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc_isxhZS0EoAldXRiV41uPwURME_yMXkgKmHwQR53C4mF7lQ/viewform">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUtjEBTc09Z4OvIkImCIEkLRHpmw-bukOBQ2ZVSVCktDXt6g/viewform">
                         <button
                             style={{
-                                width: '200px'
+                                width: '200px',
+                                backgroundColor: "rgb(64, 20, 15)"
                             }}
                             class="button-27"
                             role="button"
