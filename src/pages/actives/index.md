@@ -157,13 +157,13 @@ classes:
         Math of Computation
       year: >
         Class of 2026
-    - image: /img/brothers/tau/229.jpeg
-      text: >
-        June Park
-      major: > 
-        Data Theory
-      year: >
-        Class of 2026
+    # - image: /img/brothers/tau/229.jpeg
+    #   text: >
+    #     June Park
+    #   major: > 
+    #     Data Theory
+    #   year: >
+    #     Class of 2026
     - image: /img/brothers/tau/230.jpeg
       text: >
         Lana Dang
