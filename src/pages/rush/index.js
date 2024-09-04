@@ -51,7 +51,7 @@ const RushPage = ({
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Letter from the Recruitment Chairs</h1>
                 <br />
-                Hey there Spring Rush 2024!
+                Hey there Fall Rush 2024!
                 <br /><br />
                 We are thrilled to welcome you to our upcoming recruitment week for Theta Tau's Upsilon Delta Chapter. Although we are known as a professional fraternity, our chapter prides ourselves on our heavy emphasis on the brotherhood and family that we've formed over past few the years. As the recruitment chairs, we wanted to take a moment to express our excitement for the upcoming recruitment week and the opportunity to meet you!
                 <br /><br />
@@ -59,11 +59,11 @@ const RushPage = ({
                 <br /><br />
                 Whether it be frantically trying to figure out a trivial bug before a midnight deadline or going on a spontaneous snowboarding trip only to be deserted in the mountains, our brothers are always only a call away. While we all come from different walks of life, we were able to find common ground in our path of self-discovery. There is no one specific type of personality that belongs to Theta Tau. We strive to learn from each other and to be proud of all our achievements.
                 <br /><br />
-                This Spring, we hope you will look past your fears and hesitations to find your place within this genuine group of individuals who we call home.
+                This Fall, we hope you will look past your fears and hesitations to find your place within this genuine group of individuals who we call home.
                 <br /><br />
                 Your Recruitment Chairs,
                 <br /><br />
-                - Danny Dang and Tom Oh
+                - Charline Chen, Chiemeka Kalu, Helene Gao, and Thomas McConnell
             </section>
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Recruitment Schedule</h1>
