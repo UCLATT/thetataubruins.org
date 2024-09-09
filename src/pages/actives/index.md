@@ -221,20 +221,20 @@ classes:
         Math of Computation
       year: >
         Class of 2026
-    - image: /img/brothers/upsilon/238.jpg
-      text: >
-        Jordan Yen
-      major: > 
-        Linguistics and Computer Science
-      year: >
-        Class of 2027
-    - image: /img/brothers/upsilon/239.jpg
-      text: >
-        Joseph Lee
-      major: > 
-        Cognitive Science
-      year: >
-        Class of 2026
+    # - image: /img/brothers/upsilon/238.jpg
+    #   text: >
+    #     Jordan Yen
+    #   major: > 
+    #     Linguistics and Computer Science
+    #   year: >
+    #     Class of 2027
+    # - image: /img/brothers/upsilon/239.jpg
+    #   text: >
+    #     Joseph Lee
+    #   major: > 
+    #     Cognitive Science
+    #   year: >
+    #     Class of 2026
     - image: /img/brothers/upsilon/240.jpg
       text: >
         Justin Nguyen
@@ -256,13 +256,13 @@ classes:
         Math of Computation
       year: >
         Class of 2027
-    - image: /img/brothers/upsilon/243.jpg
-      text: >
-        Ryan Korb
-      major: > 
-        Electrical Engineering
-      year: >
-        Class of 2026
+    # - image: /img/brothers/upsilon/243.jpg
+    #   text: >
+    #     Ryan Korb
+    #   major: > 
+    #     Electrical Engineering
+    #   year: >
+    #     Class of 2026
     - image: /img/brothers/upsilon/244.jpg
       text: >
         Shirley Xiang
