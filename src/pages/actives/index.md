@@ -214,24 +214,23 @@ classes:
         Computer Science and Engineering
       year: >
         Class of 2027
-    - image: /img/brothers/upsilon/237.jpg
-      text: >
-        Andy Ren
-      major: > 
-        Math of Computation
-      year: >
-        Class of 2026
-    - image: /img/brothers/upsilon/238.jpg
-      text: >
-        Jordan Yen
-      major: > 
-        Linguistics and Computer Science
-      year: >
-        Class of 2027
+    # - image: /img/brothers/upsilon/237.jpg      # TODO: Add Andy and Jordan back after Fall 24
+    #   text: >
+    #     Andy Ren
+    #   major: > 
+    #     Math of Computation
+    #   year: >
+    #     Class of 2026
+    # - image: /img/brothers/upsilon/238.jpg
+    #   text: >
+    #     Jordan Yen
+    #   major: > 
+    #     Linguistics and Computer Science
+    #   year: >
+    #     Class of 2027
     - image: /img/brothers/upsilon/239.jpg
       text: >
-        Joseph Lee
-      major: > 
+        Joseph Lees
         Cognitive Science
       year: >
         Class of 2026
