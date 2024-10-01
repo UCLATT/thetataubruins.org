@@ -230,7 +230,7 @@ classes:
     #     Class of 2027
     - image: /img/brothers/upsilon/239.jpg
       text: >
-        Joseph Lees
+        Joseph Lee
         Cognitive Science
       year: >
         Class of 2026
