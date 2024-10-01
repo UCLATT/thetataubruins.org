@@ -231,6 +231,7 @@ classes:
     - image: /img/brothers/upsilon/239.jpg
       text: >
         Joseph Lee
+      major: > 
         Cognitive Science
       year: >
         Class of 2026
