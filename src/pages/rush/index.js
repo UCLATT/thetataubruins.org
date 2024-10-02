@@ -75,30 +75,30 @@ const RushPage = ({
                             title="Get to know the brothers of Theta Tau"
                             description={[
                                 '6-8 PM',
-                                'TBD',
+                                'Engineering IV Patio',
                                 'Casual Attire',
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Information Night" startDate="2024/10/01">
-                        <Content
-                            title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni"
-                            description={[
-                                '6-8 PM',
-                                'TBD',
-                                'Business Casual',
-                            ]}
-                        />
-                    </Container2>
-                    <Container2 title="Engineering Night" startDate="2024/10/02">
+                    <Container2 title="Engineering Night" startDate="2024/10/01">
                         <Content
                             title="Put your innovation skills to the test in a fun engineering challenge!"
                             description={[
                                 '6-8 PM',
-                                'TBD',
+                                'Engineering IV Patio',
                                 'Casual Attire',
                             ]}
                         />
+                    <Container2 title="Information Night" startDate="2024/10/02">
+                        <Content
+                            title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni"
+                            description={[
+                                '6-8 PM',
+                                'Engineering IV Patio',
+                                'Business Casual',
+                            ]}
+                        />
+                    </Container2>
                     </Container2>
                     <Container2 title="Beach Night" startDate="2024/10/03">
                         <Content
@@ -116,7 +116,7 @@ const RushPage = ({
                             description={[
                                 'INVITE ONLY',
                                 'Location TBD',
-                                'Business Formal',
+                                'Business Professional',
                             ]}
                         />
                     </Container2>
