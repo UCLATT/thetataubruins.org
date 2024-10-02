@@ -89,6 +89,7 @@ const RushPage = ({
                                 'Casual Attire',
                             ]}
                         />
+                    </Container2>
                     <Container2 title="Information Night" startDate="2024/10/02">
                         <Content
                             title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni"
@@ -98,7 +99,6 @@ const RushPage = ({
                                 'Business Casual',
                             ]}
                         />
-                    </Container2>
                     </Container2>
                     <Container2 title="Beach Night" startDate="2024/10/03">
                         <Content
