@@ -55,7 +55,7 @@ classes:
       text: >
         Annie Cen
       major: > 
-        Mathematics of Computation
+        Statistics & Data Science
       year: >
         Class of 2025
     - image: /img/brothers/sigma/211.jpg
@@ -133,7 +133,7 @@ classes:
       text: >
         Danny Dang
       major: > 
-        Math of Computation
+        Mathematics of Computation
       year: >
         Class of 2026
     - image: /img/brothers/tau/226.jpeg
@@ -154,7 +154,7 @@ classes:
       text: >
         Farrel Gormargana
       major: > 
-        Math of Computation
+        Mathematics of Computation
       year: >
         Class of 2026
     # - image: /img/brothers/tau/229.jpeg
@@ -214,20 +214,20 @@ classes:
         Computer Science and Engineering
       year: >
         Class of 2027
-    # - image: /img/brothers/upsilon/237.jpg      # TODO: Add Andy and Jordan back after Fall 24
-    #   text: >
-    #     Andy Ren
-    #   major: > 
-    #     Math of Computation
-    #   year: >
-    #     Class of 2026
-    # - image: /img/brothers/upsilon/238.jpg
-    #   text: >
-    #     Jordan Yen
-    #   major: > 
-    #     Linguistics and Computer Science
-    #   year: >
-    #     Class of 2027
+    - image: /img/brothers/upsilon/237.jpg
+      text: >
+        Andy Ren
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2026
+    - image: /img/brothers/upsilon/238.jpg
+      text: >
+        Jordan Yen
+      major: > 
+        Linguistics and Computer Science
+      year: >
+        Class of 2027
     - image: /img/brothers/upsilon/239.jpg
       text: >
         Joseph Lee
@@ -253,7 +253,7 @@ classes:
       text: >
         Rohan Jadhav
       major: > 
-        Math of Computation
+        Linguistics & Computer Science
       year: >
         Class of 2027
     - image: /img/brothers/upsilon/243.jpg
@@ -270,4 +270,117 @@ classes:
         Mechanical Engineering
       year: >
         Class of 2027
+  phi:
+    - image: /img/brothers/phi/alyssa.jpg
+      text: >
+        Alyssa Halvorsen
+      major: > 
+        Computational Biology
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/amber.jpg
+      text: >
+        Amber Yeung
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/arjun.jpg
+      text: >
+        Arjun Mittha
+      major: > 
+        Applied Mathematics
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/ashley.jpg
+      text: >
+        Ashley Wu
+      major: > 
+        Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/athan.jpg
+      text: >
+        Athan Seltzer
+      major: > 
+        Materials Engineering
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/char.jpg
+      text: >
+        Charline Chen
+      major: > 
+        Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/chloe.jpg
+      text: >
+        Chloe Yoon
+      major: > 
+        Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/ethan.jpg
+      text: >
+        Ethan Lee
+      major: > 
+        Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/helene.jpg
+      text: >
+        Helene Gao
+      major: > 
+        Statistics & Data Science and Economics
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/irvin.jpg
+      text: >
+        Irvin Qi
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2026
+    - image: /img/brothers/phi/lam.jpg
+      text: >
+        Lam Luong
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/phi/lizzy.jpg
+      text: >
+        Elizabeth Libertor
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/phi/michael.jpg
+      text: >
+        Michael Syavong
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/ryan.jpg
+      text: >
+        Ryan Vu
+      major: > 
+        Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/phi/song.jpg
+      text: >
+        Song Chen
+      major: > 
+        Statistics & Data Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/phi/thomas.jpg
+      text: >
+        Thomas McConnell
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
 ---
