@@ -97,17 +97,17 @@ positions:
       text: >
         Irvin Qi
       major: > 
-        Projects Chair
+        Co-Projects Chair
     - image: /img/brothers/upsilon/239.jpg
       text: >
         Joseph Lee
       major: > 
-        Service Chair
+        Co-Service Chair
     - image: /img/brothers/phi/arjun.jpg
       text: >
         Arjun Mittha
       major: > 
-        Service Chair
+        Co-Service Chair
     - image: /img/brothers/phi/ashley.jpg
       text: >
         Ashley Wu

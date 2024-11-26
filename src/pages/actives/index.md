@@ -152,7 +152,7 @@ classes:
         Class of 2026
     - image: /img/brothers/tau/228.jpeg
       text: >
-        Farrel Gormargana
+        Farrel Gomargana
       major: > 
         Mathematics of Computation
       year: >
@@ -189,7 +189,7 @@ classes:
       text: >
         Tom Oh
       major: > 
-        Linguistics and Computer Science
+        Linguistics & Computer Science
       year: >
         Class of 2026
     - image: /img/brothers/tau/234.jpeg
@@ -211,7 +211,7 @@ classes:
       text: >
         Alex Yoon
       major: > 
-        Computer Science and Engineering
+        Computer Science
       year: >
         Class of 2027
     - image: /img/brothers/upsilon/237.jpg
@@ -225,9 +225,9 @@ classes:
       text: >
         Jordan Yen
       major: > 
-        Linguistics and Computer Science
+        Linguistics & Computer Science
       year: >
-        Class of 2027
+        Class of 2026
     - image: /img/brothers/upsilon/239.jpg
       text: >
         Joseph Lee
@@ -239,7 +239,7 @@ classes:
       text: >
         Justin Nguyen
       major: > 
-        Linguistics and Computer Science
+        Linguistics & Computer Science
       year: >
         Class of 2025
     - image: /img/brothers/upsilon/241.jpg
