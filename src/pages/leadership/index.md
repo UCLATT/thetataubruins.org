@@ -27,14 +27,14 @@ positions:
         Ryan Korb
       major: > 
         Marshal
-    - image: /img/brothers/sigma/209.jpg
+    - image: /img/brothers/upsilon/237.jpg
       text: >
-        Alan Vuong
+        Andy Ren
       major: > 
         Treasurer
-    - image: /img/brothers/upsilon/235.jpg
+    - image: /img/brothers/upsilon/238.jpg
       text: >
-        Aaron Huynh
+        Jordan Yen
       major: > 
         Scribe
     - image: /img/brothers/upsilon/235.jpg
@@ -58,36 +58,66 @@ positions:
         Kelly Tran
       major: > 
         Co-External Affairs Chair
-    - image: /img/brothers/tau/225.jpeg
+    - image: /img/brothers/phi/char.jpg
       text: >
-        Danny Dang
+        Charline Chen
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/tau/233.jpeg
+    - image: /img/brothers/phi/helene.jpg
       text: >
-        Tom Oh
+        Helene Gao
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/sigma/209.jpg
+    - image: /img/rose1000x1000.png
       text: >
-        Alan Vuong
+        Chiemeka Kalu
+      major: > 
+        Co-Rush Chair
+    - image: /img/brothers/phi/thomas.jpg
+      text: >
+        Thomas McConnell
+      major: > 
+        Co-Rush Chair
+    - image: /img/brothers/upsilon/238.jpg
+      text: >
+        Jordan Yen
       major: > 
         Webmaster
-    # - image: /img/brothers/pi/194.jpeg    // TODO: Don't have one yet
-    #   text: >
-    #     Wyatt Babcock
-    #   major: > 
-    #     Projects Chair
-    - image: /img/brothers/tau/230.jpeg
+    - image: /img/brothers/sigma/210.jpg
       text: >
-        Lana Dang
+        Annie Cen
+      major: > 
+        Co-Projects Chair
+    - image: /img/brothers/phi/lam.jpg
+      text: >
+        Lam Luong
+      major: > 
+        Co-Projects Chair
+    - image: /img/brothers/phi/irvin.jpg
+      text: >
+        Irvin Qi
+      major: > 
+        Projects Chair
+    - image: /img/brothers/upsilon/239.jpg
+      text: >
+        Joseph Lee
       major: > 
         Service Chair
-    - image: /img/brothers/tau/226.jpeg
+    - image: /img/brothers/phi/arjun.jpg
       text: >
-        Emma Buxton
+        Arjun Mittha
       major: > 
-        Fundraising Chair
+        Service Chair
+    - image: /img/brothers/phi/ashley.jpg
+      text: >
+        Ashley Wu
+      major: > 
+        Co-Fundraising Chair
+    - image: /img/brothers/phi/song.jpg
+      text: >
+        Song Chen
+      major: > 
+        Co-Fundraising Chair
     - image: /img/brothers/sigma/221.jpg
       text: >
         Sophia Lee
@@ -113,9 +143,9 @@ positions:
         Ryan Ung
       major: > 
         Co-Professional Development Chair
-    - image: /img/brothers/rho/208.jpg
+    - image: /img/brothers/sigma/220.jpg
       text: >
-        Victoria Ignacio
+        Ryan Ung
       major: > 
         Historian
 

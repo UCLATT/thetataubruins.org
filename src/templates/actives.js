@@ -43,6 +43,9 @@ export const ActivesPageTemplate = ({
 
       <p className = "classHeader">Upsilon Class</p>
       <Features gridItems={classes.upsilon} />
+
+      <p className = "classHeader">Phi Class</p>
+      <Features gridItems={classes.phi} />
     </div>
   );
 };
@@ -63,6 +66,7 @@ ActivesPageTemplate.propTypes = {
     sigma: PropTypes.array,
     tau: PropTypes.array,
     upsilon: PropTypes.array,
+    phi: PropTypes.array,
   }),
 };
 
@@ -172,6 +176,16 @@ export const ActivesPageQuery = graphql`
             year
           }
           upsilon {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+          phi {
             image {
               childImageSharp {
                 gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)

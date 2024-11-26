@@ -19,6 +19,7 @@ const FeatureGrid = ({ gridItems }) => (
             <div
               style={{
                 width: "100%",
+                minHeight: "280px",
                 justifyContent: "center",
                 display: "grid",
               }}
