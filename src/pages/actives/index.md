@@ -319,7 +319,7 @@ classes:
       major: > 
         Linguistics & Computer Science
       year: >
-        Class of 2027
+        Class of 2025
     - image: /img/brothers/phi/chloe.jpg
       text: >
         Chloe Yoon
