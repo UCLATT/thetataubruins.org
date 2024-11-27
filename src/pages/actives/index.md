@@ -383,7 +383,7 @@ classes:
         Statistics & Data Science
       year: >
         Class of 2026
-    - image: /img/rose1000x1000.png
+    - image: /img/brothers/phi/theanh.jpg
       text: >
         Theanh Nguyen
       major: > 
