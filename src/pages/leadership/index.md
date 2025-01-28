@@ -7,14 +7,14 @@ subheading: Meet our 2024-2025 Executive Board and Committee Chairs
 
 positions:
   exec:
-    - image: /img/brothers/rho/195.jpg
+    - image: /img/brothers/upsilon/235.jpg
       text: > # we use text/major instead of name/position just cuz lazy and re-use code lol
-        Akshay Gupta
+        Aaron Huynh
       major: > 
         Co-Regent
-    - image: /img/brothers/sigma/223.jpg
+    - image: /img/brothers/upsilon/240.jpg
       text: >
-        Vikram Puliyadi
+        Justin Nguyen
       major: > 
         Co-Regent
     - image: /img/brothers/tau/227.jpeg
