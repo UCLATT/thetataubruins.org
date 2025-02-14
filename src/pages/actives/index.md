@@ -359,7 +359,7 @@ classes:
       text: >
         Elizabeth Libertor
       major: > 
-        Computer Science
+        Civil & Environmental Engineering
       year: >
         Class of 2026
     - image: /img/brothers/phi/michael.jpg
