@@ -47,11 +47,11 @@ const RushPage = ({
 
     return (
         <Layout>
-            <FullWidthImageSmall image={heroImage} title={'Fall Recruitment 2024'} subheading={''} />
+            <FullWidthImageSmall image={heroImage} title={'Spring Recruitment 2025'} subheading={''} />
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Letter from the Recruitment Chairs</h1>
                 <br />
-                Hey there Fall Rush 2024!
+                Hey there Spring Rush 2025!
                 <br /><br />
                 We are thrilled to welcome you to our upcoming recruitment week for Theta Tau's Upsilon Delta Chapter. Although we are known as a professional fraternity, our chapter prides ourselves on our heavy emphasis on the brotherhood and family that we've formed over past few the years. As the recruitment chairs, we wanted to take a moment to express our excitement for the upcoming recruitment week and the opportunity to meet you!
                 <br /><br />
@@ -59,50 +59,50 @@ const RushPage = ({
                 <br /><br />
                 Whether it be frantically trying to figure out a trivial bug before a midnight deadline or going on a spontaneous snowboarding trip only to be deserted in the mountains, our brothers are always only a call away. While we all come from different walks of life, we were able to find common ground in our path of self-discovery. There is no one specific type of personality that belongs to Theta Tau. We strive to learn from each other and to be proud of all our achievements.
                 <br /><br />
-                This Fall, we hope you will look past your fears and hesitations to find your place within this genuine group of individuals who we call home.
+                This spring, we hope you will look past your fears and hesitations to find your place within this genuine group of individuals who we call home.
                 <br /><br />
                 Your Recruitment Chairs,
                 <br /><br />
-                - Charline Chen, Chiemeka Kalu, Helene Gao, and Thomas McConnell
+                - Austin Yamamoto, Kabeer Minocha, and Shannon Chau
             </section>
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Recruitment Schedule</h1>
                 <br />
                 
                 <Timeline lang="en" theme={customTheme} dateFormat="with-weekday" collapse>
-                    <Container2 title="Meet the Brothers" startDate="2024/09/30">
+                    <Container2 title="Meet the Brothers" startDate="2025/04/07">
                         <Content
-                            title="Get to know the brothers of Theta Tau"
+                            title="Get to know the brothers of Theta Tau!"
                             description={[
-                                '6-8 PM',
+                                '5-7 PM',
                                 'Engineering IV Patio',
                                 'Casual Attire',
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Engineering Night" startDate="2024/10/01">
+                    <Container2 title="Engineering Night" startDate="2025/04/08">
                         <Content
                             title="Put your innovation skills to the test in a fun engineering challenge!"
                             description={[
-                                '6-8 PM',
+                                '5-7 PM',
                                 'Engineering IV Patio',
                                 'Casual Attire',
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Information Night" startDate="2024/10/02">
+                    <Container2 title="Information Night" startDate="2025/04/09">
                         <Content
-                            title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni"
+                            title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni!"
                             description={[
-                                '6-8 PM',
+                                '5-7 PM',
                                 'Engineering IV Patio',
                                 'Business Casual',
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Beach Night" startDate="2024/10/03">
+                    <Container2 title="Beach Night" startDate="2025/04/10">
                         <Content
-                            title="Enjoy an evening at the beach and get to know the bros better!"
+                            title="Enjoy an evening at the beach and get to know the brothers better!"
                             description={[
                                 'INVITE ONLY',
                                 'Santa Monica Beach',
@@ -110,7 +110,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Interviews" startDate="2024/10/04">
+                    <Container2 title="Interviews" startDate="2025/04/11">
                         <Content
                             title="TBD"
                             description={[
@@ -122,7 +122,7 @@ const RushPage = ({
                     </Container2>
                 </Timeline>
                 <div style={{textAlign: 'center'}}>
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUtjEBTc09Z4OvIkImCIEkLRHpmw-bukOBQ2ZVSVCktDXt6g/viewform">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4FK-_KSoK28SNBLon_eNd23DU7ZJau9EX2U15S-lmpUDsg/viewform">
                         <button
                             style={{
                                 width: '200px',
