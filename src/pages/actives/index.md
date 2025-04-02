@@ -313,13 +313,13 @@ classes:
         Computer Science
       year: >
         Class of 2027
-    - image: /img/rose1000x1000.png
-      text: >
-        Chiemeka Kalu
-      major: > 
-        Linguistics & Computer Science
-      year: >
-        Class of 2025
+    #- image: /img/rose1000x1000.png
+    #  text: >
+    #    Chiemeka Kalu
+    #  major: > 
+    #    Linguistics & Computer Science
+    #  year: >
+    #    Class of 2025
     - image: /img/brothers/phi/chloe.jpg
       text: >
         Chloe Yoon
@@ -390,11 +390,11 @@ classes:
         Computer Science & Engineering
       year: >
         Class of 2027
-    - image: /img/brothers/phi/thomas.jpg
-      text: >
-        Thomas McConnell
-      major: > 
-        Computer Science
-      year: >
-        Class of 2026
+    #- image: /img/brothers/phi/thomas.jpg
+    #  text: >
+    #    Thomas McConnell
+    #  major: > 
+    #    Computer Science
+    #  year: >
+    #    Class of 2026
 ---
