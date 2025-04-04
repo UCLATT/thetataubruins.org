@@ -341,13 +341,13 @@ classes:
         Statistics & Data Science and Economics
       year: >
         Class of 2027
-    - image: /img/brothers/phi/irvin.jpg
-      text: >
-        Irvin Qi
-      major: > 
-        Mathematics of Computation
-      year: >
-        Class of 2026
+    #- image: /img/brothers/phi/irvin.jpg
+    #  text: >
+    #    Irvin Qi
+    #  major: > 
+    #    Mathematics of Computation
+    #  year: >
+    #    Class of 2026
     - image: /img/brothers/phi/lam.jpg
       text: >
         Lam Luong

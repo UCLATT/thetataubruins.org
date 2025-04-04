@@ -93,11 +93,11 @@ positions:
         Lam Luong
       major: > 
         Co-Projects Chair
-    - image: /img/brothers/phi/irvin.jpg
-      text: >
-        Irvin Qi
-      major: > 
-        Co-Projects Chair
+    # - image: /img/brothers/phi/irvin.jpg
+    #  text: >
+    #    Irvin Qi
+    #  major: > 
+    #    Co-Projects Chair
     - image: /img/brothers/upsilon/239.jpg
       text: >
         Joseph Lee
