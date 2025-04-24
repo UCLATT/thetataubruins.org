@@ -359,7 +359,7 @@ classes:
       text: >
         Elizabeth Libertor
       major: > 
-        Civil & Environmental Engineering
+        Civil Engineering
       year: >
         Class of 2026
     - image: /img/brothers/phi/michael.jpg
@@ -397,4 +397,89 @@ classes:
     #    Computer Science
     #  year: >
     #    Class of 2026
+  chi:
+    - image: /img/brothers/chi/alan.jpg
+      text: >
+        Alan Luupham
+      major: > 
+        Civil Engineering
+      year: >
+        Class of 2028
+    - image: /img/brothers/chi/austin.jpg
+      text: >
+        Austin Yamamoto
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2028
+    - image: /img/brothers/chi/daniel.jpg
+      text: >
+        Daniel Li
+      major: > 
+        Aerospace Engineering
+      year: >
+        Class of 2028
+    - image: /img/brothers/chi/derek.jpg
+      text: >
+        Derek Wu
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/chi/emily.jpg
+      text: >
+        Emily Zhang
+      major: > 
+        Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/chi/erica.jpg
+      text: >
+        Erica Lam
+      major: > 
+        Civil Engineering
+      year: >
+        Class of 2028
+    - image: /img/brothers/chi/esther.jpg
+      text: >
+        Esther Lee
+      major: > 
+        Linguistics & Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/chi/gautam.jpg
+      text: >
+        Gautam Nair
+      major: > 
+        Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/chi/kabeer.jpg
+      text: >
+        Kabeer Minocha
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2028
+    - image: /img/brothers/chi/shannon.jpg
+      text: >
+        Shannon Chau
+      major: > 
+        Computer Engineering
+      year: >
+        Class of 2028
+    - image: /img/brothers/chi/soha.jpg
+      text: >
+        Soha Baig
+      major: > 
+        Linguistics & Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/chi/vanessa.jpg
+      text: >
+        Vanessa Tran
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2028
 ---

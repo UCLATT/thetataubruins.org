@@ -46,6 +46,9 @@ export const ActivesPageTemplate = ({
 
       <p className = "classHeader">Phi Class</p>
       <Features gridItems={classes.phi} />
+
+      <p className = "classHeader">Chi Class</p>
+      <Features gridItems={classes.chi} />
     </div>
   );
 };
@@ -67,6 +70,7 @@ ActivesPageTemplate.propTypes = {
     tau: PropTypes.array,
     upsilon: PropTypes.array,
     phi: PropTypes.array,
+    chi: PropTypes.array,
   }),
 };
 
@@ -186,6 +190,16 @@ export const ActivesPageQuery = graphql`
             year
           }
           phi {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+          chi {
             image {
               childImageSharp {
                 gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
