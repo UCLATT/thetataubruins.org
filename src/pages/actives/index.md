@@ -416,7 +416,7 @@ classes:
       text: >
         Daniel Li
       major: > 
-        Aerospace Engineering
+        Mechanical Engineering
       year: >
         Class of 2028
     - image: /img/brothers/chi/derek.jpg
