@@ -440,7 +440,7 @@ classes:
         Civil Engineering
       year: >
         Class of 2028
-    - image: /img/brothers/chi/esther.jpg
+    - image: /img/brothers/chi/DSC01396 (4).jpg
       text: >
         Esther Lee
       major: > 

@@ -7,6 +7,13 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
 
   const { alt = "", childImageSharp, image } = imageInfo;
 
+  // Check if this is Austin or Esther's image
+  const isAustinOrEsther = alt.includes("Austin Yamamoto") || alt.includes("Esther Lee");
+  if (isAustinOrEsther) {
+    imageStyle.transform = "scale(1.5)";
+    imageStyle.transformOrigin = "center";
+  }
+
   if (!!image && !!image.childImageSharp) {
     return (
       <GatsbyImage
@@ -25,7 +32,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     );
     // for Netlify CMS 
   } else if (image) {
-    return <img style={{imageStyle}} src={image} alt={alt} />;
+    return <img style={imageStyle} src={image} alt={alt} />;
   } else {
     return null
   }

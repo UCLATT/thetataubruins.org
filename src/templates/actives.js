@@ -112,7 +112,7 @@ export const ActivesPageQuery = graphql`
           nu {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
               }
             }
             text
@@ -122,7 +122,7 @@ export const ActivesPageQuery = graphql`
           xi {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
               }
             }
             text
@@ -132,7 +132,7 @@ export const ActivesPageQuery = graphql`
           omicron {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
               }
             }
             text
@@ -142,7 +142,7 @@ export const ActivesPageQuery = graphql`
           pi {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
               }
             }
             text
@@ -152,7 +152,7 @@ export const ActivesPageQuery = graphql`
           rho {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
               }
             }
             text
@@ -162,7 +162,7 @@ export const ActivesPageQuery = graphql`
           sigma {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
               }
             }
             text
@@ -172,7 +172,7 @@ export const ActivesPageQuery = graphql`
           tau {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
               }
             }
             text
@@ -182,7 +182,7 @@ export const ActivesPageQuery = graphql`
           upsilon {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
               }
             }
             text
@@ -192,7 +192,7 @@ export const ActivesPageQuery = graphql`
           phi {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
               }
             }
             text
@@ -202,7 +202,7 @@ export const ActivesPageQuery = graphql`
           chi {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
               }
             }
             text
