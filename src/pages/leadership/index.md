@@ -68,16 +68,16 @@ positions:
         Helene Gao
       major: > 
         Co-Rush Chair
-    #- image: /img/rose1000x1000.png
-    #  text: >
-    #    Chiemeka Kalu
-    #  major: > 
-    #    Co-Rush Chair
-    #- image: /img/brothers/phi/thomas.jpg
-    #  text: >
-    #    Thomas McConnell
-    #  major: > 
-    #    Co-Rush Chair
+    - image: /img/rose1000x1000.png
+      text: >
+        Chiemeka Kalu
+      major: > 
+        Co-Rush Chair
+    - image: /img/brothers/phi/thomas.jpg
+      text: >
+        Thomas McConnell
+      major: > 
+        Co-Rush Chair
     - image: /img/brothers/upsilon/238.jpg
       text: >
         Jordan Yen
@@ -93,11 +93,11 @@ positions:
         Lam Luong
       major: > 
         Co-Projects Chair
-    # - image: /img/brothers/phi/irvin.jpg
-    #  text: >
-    #    Irvin Qi
-    #  major: > 
-    #    Co-Projects Chair
+    - image: /img/brothers/phi/irvin.jpg
+      text: >
+        Irvin Qi
+      major: > 
+        Co-Projects Chair
     - image: /img/brothers/upsilon/239.jpg
       text: >
         Joseph Lee
