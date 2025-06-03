@@ -28,7 +28,8 @@
 }
 
 .tree {
-  width: 2500px;
+  display: inline-block;
+  min-width: max-content;
 }
 
 hr {
