@@ -482,4 +482,117 @@ classes:
         Mechanical Engineering
       year: >
         Class of 2028
+  psi:
+    - image: /img/brothers/psi/alex.png
+      text: >
+        Alex Yousefi
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2026
+    - image: /img/brothers/psi/angela.png
+      text: >
+        Angela Magtoto
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2028
+    - image: /img/brothers/psi/bradley.png
+      text: >
+        Bradley Morgan
+      major: > 
+        Electrical Engineering and Economics
+      year: >
+        Class of 2027
+    - image: /img/brothers/psi/brian.png
+      text: >
+        Brian Chang
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2028
+    - image: /img/brothers/psi/charlton.png
+      text: >
+        Charlton Shih
+      major: > 
+        Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/psi/chloe.png
+      text: >
+        Chloe Li
+      major: > 
+        Cognitive Science
+      year: >
+        Class of 2028
+    - image: /img/brothers/psi/dahlia.png
+      text: >
+        Dahlia Navarro
+      major: > 
+        Chemical Engineering
+      year: >
+        Class of 2027
+    - image: /img/brothers/psi/felicia.png
+      text: >
+        Felicia Chen
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/psi/glen.png
+      text: >
+        Glen Troy San Diego
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2027
+    - image: /img/brothers/psi/jeremy.png
+      text: >
+        Jeremy De Leon
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2028
+    - image: /img/brothers/psi/katie.png
+      text: >
+        Katie Lew
+      major: > 
+        Cognitive Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/psi/kennedy.png
+      text: >
+        Kennedy Hayashi
+      major: > 
+        Statistics & Data Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/psi/nicco.png
+      text: >
+        Niccolo Duina
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2028
+    - image: /img/brothers/psi/raphael.png
+      text: >
+        Raphael Figueroa
+      major: > 
+        Mathematics of Computation 
+      year: >
+        Class of 2028
+    - image: /img/brothers/psi/shaun.png
+      text: >
+        Shaun Gao
+      major: > 
+        Computer Science 
+      year: >
+        Class of 2028
+    - image: /img/brothers/psi/shawn.png
+      text: >
+        Shawn Nguyen
+      major: > 
+        Cognitive Science 
+      year: >
+        Class of 2027
 ---

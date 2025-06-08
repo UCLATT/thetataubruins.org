@@ -49,6 +49,9 @@ export const ActivesPageTemplate = ({
 
       <p className = "classHeader">Chi Class</p>
       <Features gridItems={classes.chi} />
+
+      <p className = "classHeader">Psi Class</p>
+      <Features gridItems={classes.psi} />
     </div>
   );
 };
@@ -71,6 +74,7 @@ ActivesPageTemplate.propTypes = {
     upsilon: PropTypes.array,
     phi: PropTypes.array,
     chi: PropTypes.array,
+    psi: PropTypes.array,
   }),
 };
 
@@ -200,6 +204,16 @@ export const ActivesPageQuery = graphql`
             year
           }
           chi {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+          psi {
             image {
               childImageSharp {
                 gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
