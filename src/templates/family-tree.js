@@ -194,7 +194,7 @@ export const FamilyTreeTemplate = ({
                                       <a className="alumni">Karl Goeltner</a>
                                       <ul>
                                         <li>
-                                          <a>Emma Buxton</a>
+                                          <a className="alumni">Emma Buxton</a>
                                           <ul>
                                             <li>
                                               <a>Thomas McConnell</a>
@@ -242,9 +242,9 @@ export const FamilyTreeTemplate = ({
                                         <a className="alumni">Kate Hsieh</a>
                                         <ul>
                                           <li>
-                                            <a>Kenny Wan</a>
+                                            <a className="alumni">Kenny Wan</a>
                                             <ul>
-                                              <a>Justin Nguyen</a>
+                                              <a className="alumni">Justin Nguyen</a>
                                               <ul>
                                                 <li>
                                                   <a>Arjun Mittha</a>
@@ -415,10 +415,10 @@ export const FamilyTreeTemplate = ({
                                     <a className="alumni">Jacob Rajacich</a>
                                     <ul>
                                       <li>
-                                        <a>Wyatt Babcock</a>
+                                        <a className="alumni">Wyatt Babcock</a>
                                         <ul>
                                           <li>
-                                            <a>Annie Cen</a>
+                                            <a className="alumni">Annie Cen</a>
                                             <ul>
                                               <li>
                                                 <a>Derek Wu</a>
@@ -525,7 +525,7 @@ export const FamilyTreeTemplate = ({
                                                         <a className="alumni">Shashvat Patel</a>
                                                         <ul>
                                                           <li>
-                                                            <a>Akshay Gupta</a>
+                                                            <a className="alumni">Akshay Gupta</a>
                                                             <ul>
                                                               <li>
                                                                 <a>Jordan Yen</a>
@@ -611,7 +611,7 @@ export const FamilyTreeTemplate = ({
                                             <a className="alumni">Eric Zhang</a>
                                             <ul>
                                               <li>
-                                                <a>Ryan Ung</a>
+                                                <a className="alumni">Ryan Ung</a>
                                                 <ul>
                                                   <li>
                                                     <a>Shirley Xiang</a>
@@ -624,10 +624,10 @@ export const FamilyTreeTemplate = ({
                                                 </ul>
                                               </li>
                                               <li>
-                                                <a>Vikram Puliyadi</a>
+                                                <a className="alumni">Vikram Puliyadi</a>
                                                 <ul>
                                                   <li>
-                                                    <a>Aaron Huynh</a>
+                                                    <a className="alumni">Aaron Huynh</a>
                                                     <ul>
                                                       <li>
                                                         <a>Alyssa Halvorsen</a>
@@ -701,7 +701,7 @@ export const FamilyTreeTemplate = ({
                                       <a className="alumni">Mengan Wang</a>
                                         <ul>
                                           <li>
-                                            <a>Kok Chen Tzen</a>
+                                            <a className="alumni">Kok Chen Tzen</a>
                                           </li>
                                         </ul>
                                       </li>
@@ -780,7 +780,7 @@ export const FamilyTreeTemplate = ({
                                             <a className="alumni">Christina Pham</a>
                                             <ul>
                                               <li>
-                                                <a>Teresa Bui</a>
+                                                <a className="alumni">Teresa Bui</a>
                                                 <ul>
                                                   <li>
                                                     <a>Joseph Lee</a>
@@ -849,7 +849,7 @@ export const FamilyTreeTemplate = ({
                                 <a className="alumni">Junho Choi</a>
                                 <ul>
                                   <li>
-                                    <a>Sam Chan</a>
+                                    <a className="alumni">Sam Chan</a>
                                       <ul>
                                         <li>
                                           <a>Alan Luupham</a>
@@ -1110,7 +1110,7 @@ export const FamilyTreeTemplate = ({
                                             <a className="alumni">Rudy Orre</a>
                                             <ul>
                                               <li>
-                                                <a>Kelly Tran</a>
+                                                <a className="alumni">Kelly Tran</a>
                                                 <ul>
                                                   <li>
                                                     <a>Andy Ren</a>
@@ -1305,7 +1305,7 @@ export const FamilyTreeTemplate = ({
                                             <a className="alumni">Darren Huai</a>
                                             <ul>
                                               <li>
-                                                <a>Chiemeka Kalu</a>
+                                                <a className="alumni">Chiemeka Kalu</a>
                                                   <ul>
                                                     <li>
                                                       <a>Daniel Li</a>
@@ -1334,7 +1334,7 @@ export const FamilyTreeTemplate = ({
                             <a className="alumni">Melody Tang</a>
                             <ul>
                               <li>
-                                <a>Charlotte Schmitt</a>
+                                <a className="alumni">Charlotte Schmitt</a>
                                 <ul>
                                   <li>
                                     <a>Athan Seltzer</a>
@@ -1358,7 +1358,7 @@ export const FamilyTreeTemplate = ({
                                 </ul>
                               </li>
                               <li>
-                                <a>Annie Chen</a>
+                                <a className="alumni">Annie Chen</a>
                                 <ul>
                                   <li>
                                     <a>Jason Co</a>
@@ -1374,7 +1374,7 @@ export const FamilyTreeTemplate = ({
                               <a className="alumni">Victoria Ignacio</a>
                                 <ul>
                                   <li>
-                                    <a>Jack Lin</a>
+                                    <a className="alumni">Jack Lin</a>
                                       <ul>
                                         <li>
                                           <a>Yena Lee</a>

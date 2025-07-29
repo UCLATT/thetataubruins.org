@@ -6,65 +6,7 @@ title: Our Brothers
 subheading: Meet the brothers of Theta Tau
 
 classes:
-  pi:
-    - image: /img/brothers/pi/190.jpeg
-      text: >
-        Charlotte Schmitt
-      major: > 
-        Bioengineering
-      year: >
-        Class of 2025
-    - image: /img/brothers/pi/194.jpeg
-      text: >
-        Wyatt Babcock
-      major: > 
-        Mechanical Engineering
-      year: >
-        Class of 2025
-  rho:
-    - image: /img/brothers/rho/195.jpg
-      text: >
-        Akshay Gupta
-      major: > 
-        Computer Science
-      year: >
-        Class of 2025
-    - image: /img/brothers/rho/197.jpg
-      text: >
-        Annie Chen
-      major: > 
-        Mechanical Engineering
-      year: >
-        Class of 2025
-    - image: /img/brothers/rho/202.jpg
-      text: >
-        Kenny Wan
-      major: > 
-        Computer Science
-      year: >
-        Class of 2025
-    - image: /img/brothers/rho/207.jpg
-      text: >
-        Sam Chan
-      major: > 
-        Computer Science
-      year: >
-        Class of 2025
   sigma:
-    - image: /img/brothers/sigma/210.jpg
-      text: >
-        Annie Cen
-      major: > 
-        Statistics & Data Science
-      year: >
-        Class of 2025
-    - image: /img/brothers/sigma/211.jpg
-      text: >
-        Chen Tzen Kok
-      major: > 
-        Computer Science
-      year: >
-        Class of 2025
     - image: /img/brothers/sigma/213.jpg
       text: >
         Clara Lee
@@ -79,13 +21,6 @@ classes:
         Mechanical Engineering
       year: >
         Class of 2026
-    - image: /img/brothers/sigma/216.jpg
-      text: >
-        Kelly Tran
-      major: > 
-        Mathematics of Computation
-      year: >
-        Class of 2025
     - image: /img/brothers/sigma/218.jpg
       text: >
         Kevin Yuan
@@ -100,13 +35,6 @@ classes:
         Electrical Engineering
       year: >
         Class of 2026
-    - image: /img/brothers/sigma/220.jpg
-      text: >
-        Ryan Ung
-      major: > 
-        Computer Science
-      year: >
-        Class of 2025
     - image: /img/brothers/sigma/221.jpg
       text: >
         Sophia Lee
@@ -114,13 +42,6 @@ classes:
         Computer Science
       year: >
         Class of 2026
-    - image: /img/brothers/sigma/223.jpg
-      text: >
-        Vikram Puliyadi
-      major: > 
-        Computer Science
-      year: >
-        Class of 2025
   tau:
     - image: /img/brothers/tau/224.jpeg
       text: >
@@ -136,13 +57,6 @@ classes:
         Mathematics of Computation
       year: >
         Class of 2026
-    - image: /img/brothers/tau/226.jpeg
-      text: >
-        Emma Buxton
-      major: > 
-        Bioengineering
-      year: >
-        Class of 2025
     - image: /img/brothers/tau/227.jpeg
       text: >
         Erika Tran
@@ -178,13 +92,6 @@ classes:
         Computer Science
       year: >
         Class of 2026
-    - image: /img/brothers/tau/232.jpeg
-      text: >
-        Teresa Bui
-      major: > 
-        Engineering Geology
-      year: >
-        Class of 2025
     - image: /img/brothers/tau/233.jpeg
       text: >
         Tom Oh
@@ -200,13 +107,6 @@ classes:
       year: >
         Class of 2026
   upsilon:
-    - image: /img/brothers/upsilon/235.jpg
-      text: >
-        Aaron Huynh
-      major: > 
-        Physics
-      year: >
-        Class of 2025
     - image: /img/brothers/upsilon/236.jpg
       text: >
         Alex Yoon
@@ -235,13 +135,6 @@ classes:
         Cognitive Science
       year: >
         Class of 2026
-    - image: /img/brothers/upsilon/240.jpg
-      text: >
-        Justin Nguyen
-      major: > 
-        Linguistics & Computer Science
-      year: >
-        Class of 2025
     - image: /img/brothers/upsilon/241.jpg
       text: >
         Justin Sheehan
@@ -313,13 +206,6 @@ classes:
         Computer Science
       year: >
         Class of 2027
-    - image: /img/rose1000x1000.png
-      text: >
-        Chiemeka Kalu
-      major: > 
-        Linguistics & Computer Science
-      year: >
-        Class of 2025
     - image: /img/brothers/phi/chloe.jpg
       text: >
         Chloe Yoon
@@ -497,7 +383,7 @@ classes:
         Electrical Engineering
       year: >
         Class of 2028
-    - image: /img/brothers/psi/bradley.png
+    - image: /img/brothers/psi/bradley.jpg
       text: >
         Bradley Morgan
       major: > 

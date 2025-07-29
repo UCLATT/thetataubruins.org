@@ -26,16 +26,10 @@ export const ActivesPageTemplate = ({
   return (
     <div>
       <FullWidthImageSmall img={heroImage} title={title} subheading={subheading} />
-      
+
       <p className = "classHeader" style={{
         marginTop: "40px",
-      }}>Pi Class</p>
-      <Features gridItems={classes.pi} />
-
-      <p className = "classHeader">Rho Class</p>
-      <Features gridItems={classes.rho} />
-
-      <p className = "classHeader">Sigma Class</p>
+      }}>Sigma Class</p>
       <Features gridItems={classes.sigma} />
 
       <p className = "classHeader">Tau Class</p>
