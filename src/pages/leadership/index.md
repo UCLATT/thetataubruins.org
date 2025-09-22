@@ -18,7 +18,7 @@ positions:
         Gautam Nair
       major: > 
         Co-Regent
-    - image: /img/brothers/phi/charline.jpeg
+    - image: /img/brothers/phi/char.jpg
       text: >
         Charline Chen
       major: > 
@@ -79,7 +79,7 @@ positions:
         Angela Magtoto
       major: > 
         Co-Alumni Relations Chair
-    - image: /img/brothers/psi/bradley.png
+    - image: /img/brothers/psi/bradley.jpg
       text: >
         Bradley Morgan
       major: > 
@@ -89,7 +89,7 @@ positions:
         Joseph Lee
       major: > 
         Service Chair
-    - image: /img/brothers/chi/esther.jpg
+    - image: /img/brothers/chi/DSC01396 (4).jpg
       text: >
         Esther Lee
       major: > 
@@ -119,7 +119,7 @@ positions:
         Irvin Qi
       major: > 
         Co-Professional Development Chair
-    - image: /img/brothers/phi/rohan.jpg
+    - image: /img/brothers/upsilon/242.jpg
       text: >
         Rohan Jadhav
       major: > 
