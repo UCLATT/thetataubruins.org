@@ -9,17 +9,17 @@ positions:
   exec:
     - image: /img/brothers/upsilon/235.jpg
       text: > # we use text/major instead of name/position just cuz lazy and re-use code lol
-        Aaron Huynh
+        Arjun Mittha
       major: > 
         Co-Regent
     - image: /img/brothers/upsilon/240.jpg
       text: >
-        Justin Nguyen
+        Gautam Nair
       major: > 
         Co-Regent
     - image: /img/brothers/tau/227.jpeg
       text: >
-        Erika Tran
+        Charline Chen
       major: > 
         Corresponding Secretary
     - image: /img/brothers/upsilon/243.jpg
@@ -29,7 +29,7 @@ positions:
         Marshal
     - image: /img/brothers/upsilon/237.jpg
       text: >
-        Andy Ren
+        Michael Syavong
       major: > 
         Treasurer
     - image: /img/brothers/upsilon/238.jpg
@@ -50,49 +50,39 @@ positions:
   chairs:
     - image: /img/brothers/sigma/210.jpg
       text: >
-        Annie Cen
+        Angela Magtoto
       major: > 
-        Co-External Affairs Chair
+        External Affairs Chair
     - image: /img/brothers/sigma/216.jpg
       text: >
-        Kelly Tran
-      major: > 
-        Co-External Affairs Chair
-    - image: /img/brothers/phi/char.jpg
-      text: >
-        Charline Chen
+        Brian Chang
       major: > 
         Co-Rush Chair
     - image: /img/brothers/phi/helene.jpg
       text: >
-        Helene Gao
+        Dahlia Navarro
       major: > 
         Co-Rush Chair
     - image: /img/rose1000x1000.png
       text: >
-        Chiemeka Kalu
+        Niccolo Duina
       major: > 
         Co-Rush Chair
     - image: /img/brothers/phi/thomas.jpg
       text: >
-        Thomas McConnell
-      major: > 
-        Co-Rush Chair
-    - image: /img/brothers/upsilon/238.jpg
-      text: >
-        Jordan Yen
+        Niccolo Duina
       major: > 
         Webmaster
     - image: /img/brothers/sigma/210.jpg
       text: >
-        Annie Cen
+        Angela Magtoto
       major: > 
-        Co-Projects Chair
+        Co-Alumni Relations Chair
     - image: /img/brothers/phi/lam.jpg
       text: >
-        Lam Luong
+        Bradely Mrogan
       major: > 
-        Co-Projects Chair
+        Co-Alumni Relations Chair
     - image: /img/brothers/phi/irvin.jpg
       text: >
         Irvin Qi
@@ -105,47 +95,42 @@ positions:
         Co-Service Chair
     - image: /img/brothers/phi/arjun.jpg
       text: >
-        Arjun Mittha
-      major: > 
-        Co-Service Chair
-    - image: /img/brothers/phi/ashley.jpg
-      text: >
-        Ashley Wu
+        Esther Lee
       major: > 
         Co-Fundraising Chair
     - image: /img/brothers/phi/song.jpg
       text: >
-        Song Chen
-      major: > 
-        Co-Fundraising Chair
-    - image: /img/brothers/sigma/221.jpg
-      text: >
-        Sophia Lee
+        Austin Yamamoto
       major: > 
         Professional Fraternity Council Chair
     - image: /img/brothers/upsilon/236.jpg
       text: >
-        Alex Yoon
+        Chloe Li
       major: > 
         Co-Brotherhood Chair
     - image: /img/brothers/upsilon/244.jpg
       text: >
-        Shirley Xiang
+        Ethan Lee
       major: > 
         Co-Brotherhood Chair
     - image: /img/brothers/sigma/213.jpg
       text: >
-        Clara Lee
+        Ryan Vu
+      major: > 
+        Co-Brotherhood Chair
+    - image: /img/brothers/sigma/213.jpg
+      text: >
+        Irvin Qi
       major: > 
         Co-Professional Development Chair
     - image: /img/brothers/sigma/220.jpg
       text: >
-        Ryan Ung
+        Rohan Jadhav
       major: > 
         Co-Professional Development Chair
     - image: /img/brothers/sigma/220.jpg
       text: >
-        Ryan Ung
+        Kabeer Minocha
       major: > 
         Historian
 

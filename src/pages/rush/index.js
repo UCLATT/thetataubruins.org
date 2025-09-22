@@ -51,7 +51,7 @@ const RushPage = ({
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Letter from the Recruitment Chairs</h1>
                 <br />
-                Hey there Spring Rush 2025!
+                Hey there Fall Rush 2025!
                 <br /><br />
                 We are thrilled to welcome you to our upcoming recruitment week for Theta Tau's Upsilon Delta Chapter. Although we are known as a professional fraternity, our chapter prides ourselves on our heavy emphasis on the brotherhood and family that we've formed over past few the years. As the recruitment chairs, we wanted to take a moment to express our excitement for the upcoming recruitment week and the opportunity to meet you!
                 <br /><br />
@@ -63,44 +63,44 @@ const RushPage = ({
                 <br /><br />
                 Your Recruitment Chairs,
                 <br /><br />
-                - Austin Yamamoto, Kabeer Minocha, and Shannon Chau
+                - Brian Chang, Dahlia Navarro, and Niccolo Duina
             </section>
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Recruitment Schedule</h1>
                 <br />
                 
                 <Timeline lang="en" theme={customTheme} dateFormat="with-weekday" collapse>
-                    <Container2 title="Meet the Brothers" startDate="2025/04/07">
+                    <Container2 title="Meet the Brothers" startDate="2025/09/29">
                         <Content
                             title="Get to know the brothers of Theta Tau!"
                             description={[
-                                '5-7 PM',
+                                '6-8 PM',
                                 'Engineering IV Patio',
                                 'Casual Attire',
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Engineering Night" startDate="2025/04/08">
+                    <Container2 title="Engineering Night" startDate="2025/09/30">
                         <Content
                             title="Put your innovation skills to the test in a fun engineering challenge!"
                             description={[
-                                '5-7 PM',
+                                '6-8 PM',
                                 'Engineering IV Patio',
                                 'Casual Attire',
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Information Night" startDate="2025/04/09">
+                    <Container2 title="Information Night" startDate="2025/10/01">
                         <Content
                             title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni!"
                             description={[
-                                '5-7 PM',
+                                '6-8 PM',
                                 'Engineering IV Patio',
                                 'Business Casual',
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Beach Night" startDate="2025/04/10">
+                    <Container2 title="Beach Night" startDate="2025/10/02">
                         <Content
                             title="Enjoy an evening at the beach and get to know the brothers better!"
                             description={[
@@ -110,7 +110,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Interviews" startDate="2025/04/11">
+                    <Container2 title="Interviews" startDate="2025/10/03">
                         <Content
                             title="TBD"
                             description={[
@@ -122,7 +122,7 @@ const RushPage = ({
                     </Container2>
                 </Timeline>
                 <div style={{textAlign: 'center'}}>
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4FK-_KSoK28SNBLon_eNd23DU7ZJau9EX2U15S-lmpUDsg/viewform">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdbOuwPkGB9v_gdDuvQgEBVesJ27eapySH4RPtZdT7GsZkrig/viewform?usp=send_form">
                         <button
                             style={{
                                 width: '200px',
