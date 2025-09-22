@@ -87,12 +87,12 @@ positions:
       text: >
         Joseph Lee
       major: > 
-        Co-Service Chair
+        Service Chair
     - image: /img/brothers/chi/esther.jpg
       text: >
         Esther Lee
       major: > 
-        Co-Fundraising Chair
+        Fundraising Chair
     - image: /img/brothers/chi/austin.jpg
       text: >
         Austin Yamamoto
