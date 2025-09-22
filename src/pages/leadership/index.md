@@ -49,17 +49,17 @@ positions:
       major: > 
         Outer Guard
   chairs:
-    - image: /img/brothers/psi/angela.jpg
+    - image: /img/brothers/psi/angela.png
       text: >
         Angela Magtoto
       major: > 
         External Affairs Chair
-    - image: /img/brothers/psi/brian.jpg
+    - image: /img/brothers/psi/brian.png
       text: >
         Brian Chang
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/psi/dahlia.jpg
+    - image: /img/brothers/psi/dahlia.png
       text: >
         Dahlia Navarro
       major: > 
@@ -69,17 +69,17 @@ positions:
         Niccolo Duina
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/psi/nicco.jpg
+    - image: /img/brothers/psi/nicco.png
       text: >
         Niccolo Duina
       major: > 
         Webmaster
-    - image: /img/brothers/psi/angela.jpg
+    - image: /img/brothers/psi/angela.png
       text: >
         Angela Magtoto
       major: > 
         Co-Alumni Relations Chair
-    - image: /img/brothers/psi/bradley.jpg
+    - image: /img/brothers/psi/bradley.png
       text: >
         Bradley Morgan
       major: > 
@@ -99,7 +99,7 @@ positions:
         Austin Yamamoto
       major: > 
         Professional Fraternity Council Chair
-    - image: /img/brothers/psi/chloe.jpg
+    - image: /img/brothers/psi/chloe.png
       text: >
         Chloe Li
       major: > 
