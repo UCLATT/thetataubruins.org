@@ -8,7 +8,8 @@ subheading: Meet our 2024-2025 Executive Board and Committee Chairs
 positions:
   exec:
     - image: /img/brothers/phi/arjun.jpg
-      text: > # we use text/major instead of name/position just cuz lazy and re-use code lol
+      # we use text/major instead of name/position just cuz lazy and re-use code lol
+      text: > 
         Arjun Mittha
       major: > 
         Co-Regent
@@ -80,7 +81,7 @@ positions:
         Co-Alumni Relations Chair
     - image: /img/brothers/psi/bradley.jpg
       text: >
-        Bradely Morgan
+        Bradley Morgan
       major: > 
         Co-Alumni Relations Chair
     - image: /img/brothers/upsilon/239.jpg
@@ -103,7 +104,7 @@ positions:
         Chloe Li
       major: > 
         Co-Brotherhood Chair
-    - image: /img/brothers/phhi/ethan.jpg
+    - image: /img/brothers/phi/ethan.jpg
       text: >
         Ethan Lee
       major: > 
