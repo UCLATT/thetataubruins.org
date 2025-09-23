@@ -23,9 +23,9 @@ positions:
         Charline Chen
       major: > 
         Corresponding Secretary
-    - image: /img/brothers/upsilon/243.jpg
+    - image: /img/brothers/phi/theanh.jpg
       text: >
-        Ryan Korb
+        Theanh Nguyen
       major: > 
         Marshal
     - image: /img/brothers/phi/michael.jpg
@@ -33,19 +33,19 @@ positions:
         Michael Syavong
       major: > 
         Treasurer
-    - image: /img/brothers/upsilon/238.jpg
+    - image: /img/brothers/phi/lizzy.jpg
       text: >
-        Jordan Yen
+        Lizzy Libertor
       major: > 
         Scribe
-    - image: /img/brothers/upsilon/235.jpg
+    - image: /img/brothers/phi/alyssa.jpg
       text: >
-        Aaron Huynh
+        Alyssa Halvorsen
       major: > 
         Inner Guard
-    - image: /img/brothers/sigma/213.jpg
+    - image: /img/brothers/phi/athan.jpg
       text: >
-        Clara Lee
+        Athan Seltzer
       major: > 
         Outer Guard
   chairs:
