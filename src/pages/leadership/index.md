@@ -99,7 +99,7 @@ positions:
         Austin Yamamoto
       major: > 
         Professional Fraternity Council Chair
-    - image: /img/brothers/phi/chloe.png
+    - image: /img/brothers/phi/chloe.jpg
       text: >
         Chloe Yoon
       major: > 
