@@ -457,7 +457,7 @@ classes:
       text: >
         Niccolo Duina
       major: > 
-        Electrical Engineering
+        Computer Science
       year: >
         Class of 2028
     - image: /img/brothers/psi/raphael.png
