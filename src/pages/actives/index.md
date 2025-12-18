@@ -284,13 +284,13 @@ classes:
       year: >
         Class of 2026
   chi:
-#    - image: /img/brothers/chi/alan.jpg
-#      text: >
-#        Alan Luupham
-#      major: > 
-#        Civil Engineering
-#      year: >
-#        Class of 2028
+    - image: /img/brothers/chi/alan.jpg
+      text: >
+        Alan Luupham
+      major: > 
+        Civil Engineering
+      year: >
+        Class of 2028
     - image: /img/brothers/chi/austin.jpg
       text: >
         Austin Yamamoto
