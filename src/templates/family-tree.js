@@ -434,8 +434,6 @@ export const FamilyTreeTemplate = ({
                                                       <li>
                                                         <a>Keani Finney</a>
                                                       </li>
-                                                    </ul>
-                                                    <ul>
                                                       <li>
                                                         <a>Tejas Ravi</a>
                                                       </li>
@@ -1164,8 +1162,6 @@ export const FamilyTreeTemplate = ({
                                                           <li>
                                                             <a>Claire Kim</a>
                                                           </li>
-                                                        </ul>
-                                                        <ul>
                                                           <li>
                                                             <a>Jimmy Yang</a>
                                                           </li>
@@ -1239,8 +1235,6 @@ export const FamilyTreeTemplate = ({
                                                                 <li>
                                                                   <a>Ellia Kim</a>
                                                                 </li>
-                                                              </ul>
-                                                              <ul>
                                                                 <li>
                                                                   <a>Haruto Cong</a>
                                                                 </li>
