@@ -32,7 +32,7 @@ classes:
       text: >
         Rachel Shim
       major: > 
-        Electrical Engineering
+        Computer Science
       year: >
         Class of 2026
     - image: /img/brothers/sigma/221.jpg
@@ -43,7 +43,7 @@ classes:
       year: >
         Class of 2026
   tau:
-    - image: /img/brothers/tau/fatBen.jpeg
+    - image: /img/brothers/tau/224.jpeg
       text: >
         Benjamin Xie
       major: > 
@@ -323,7 +323,7 @@ classes:
       text: >
         Erica Lam
       major: > 
-        Civil Engineering
+        Mechanical Engineering
       year: >
         Class of 2028
     - image: /img/brothers/chi/DSC01396 (4).jpg
