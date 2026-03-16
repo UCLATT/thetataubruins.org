@@ -482,91 +482,91 @@ classes:
       year: >
         Class of 2027
   omegas: 
-    - image: /img/brothers/omegas/aadarsh.jpeg
+    - image: /img/brothers/omega/aadarsh.jpeg
       text: >
         Aadarsh Menon
       major: > 
         Computer Science 
       year: >
         Class of 2029
-    - image: /img/brothers/omegas/bradley.jpeg
+    - image: /img/brothers/omega/bradley.jpeg
       text: >
         Bradley Co
       major: > 
         Statistics and Data Science 
       year: >
         Class of 2027
-    - image: /img/brothers/omegas/claire.jpeg
+    - image: /img/brothers/omega/claire.jpeg
       text: >
         Claire Kim
       major: > 
         Mechanical Engineering
       year: >
         Class of 2029
-    - image: /img/brothers/omegas/don.jpeg
+    - image: /img/brothers/omega/don.jpeg
       text: >
         Don Do
       major: > 
         Computer Science
       year: >
         Class of 2028
-    - image: /img/brothers/omegas/ella.jpeg
+    - image: /img/brothers/omega/ella.jpeg
       text: >
         Ella Park
       major: > 
         Materials Engineering
       year: >
         Class of 2029
-    - image: /img/brothers/omegas/ellia.jpeg
+    - image: /img/brothers/omega/ellia.jpeg
       text: >
         Ellia Kim
       major: > 
         Mathematics of Computation
       year: >
         Class of 2029
-    - image: /img/brothers/omegas/haruto.jpeg
+    - image: /img/brothers/omega/haruto.jpeg
       text: >
         Haruto Cong
       major: > 
         Statistics and Data Science 
       year: >
         Class of 2029
-    - image: /img/brothers/omegas/jimmy.jpeg
+    - image: /img/brothers/omega/jimmy.jpeg
       text: >
         Jimmy Yang
       major: > 
         Materials Engineering
       year: >
         Class of 2029
-    - image: /img/brothers/omegas/keani.jpeg
+    - image: /img/brothers/omega/keani.jpeg
       text: >
         Keani Finney
       major: > 
         Mathematics of Computation
       year: >
         Class of 2027
-    - image: /img/brothers/omegas/linh.jpeg
+    - image: /img/brothers/omega/linh.jpeg
       text: >
         Linh Pham
       major: > 
         Chemical Engineering
       year: >
         Class of 2028
-    - image: /img/brothers/omegas/parth.jpeg
+    - image: /img/brothers/omega/parth.jpeg
       text: >
         Parth Goel
       major: > 
         Computer Science
       year: >
         Class of 2029
-    - image: /img/brothers/omegas/reid.jpeg
+    - image: /img/brothers/omega/reid.jpeg
       text: >
         Reid Mendoza
       major: > 
         Data Theory
       year: >
         Class of 2029
-    - image: /img/brothers/omegas/tejas.jpeg
+    - image: /img/brothers/omega/tejas.jpeg
       text: >
         Tejas Ravi
       major: > 
