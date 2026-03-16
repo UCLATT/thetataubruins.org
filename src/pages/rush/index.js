@@ -51,7 +51,7 @@ const RushPage = ({
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Letter from the Recruitment Chairs</h1>
                 <br />
-                Hey there Fall Rush 2025!
+                Hey there Spring Rush 2026!
                 <br /><br />
                 We are thrilled to welcome you to our upcoming recruitment week for Theta Tau's Upsilon Delta Chapter. Although we are known as a professional fraternity, our chapter prides ourselves on our heavy emphasis on the brotherhood and family that we've formed over past few the years. As the recruitment chairs, we wanted to take a moment to express our excitement for the upcoming recruitment week and the opportunity to meet you!
                 <br /><br />
@@ -63,14 +63,14 @@ const RushPage = ({
                 <br /><br />
                 Your Recruitment Chairs,
                 <br /><br />
-                - Brian Chang, Dahlia Navarro, and Niccolo Duina
+                - Claire Kim, Haruto Cong, Jimmy Yang, and Tejas Ravi
             </section>
             <section className='section' style={{ marginLeft: "10%", marginRight: "10%" }}>
                 <h1>Recruitment Schedule</h1>
                 <br />
                 
                 <Timeline lang="en" theme={customTheme} dateFormat="with-weekday" collapse>
-                    <Container2 title="Meet the Brothers" startDate="2025/09/29">
+                    <Container2 title="Meet the Brothers" startDate="2026/04/06">
                         <Content
                             title="Get to know the brothers of Theta Tau!"
                             description={[
@@ -80,7 +80,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Engineering Night" startDate="2025/09/30">
+                    <Container2 title="Engineering Night" startDate="2026/04/07">
                         <Content
                             title="Put your innovation skills to the test in a fun engineering challenge!"
                             description={[
@@ -90,7 +90,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Information Night" startDate="2025/10/01">
+                    <Container2 title="Information Night" startDate="2026/04/08">
                         <Content
                             title="Discover what our organization has to offer as you hear the unique stories of our brothers and alumni!"
                             description={[
@@ -100,7 +100,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Beach Night" startDate="2025/10/02">
+                    <Container2 title="Beach Night" startDate="2026/04/09">
                         <Content
                             title="Enjoy an evening at the beach and get to know the brothers better!"
                             description={[
@@ -110,7 +110,7 @@ const RushPage = ({
                             ]}
                         />
                     </Container2>
-                    <Container2 title="Interviews" startDate="2025/10/03">
+                    <Container2 title="Interviews" startDate="2026/04/10">
                         <Content
                             title="TBD"
                             description={[
@@ -122,7 +122,7 @@ const RushPage = ({
                     </Container2>
                 </Timeline>
                 <div style={{textAlign: 'center'}}>
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdbOuwPkGB9v_gdDuvQgEBVesJ27eapySH4RPtZdT7GsZkrig/viewform?usp=send_form">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfNPO-ZSGliSaU_vrZvEvMix7vchP0DpKVYwOCwweO2FO6PjQ/viewform">
                         <button
                             style={{
                                 width: '200px',
