@@ -334,7 +334,8 @@ const NavbarHome = class extends React.Component {
                 <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSfNPO-ZSGliSaU_vrZvEvMix7vchP0DpKVYwOCwweO2FO6PjQ/viewform">
                   <a
                     className="navbar-item"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSeHz02nUNkVZDlWY_YruaA3A16T-bIw2lz5XzbmyVyaNeTNXw/viewform" 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfNPO-ZSGliSaU_vrZvEvMix7vchP0DpKVYwOCwweO2FO6PjQ/viewform"
+                    target="_blank"
                     style = {{ textDecoration: "none" }}
                   >
                     Apply

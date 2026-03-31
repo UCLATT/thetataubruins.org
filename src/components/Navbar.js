@@ -344,10 +344,10 @@ const Navbar = class extends React.Component {
                     Information
                   </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSd38J8pHiHZtMR4eufrqfy9C5khLJmmr5UzMgY2j6aj_S1-3Q/viewform">
+                <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSfNPO-ZSGliSaU_vrZvEvMix7vchP0DpKVYwOCwweO2FO6PjQ/viewform">
                   <a
                     className="navbar-item"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4FK-_KSoK28SNBLon_eNd23DU7ZJau9EX2U15S-lmpUDsg/viewform" 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfNPO-ZSGliSaU_vrZvEvMix7vchP0DpKVYwOCwweO2FO6PjQ/viewform"
                     target="_blank"
                     style = {{ textDecoration: "none" }}
                   >
