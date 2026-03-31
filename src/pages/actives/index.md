@@ -43,7 +43,7 @@ classes:
       year: >
         Class of 2026
   tau:
-    - image: /img/brothers/tau/ben.jpeg
+    - image: /img/brothers/tau/224.jpeg
       text: >
         Benjamin Xie
       major: > 

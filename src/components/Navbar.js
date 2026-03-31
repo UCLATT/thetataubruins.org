@@ -218,7 +218,7 @@ const Navbar = class extends React.Component {
                               </Link>
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSdbOuwPkGB9v_gdDuvQgEBVesJ27eapySH4RPtZdT7GsZkrig/viewform">
+                            <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSfNPO-ZSGliSaU_vrZvEvMix7vchP0DpKVYwOCwweO2FO6PjQ/viewform">
                             <Link 
                                 className="navbar-item"
                                 style = {{ textDecoration: "none" }}>
