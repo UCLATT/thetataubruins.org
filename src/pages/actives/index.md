@@ -340,13 +340,13 @@ classes:
         Computer Science
       year: >
         Class of 2027
-    - image: /img/brothers/chi/kabeer.jpg
-      text: >
-        Kabeer Minocha
-      major: > 
-        Mechanical Engineering
-      year: >
-        Class of 2028
+    # - image: /img/brothers/chi/kabeer.jpg
+    #   text: >
+    #     Kabeer Minocha
+    #   major: > 
+    #     Mechanical Engineering
+    #   year: >
+    #     Class of 2028
     - image: /img/brothers/chi/shannon.jpg
       text: >
         Shannon Chau
@@ -390,13 +390,13 @@ classes:
         Electrical Engineering and Economics
       year: >
         Class of 2027
-    - image: /img/brothers/psi/brian.png
-      text: >
-        Brian Chang
-      major: > 
-        Mechanical Engineering
-      year: >
-        Class of 2028
+    # - image: /img/brothers/psi/brian.png
+    #   text: >
+    #     Brian Chang
+    #   major: > 
+    #     Mechanical Engineering
+    #   year: >
+    #     Class of 2028
     - image: /img/brothers/psi/charlton.png
       text: >
         Charlton Shih
@@ -453,13 +453,13 @@ classes:
         Statistics & Data Science
       year: >
         Class of 2026
-    - image: /img/brothers/psi/nicco.png
-      text: >
-        Niccolo Duina
-      major: > 
-        Computer Science
-      year: >
-        Class of 2028
+    # - image: /img/brothers/psi/nicco.png
+    #   text: >
+    #     Niccolo Duina
+    #   major: > 
+    #     Computer Science
+    #   year: >
+    #     Class of 2028
     - image: /img/brothers/psi/raphael.png
       text: >
         Raphael Figueroa

@@ -7,15 +7,15 @@ subheading: Meet our 2024-2025 Executive Board and Committee Chairs
 
 positions:
   exec:
-    - image: /img/brothers/phi/arjun.jpg
+    - image: /img/brothers/chi/emily.jpg
       # we use text/major instead of name/position just cuz lazy and re-use code lol
       text: > 
-        Arjun Mittha
+        Emily Zhang
       major: > 
         Co-Regent
-    - image: /img/brothers/chi/gautam.jpg
+    - image: /img/brothers/phi/irvin.jpg
       text: >
-        Gautam Nair
+        Irvin Qi
       major: > 
         Co-Regent
     - image: /img/brothers/phi/char.jpg
@@ -54,26 +54,31 @@ positions:
         Angela Magtoto
       major: > 
         External Affairs Chair
-    - image: /img/brothers/psi/brian.png
+    - image: /img/brothers/omega/claire.jpeg
       text: >
-        Brian Chang
+        Claire Kim
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/psi/dahlia.png
+    - image: /img/brothers/omega/haruto.jpeg
       text: >
-        Dahlia Navarro
+        Haruto Cong
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/psi/nicco.png
+    - image: /img/brothers/omega/jimmy.jpeg
       text: >
-        Niccolo Duina
+        Jimmy Yang
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/psi/nicco.png
+    - image: /img/brothers/omega/tejas.jpeg
       text: >
-        Niccolo Duina
+        Tejas Ravi
       major: > 
-        Webmaster
+        Co-Rush Chair
+    # - image: /img/brothers/psi/nicco.png
+    #   text: >
+    #     Niccolo Duina
+    #   major: > 
+    #     Webmaster
     - image: /img/brothers/psi/angela.png
       text: >
         Angela Magtoto
@@ -124,10 +129,10 @@ positions:
         Rohan Jadhav
       major: > 
         Co-Professional Development Chair
-    - image: /img/brothers/chi/kabeer.jpg
-      text: >
-        Kabeer Minocha
-      major: > 
-        Historian
+    # - image: /img/brothers/chi/kabeer.jpg
+    #   text: >
+    #     Kabeer Minocha
+    #   major: > 
+    #     Historian
 
 ---
