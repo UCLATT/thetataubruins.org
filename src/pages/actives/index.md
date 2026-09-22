@@ -171,13 +171,13 @@ classes:
         Computational Biology
       year: >
         Class of 2027
-    - image: /img/brothers/phi/amber.jpg
-      text: >
-        Amber Yeung
-      major: > 
-        Electrical Engineering
-      year: >
-        Class of 2027
+    # - image: /img/brothers/phi/amber.jpg
+    #   text: >
+    #     Amber Yeung
+    #   major: > 
+    #     Electrical Engineering
+    #   year: >
+    #     Class of 2027
     - image: /img/brothers/phi/arjun.jpg
       text: >
         Arjun Mittha
@@ -404,20 +404,20 @@ classes:
         Computer Science
       year: >
         Class of 2027
-    - image: /img/brothers/psi/chloe.png
-      text: >
-        Chloe Li
-      major: > 
-        Cognitive Science
-      year: >
-        Class of 2028
-    - image: /img/brothers/psi/dahlia.png
-      text: >
-        Dahlia Navarro
-      major: > 
-        Chemical Engineering
-      year: >
-        Class of 2027
+    # - image: /img/brothers/psi/chloe.png
+    #   text: >
+    #     Chloe Li
+    #   major: > 
+    #     Cognitive Science
+    #   year: >
+    #     Class of 2028
+    # - image: /img/brothers/psi/dahlia.png
+    #   text: >
+    #     Dahlia Navarro
+    #   major: > 
+    #     Chemical Engineering
+    #   year: >
+    #     Class of 2027
     - image: /img/brothers/psi/felicia.png
       text: >
         Felicia Chen
