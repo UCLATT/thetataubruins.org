@@ -3,24 +3,24 @@ templateKey: 'leadership'
 path: /leadership
 image: ../img/home.png
 title: Leadership
-subheading: Meet our 2024-2025 Executive Board and Committee Chairs
+subheading: Meet our 2026-2027 Executive Board and Committee Chairs
 
 positions:
   exec:
-    - image: /img/brothers/chi/emily.jpg
+    - image: /img/brothers/psi/angela.png
       # we use text/major instead of name/position just cuz lazy and re-use code lol
       text: > 
-        Emily Zhang
+        Angela Magtoto
       major: > 
         Co-Regent
-    - image: /img/brothers/phi/irvin.jpg
+    - image: /img/brothers/psi/bradley.jpg
       text: >
-        Irvin Qi
+        Bradley Morgan
       major: > 
         Co-Regent
-    - image: /img/brothers/phi/char.jpg
+    - image: /img/brothers/chi/erica.jpg
       text: >
-        Charline Chen
+        Erica Lam
       major: > 
         Corresponding Secretary
     - image: /img/brothers/phi/theanh.jpg
@@ -28,19 +28,19 @@ positions:
         Theanh Nguyen
       major: > 
         Marshal
-    - image: /img/brothers/phi/michael.jpg
+    - image: /img/brothers/psi/jeremy.png
       text: >
-        Michael Syavong
+        Jeremy De Leon
       major: > 
         Treasurer
-    - image: /img/brothers/phi/lizzy.jpg
+    - image: /img/brothers/psi/raphael.png
       text: >
-        Lizzy Libertor
+        Raphael Figueroa
       major: > 
         Scribe
-    - image: /img/brothers/phi/alyssa.jpg
+    - image: /img/brothers/psi/brian.png
       text: >
-        Alyssa Halvorsen
+        Brian Chang
       major: > 
         Inner Guard
     - image: /img/brothers/phi/athan.jpg
@@ -49,11 +49,6 @@ positions:
       major: > 
         Outer Guard
   chairs:
-    - image: /img/brothers/psi/angela.png
-      text: >
-        Angela Magtoto
-      major: > 
-        External Affairs Chair
     - image: /img/brothers/omega/claire.jpeg
       text: >
         Claire Kim
@@ -74,34 +69,29 @@ positions:
         Tejas Ravi
       major: > 
         Co-Rush Chair
-    # - image: /img/brothers/psi/nicco.png
-    #   text: >
-    #     Niccolo Duina
-    #   major: > 
-    #     Webmaster
-    - image: /img/brothers/psi/angela.png
+    - image: /img/brothers/psi/raphael.png
       text: >
-        Angela Magtoto
+        Raphael Figueroa
       major: > 
-        Co-Alumni Relations Chair
-    - image: /img/brothers/psi/bradley.jpg
+        Webmaster
+    - image: /img/brothers/psi/brian.png
       text: >
-        Bradley Morgan
+        Brian Chang
       major: > 
-        Co-Alumni Relations Chair
-    - image: /img/brothers/upsilon/239.jpg
+        Alumni Relations Chair
+    - image: /img/brothers/omega/claire.jpeg
       text: >
-        Joseph Lee
+        Claire Kim
       major: > 
         Service Chair
-    - image: /img/brothers/chi/DSC01396 (4).jpg
+    - image: /img/brothers/omega/ella.jpeg
       text: >
-        Esther Lee
+        Ella Park
       major: > 
         Fundraising Chair
-    - image: /img/brothers/chi/austin.jpg
+    - image: /img/brothers/phi/char.jpg
       text: >
-        Austin Yamamoto
+        Charline Chen
       major: > 
         Professional Fraternity Council Chair
     - image: /img/brothers/phi/chloe.jpg
@@ -109,19 +99,14 @@ positions:
         Chloe Yoon
       major: > 
         Co-Brotherhood Chair
-    - image: /img/brothers/phi/ethan.jpg
-      text: >
-        Ethan Lee
-      major: > 
-        Co-Brotherhood Chair
     - image: /img/brothers/phi/ryan.jpg
       text: >
         Ryan Vu
       major: > 
         Co-Brotherhood Chair
-    - image: /img/brothers/phi/irvin.jpg
+    - image: /img/brothers/psi/bradley.jpg
       text: >
-        Irvin Qi
+        Bradley Morgan
       major: > 
         Co-Professional Development Chair
     - image: /img/brothers/upsilon/242.jpg
@@ -129,10 +114,15 @@ positions:
         Rohan Jadhav
       major: > 
         Co-Professional Development Chair
-    # - image: /img/brothers/chi/kabeer.jpg
-    #   text: >
-    #     Kabeer Minocha
-    #   major: > 
-    #     Historian
+    - image: /img/brothers/psi/nicco.png
+      text: >
+        Niccolo Duina
+      major: > 
+        Co-Professional Development Chair
+    - image: /img/brothers/chi/kabeer.jpg
+      text: >
+        Kabeer Minocha
+      major: > 
+        Historian
 
 ---

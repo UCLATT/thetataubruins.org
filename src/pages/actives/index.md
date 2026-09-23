@@ -213,13 +213,6 @@ classes:
         Computer Science
       year: >
         Class of 2027
-    - image: /img/brothers/phi/ethan.jpg
-      text: >
-        Ethan Lee
-      major: > 
-        Computer Science
-      year: >
-        Class of 2027
     - image: /img/brothers/phi/helene.jpg
       text: >
         Helene Gao
