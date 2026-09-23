@@ -29,13 +29,7 @@ export const ActivesPageTemplate = ({
 
       <p className = "classHeader" style={{
         marginTop: "40px",
-      }}>Sigma Class</p>
-      <Features gridItems={classes.sigma} />
-
-      <p className = "classHeader">Tau Class</p>
-      <Features gridItems={classes.tau} />
-
-      <p className = "classHeader">Upsilon Class</p>
+      }}>Upsilon Class</p>
       <Features gridItems={classes.upsilon} />
 
       <p className = "classHeader">Phi Class</p>
@@ -66,8 +60,6 @@ ActivesPageTemplate.propTypes = {
     omicron: PropTypes.array,
     pi: PropTypes.array,
     rho: PropTypes.array,
-    sigma: PropTypes.array,
-    tau: PropTypes.array,
     upsilon: PropTypes.array,
     phi: PropTypes.array,
     chi: PropTypes.array,
@@ -152,26 +144,6 @@ export const ActivesPageQuery = graphql`
             year
           }
           rho {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
-              }
-            }
-            text
-            major
-            year
-          }
-          sigma {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
-              }
-            }
-            text
-            major
-            year
-          }
-          tau {
             image {
               childImageSharp {
                 gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)

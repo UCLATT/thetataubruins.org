@@ -107,6 +107,21 @@ const heroImage = getImage(image) || image;
         
         <p className = "classHeader">Sigma Class</p>
         <Features gridItems={classes.sigma} />
+
+        <p className = "classHeader">Tau Class</p>
+        <Features gridItems={classes.tau} />
+
+        <p className = "classHeader">Upsilon Class</p>
+        <Features gridItems={classes.upsilon} />
+
+        <p className = "classHeader">Phi Class</p>
+        <Features gridItems={classes.phi} />
+
+        <p className = "classHeader">Chi Class</p>
+        <Features gridItems={classes.chi} />
+
+        <p className = "classHeader">Psi Class</p>
+        <Features gridItems={classes.psi} />
         </div>
     );
 };
@@ -138,6 +153,11 @@ AlumniPageTemplate.propTypes = {
     pi: PropTypes.array,
     rho: PropTypes.array,
     sigma: PropTypes.array,
+    tau: PropTypes.array,
+    upsilon: PropTypes.array,
+    phi: PropTypes.array,
+    chi: PropTypes.array,
+    psi: PropTypes.array,
   }),
 };
 
@@ -357,6 +377,56 @@ export const AlumniPageQuery = graphql`
                     year
                 }
                 sigma {
+                    image {
+                    childImageSharp {
+                        gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                    }
+                    }
+                    text
+                    major
+                    year
+                }
+                tau {
+                    image {
+                    childImageSharp {
+                        gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                    }
+                    }
+                    text
+                    major
+                    year
+                }
+                upsilon {
+                    image {
+                    childImageSharp {
+                        gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                    }
+                    }
+                    text
+                    major
+                    year
+                }
+                phi {
+                    image {
+                    childImageSharp {
+                        gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                    }
+                    }
+                    text
+                    major
+                    year
+                }
+                chi {
+                    image {
+                    childImageSharp {
+                        gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                    }
+                    }
+                    text
+                    major
+                    year
+                }
+                psi {
                     image {
                     childImageSharp {
                         gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)

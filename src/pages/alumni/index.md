@@ -1518,13 +1518,13 @@ classes:
         Linguistics and Computer Science
       year: >
         Class of 2024
-    # - image: /img/brothers/sigma/213.jpg
-    #   text: >
-    #     Clara Lee
-    #   major: > 
-    #     Mechanical Engineering
-    #   year: >
-    #     Class of 2026
+    - image: /img/brothers/sigma/213.jpg
+      text: >
+        Clara Lee
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2026
     - image: /img/brothers/sigma/214.jpg
       text: >
         Jack Lin
@@ -1532,13 +1532,13 @@ classes:
         Computer Science
       year: >
         Class of 2024
-    # - image: /img/brothers/sigma/215.jpg
-    #   text: >
-    #     Jason Co
-    #   major: > 
-    #     Mechanical Engineering
-    #   year: >
-    #     Class of 2026
+    - image: /img/brothers/sigma/215.jpg
+      text: >
+        Jason Co
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2026
     - image: /img/brothers/sigma/216.jpg
       text: >
         Kelly Tran
@@ -1553,20 +1553,20 @@ classes:
         Computer Science
       year: >
         Class of 2024
-    # - image: /img/brothers/sigma/218.jpg
-    #   text: >
-    #     Kevin Yuan
-    #   major: > 
-    #     Computer Science
-    #   year: >
-    #     Class of 2026
-    # - image: /img/brothers/sigma/219.jpg
-    #   text: >
-    #     Rachel Shim
-    #   major: > 
-    #     Electrical Engineering
-    #   year: >
-    #     Class of 2026
+    - image: /img/brothers/sigma/218.jpg
+      text: >
+        Kevin Yuan
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/sigma/219.jpg
+      text: >
+        Rachel Shim
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
     - image: /img/brothers/sigma/220.jpg
       text: >
         Ryan Ung
@@ -1574,13 +1574,13 @@ classes:
         Computer Science
       year: >
         Class of 2025
-    # - image: /img/brothers/sigma/221.jpg
-    #   text: >
-    #     Sophia Lee
-    #   major: >
-    #     Computer Science
-    #   year: >
-    #     Class of 2026
+    - image: /img/brothers/sigma/221.jpg
+      text: >
+        Sophia Lee
+      major: >
+        Computer Science
+      year: >
+        Class of 2026
     - image: /img/brothers/sigma/222.jpg
       text: >
         Tracy Nguyen
@@ -1595,4 +1595,191 @@ classes:
         Computer Science
       year: >
         Class of 2025
+  tau:
+    - image: /img/brothers/tau/224.jpeg
+      text: >
+        Benjamin Xie
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/225.jpeg
+      text: >
+        Danny Dang
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/226.jpeg
+      text: >
+        Emma Buxton
+      major: > 
+        Bioengineering
+      year: >
+        Class of 2025
+    - image: /img/brothers/tau/227.jpeg
+      text: >
+        Erika Tran
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/228.jpeg
+      text: >
+        Farrel Gomargana
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/230.jpeg
+      text: >
+        Lana Dang
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/231.jpeg
+      text: >
+        Ryan Vu
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/232.jpeg
+      text: >
+        Teresa Bui
+      major: > 
+        Engineering Geology
+      year: >
+        Class of 2025
+    - image: /img/brothers/tau/233.jpeg
+      text: >
+        Tom Oh
+      major: > 
+        Linguistics & Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/tau/234.jpeg
+      text: >
+        Yena Lee
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2026
+  upsilon:
+    - image: /img/brothers/upsilon/235.jpg
+      text: >
+        Aaron Huynh
+      major: > 
+        Physics
+      year: >
+        Class of 2025
+    - image: /img/brothers/upsilon/237.jpg
+      text: >
+        Andy Ren
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2026
+    - image: /img/brothers/upsilon/239.jpg
+      text: >
+        Joseph Lee
+      major: > 
+        Cognitive Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/upsilon/240.jpg
+      text: >
+        Justin Nguyen
+      major: > 
+        Linguistics & Computer Science
+      year: >
+        Class of 2025
+    - image: /img/brothers/upsilon/243.jpg
+      text: >
+        Ryan Korb
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2026
+  phi:
+    - image: /img/rose1000x1000.png
+      text: >
+        Chiemeka Kalu
+      major: > 
+        Linguistics & Computer Science
+      year: >
+        Class of 2025
+    - image: /img/brothers/phi/lizzy.jpg
+      text: >
+        Elizabeth Libertor
+      major: > 
+        Civil Engineering
+      year: >
+        Class of 2026
+    - image: /img/brothers/phi/lam.jpg
+      text: >
+        Lam Luong
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/phi/song.jpg
+      text: >
+        Song Chen
+      major: > 
+        Statistics & Data Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/phi/thomas.jpg
+      text: >
+        Thomas McConnell
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+  chi:
+    - image: /img/brothers/chi/derek.jpg
+      text: >
+        Derek Wu
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/chi/DSC01396 (4).jpg
+      text: >
+        Esther Lee
+      major: > 
+        Linguistics & Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/chi/soha.jpg
+      text: >
+        Soha Baig
+      major: > 
+        Linguistics & Computer Science
+      year: >
+        Class of 2026
+  psi:
+    - image: /img/brothers/psi/felicia.png
+      text: >
+        Felicia Chen
+      major: > 
+        Computer Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/psi/katie.png
+      text: >
+        Katie Lew
+      major: > 
+        Cognitive Science
+      year: >
+        Class of 2026
+    - image: /img/brothers/psi/kennedy.png
+      text: >
+        Kennedy Hayashi
+      major: > 
+        Statistics & Data Science
+      year: >
+        Class of 2026
 ---
