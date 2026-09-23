@@ -205,7 +205,7 @@ const NavbarHome = class extends React.Component {
                               </Link>
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfNPO-ZSGliSaU_vrZvEvMix7vchP0DpKVYwOCwweO2FO6PjQ/viewform">
+                            <NavDropdown.Item target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfiMMM4xfsLeR-fgL-Fb-LH1B9MidiS-gP_5qIv25riDHSE-w/viewform">
                             <Link 
                                 className="navbar-item"
                                 style = {{ textDecoration: "none" }}>
@@ -331,10 +331,10 @@ const NavbarHome = class extends React.Component {
                     Information
                   </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSfNPO-ZSGliSaU_vrZvEvMix7vchP0DpKVYwOCwweO2FO6PjQ/viewform">
+                <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSfiMMM4xfsLeR-fgL-Fb-LH1B9MidiS-gP_5qIv25riDHSE-w/viewform">
                   <a
                     className="navbar-item"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfNPO-ZSGliSaU_vrZvEvMix7vchP0DpKVYwOCwweO2FO6PjQ/viewform"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfiMMM4xfsLeR-fgL-Fb-LH1B9MidiS-gP_5qIv25riDHSE-w/viewform"
                     target="_blank"
                     style = {{ textDecoration: "none" }}
                   >
