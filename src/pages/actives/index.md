@@ -20,7 +20,7 @@ classes:
       major: > 
         Linguistics & Computer Science
       year: >
-        Class of 2026
+        Class of 2027
     - image: /img/brothers/upsilon/241.jpg
       text: >
         Justin Sheehan
