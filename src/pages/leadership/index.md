@@ -43,30 +43,30 @@ positions:
         Brian Chang
       major: > 
         Inner Guard
-    - image: /img/brothers/phi/athan.jpg
+    - image: /img/brothers/alphabeta/mark.jpg
       text: >
-        Athan Seltzer
+        Mark Hodges
       major: > 
         Outer Guard
   chairs:
-    - image: /img/brothers/omega/claire.jpeg
+    - image: /img/brothers/alphabeta/apollo.jpeg
       text: >
-        Claire Kim
+        Apollo Ngo
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/omega/haruto.jpeg
+    - image: /img/brothers/alphabeta/camilia.jpg
       text: >
-        Haruto Cong
+        Camilia Hornstein
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/omega/jimmy.jpeg
+    - image: /img/brothers/alphabeta/preston.jpg
       text: >
-        Jimmy Yang
+        Preston Lin
       major: > 
         Co-Rush Chair
-    - image: /img/brothers/omega/tejas.jpeg
+    - image: /img/brothers/alphabeta/shannon-nguyen.jpg
       text: >
-        Tejas Ravi
+        Shannon Nguyen
       major: > 
         Co-Rush Chair
     - image: /img/brothers/psi/raphael.png
@@ -94,24 +94,19 @@ positions:
         Charline Chen
       major: > 
         Professional Fraternity Council Chair
-    - image: /img/brothers/phi/chloe.jpg
+    - image: /img/brothers/alphabeta/mark.jpg
       text: >
-        Chloe Yoon
+        Mark Hodges
       major: > 
         Co-Brotherhood Chair
-    - image: /img/brothers/phi/ryan.jpg
+    - image: /img/brothers/alphabeta/om.png
       text: >
-        Ryan Vu
+        Om Dadlani
       major: > 
         Co-Brotherhood Chair
-    - image: /img/brothers/psi/bradley.jpg
+    - image: /img/brothers/upsilon/238.jpg
       text: >
-        Bradley Morgan
-      major: > 
-        Co-Professional Development Chair
-    - image: /img/brothers/upsilon/242.jpg
-      text: >
-        Rohan Jadhav
+        Jordan Yen
       major: > 
         Co-Professional Development Chair
     - image: /img/brothers/psi/nicco.png
@@ -119,9 +114,14 @@ positions:
         Niccolo Duina
       major: > 
         Co-Professional Development Chair
-    - image: /img/brothers/chi/kabeer.jpg
+    - image: /img/brothers/upsilon/242.jpg
       text: >
-        Kabeer Minocha
+        Rohan Jadhav
+      major: > 
+        Co-Professional Development Chair
+    - image: /img/brothers/alphabeta/angie.jpg
+      text: >
+        Angie Wang
       major: > 
         Historian
 

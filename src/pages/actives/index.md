@@ -210,7 +210,7 @@ classes:
       text: >
         Bradley Morgan
       major: > 
-        Electrical Engineering and Economics
+        Electrical Engineering
       year: >
         Class of 2027
     - image: /img/brothers/psi/brian.png
