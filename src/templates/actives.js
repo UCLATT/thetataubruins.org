@@ -43,6 +43,9 @@ export const ActivesPageTemplate = ({
 
       <p className = "classHeader">Omega Class</p>
       <Features gridItems={classes.omegas} />
+
+      <p className = "classHeader">Alpha Beta Class</p>
+      <Features gridItems={classes.alphabeta} />
     </div>
   );
 };
@@ -65,6 +68,7 @@ ActivesPageTemplate.propTypes = {
     chi: PropTypes.array,
     psi: PropTypes.array,
     omegas: PropTypes.array,
+    alphabeta: PropTypes.array,
   }),
 };
 
@@ -194,6 +198,16 @@ export const ActivesPageQuery = graphql`
             year
           }
           omegas {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)
+              }
+            }
+            text
+            major
+            year
+          }
+          alphabeta {
             image {
               childImageSharp {
                 gatsbyImageData(width: 360, quality: 100, layout: CONSTRAINED)

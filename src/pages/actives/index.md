@@ -375,4 +375,131 @@ classes:
         Electrical Engineering
       year: >
         Class of 2029
+  alphabeta:
+    - image: /img/brothers/alphabeta/aby.jpeg
+      text: >
+        Abraham Jose
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/angie.jpg
+      text: >
+        Angie Wang
+      major: > 
+        Computer Science
+      year: >
+        Class of 2028
+    - image: /img/brothers/alphabeta/anjalie.jpg
+      text: >
+        Anjalie Chakravertti
+      major: > 
+        Chemical Engineering
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/apollo.jpeg
+      text: >
+        Apollo Ngo
+      major: > 
+        Civil Engineering
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/ariya.jpg
+      text: >
+        Ariya Ahmed
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/camilia.jpg
+      text: >
+        Camilia Hornstein
+      major: > 
+        Mechanical Engineering
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/evelyn.jpg
+      text: >
+        Evelyn Do
+      major: > 
+        Computer Science
+      year: >
+        Class of 2028
+    - image: /img/brothers/alphabeta/jalen.jpeg
+      text: >
+        Jalen Tran
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/mark.jpg
+      text: >
+        Mark Hodges
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/michael-zou.jpg
+      text: >
+        Michael Zou
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/om.png
+      text: >
+        Om Dadlani
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/parker.jpeg
+      text: >
+        Parker Collard
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/phiet.jpeg
+      text: >
+        Phiet Tran
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/preston.jpg
+      text: >
+        Preston Lin
+      major: > 
+        Environmental Science
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/reece.jpeg
+      text: >
+        Reece Sun
+      major: > 
+        Biochemistry
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/rica.jpg
+      text: >
+        Rica Kotani
+      major: > 
+        Linguistics & Computer Science
+      year: >
+        Class of 2027
+    - image: /img/brothers/alphabeta/shannon-nguyen.jpg
+      text: >
+        Shannon Nguyen
+      major: > 
+        Electrical Engineering
+      year: >
+        Class of 2029
+    - image: /img/brothers/alphabeta/stephanie.jpg
+      text: >
+        Stephanie Gao
+      major: > 
+        Mathematics of Computation
+      year: >
+        Class of 2028
 ---
