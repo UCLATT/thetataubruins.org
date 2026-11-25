@@ -23,9 +23,9 @@ positions:
         Erica Lam
       major: > 
         Corresponding Secretary
-    - image: /img/brothers/phi/theanh.jpg
+    - image: /img/brothers/psi/dahlia.png
       text: >
-        Theanh Nguyen
+        Dahlia Navarro
       major: > 
         Marshal
     - image: /img/brothers/psi/jeremy.png
